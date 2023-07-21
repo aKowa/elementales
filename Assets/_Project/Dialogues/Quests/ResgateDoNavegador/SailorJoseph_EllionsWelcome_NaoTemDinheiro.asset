@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: SailorJoseph_EllionsWelcome_NaoTemDinheiro
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Oh, you got the right call there, but I see that your pockets are empty.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Come back when you have the $5000.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Don't worry, I'll be here when you get back. Not gonna go into another
+      cave so soon! <i>*Giggles*</i>
+  responses: []

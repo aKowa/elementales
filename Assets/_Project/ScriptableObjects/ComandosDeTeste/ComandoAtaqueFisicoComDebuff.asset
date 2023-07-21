@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoAtaqueFisicoComDebuff
+  m_EditorClassIdentifier: 
+  nome: Punch
+  prioridade: 5
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: a25a52f544030484990ea373a7c3b18f, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: cad8751f5ca82ea41b52f95a2f9ec6a2, type: 2}
+  animacaoSprite: 1
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: ff2f9b8b6e3dd024aacf4f48f6dcf9fd, type: 2}
+    _poder: 100
+    _chanceAcerto: 100
+  maxPP: 20
+  custoMana: 10
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: Bonk!
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 112
+  setPowerMargin: 0

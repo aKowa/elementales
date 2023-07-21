@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676d2bcfce143424aa42342110c6db79, type: 3}
+  m_Name: Listas
+  m_EditorClassIdentifier: 
+  listaDeItens: {fileID: 11400000, guid: 20b4fe05f4ae1ec499733ad8a1c3e938, type: 2}
+  listaDeComandos: {fileID: 11400000, guid: e712e73c310787a4aa86dfb1f889cf43, type: 2}
+  listaDeMonsterData: {fileID: 11400000, guid: 0cb19be739dd9ff4798ab85e3023e061, type: 2}
+  listaDeStatusEffects: {fileID: 11400000, guid: 290ab1173d41b804dab855661d7ffc1e, type: 2}
+  _listaListaDeMapas: {fileID: 11400000, guid: 4159f2028a6df3e46b8da78e52b88b19, type: 2}

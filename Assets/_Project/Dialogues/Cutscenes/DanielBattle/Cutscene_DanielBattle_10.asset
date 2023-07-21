@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: Cutscene_DanielBattle_10
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Oh my, I feel like a Chigugo stepped on me.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: '%player, what happened? Wait, it doesn''t matter. You''re awesome, %player.'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: <i>*You hand the antidote to Deckard.*</i>
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Since I owe you a big one, I think you are perfect to test the newest toy
+      from the lab.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: This is top secret gadget. A trully marvelous invention, only designated
+      to the best of the trainers.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'I present to you: The Mega Scissors!!!'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: <i>*Deckard hands you a rather unattractive pair of simple-looking scissors.*</i>
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I know what you may be thinking. This is no ordinary scissors.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Have you noticed the strange bushes around Central Park? Blocking the path?
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'This is the doing of pesky Elemantors like Grabis and Dlowers. '
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: If you try to cut one, it just grows back into place.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Well, not with these. They have been precisely crafted to block these magical
+      properties.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: It is yours now. Go make good use of it and explore the unknown.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: You will find out that the land of Ellion has many secrets yet to be discovered.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: We'll see each other later, %player!
+  responses: []

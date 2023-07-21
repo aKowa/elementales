@@ -1,0 +1,1235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99c7e7ca276427bb841414a5cd3f704, type: 3}
+  m_Name: Dice
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 3264119720253095874, guid: 31d4cfac9b5d52646a0f1dc6a03c9d87, type: 3}
+    - {fileID: 21300000, guid: 8c5dc358081b1aa45b6fd00b4af253f1, type: 3}
+    - {fileID: 7956334761317548712, guid: 4beebf4aa0deed84a9dc26556637caa8, type: 3}
+    - {fileID: 21300000, guid: 69cceb5f798e3c241b2ecb160428744b, type: 3}
+    - {fileID: 1599863943383665331, guid: 5eb41b3577f1da24b800e61126d0d3e8, type: 3}
+    - {fileID: 21300000, guid: 4c63502dde2cd034092fb62b829808c7, type: 3}
+    - {fileID: 6383341782851508621, guid: 012ff05510f806140a056d2964fc7f92, type: 3}
+    - {fileID: 21300000, guid: cb374db598dd4e24ca6379161cca2b44, type: 3}
+    - {fileID: 6550885238089546772, guid: 5d7fc5588b7cdcf4399b56e508c38693, type: 3}
+    - {fileID: 21300000, guid: c61520855a1c1044c9ec850f3dafd3ca, type: 3}
+    - {fileID: 3300111412837900503, guid: f654194da646df444a767d8ebe964c0d, type: 3}
+    - {fileID: 21300000, guid: 17969df48eb3ad14e8456dcfc0f4c99a, type: 3}
+    - {fileID: 2100000, guid: 4cb0b5fac40713e4cbc813c486219531, type: 2}
+    - {fileID: 2100000, guid: fded8c21ef161df4eb5cc87ec61622d3, type: 2}
+    - {fileID: 2100000, guid: e91bca6512474c847b1215a604c840dd, type: 2}
+    - {fileID: 2100000, guid: 1ba6b0636e7a24c4eb54411846502cf7, type: 2}
+    - {fileID: 2100000, guid: a6c6d678e0e3dc54786f9650150f9e87, type: 2}
+    - {fileID: 2100000, guid: 0ae519ae599e0034ab6d8b54e7f9a86f, type: 2}
+    - {fileID: 2100000, guid: 5e363f44f623cb84b8d2149395427b42, type: 2}
+    - {fileID: 2100000, guid: 1216bb63dbff6894d97739c4130a7be5, type: 2}
+    - {fileID: 2100000, guid: 266de0e85eb85394297f42c5942c1f84, type: 2}
+    - {fileID: 2100000, guid: 9267745a148aa9a46ba1d583284ae962, type: 2}
+    - {fileID: 2100000, guid: c727cc15d891d964b9753199e62c0b9a, type: 2}
+    - {fileID: 2100000, guid: 6ec2115acaaf2bf428d393c132612a15, type: 2}
+    - {fileID: 2100000, guid: 39dfcfe87b11c5646a410e8652cdb27b, type: 2}
+    - {fileID: 2100000, guid: e994050d4ddcd1b4bad62de8eeae67ed, type: 2}
+    - {fileID: 2100000, guid: b857a285d49df0c4c97d07725ad36486, type: 2}
+    - {fileID: 2100000, guid: 5013aa301f1765c4aa020e7339e52051, type: 2}
+    - {fileID: 2100000, guid: c5b838212c56ac949abb10f8a7260ae4, type: 2}
+    - {fileID: 2100000, guid: 392442db1d4f1b941aa1ed83a12d3e92, type: 2}
+    - {fileID: 2100000, guid: f8049cd188b800e44ba8b6da7f2dc5d6, type: 2}
+    - {fileID: 2100000, guid: 30839de508f0fe04984ca65a4c5610a0, type: 2}
+    - {fileID: 2100000, guid: bad10b83da1d63a43bb50c9a326a41b2, type: 2}
+    - {fileID: 2100000, guid: d9e507a2c4e7c37469c337e32004f631, type: 2}
+    - {fileID: 2100000, guid: c3a8aff59ff1cd64893ea9a6c4d0d41d, type: 2}
+    - {fileID: 2100000, guid: d9359314309907745afa25e334cb3373, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: <DicePrefabDictionary>k__BackingField
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[DiceType, Project],[DiceTypePrefabAndSprite,
+        Project]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[DiceType, Project]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: DiceTypePrefabAndSprite, Project
+    - Name: prefab
+      Entry: 10
+      Data: 0
+    - Name: sprite
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: DiceTypePrefabAndSprite, Project
+    - Name: prefab
+      Entry: 10
+      Data: 2
+    - Name: sprite
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: DiceTypePrefabAndSprite, Project
+    - Name: prefab
+      Entry: 10
+      Data: 4
+    - Name: sprite
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: DiceTypePrefabAndSprite, Project
+    - Name: prefab
+      Entry: 10
+      Data: 6
+    - Name: sprite
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: DiceTypePrefabAndSprite, Project
+    - Name: prefab
+      Entry: 10
+      Data: 8
+    - Name: sprite
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: DiceTypePrefabAndSprite, Project
+    - Name: prefab
+      Entry: 10
+      Data: 10
+    - Name: sprite
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: <DiceArtDictionary>k__BackingField
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Collections.Generic.Dictionary`2[[DiceType,
+        Project],[DiceMaterialAndSprite, Project]], mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Default
+    - Name: $v
+      Entry: 7
+      Data: 4|System.Collections.Generic.Dictionary`2[[DiceType, Project],[DiceMaterialAndSprite,
+        Project]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 5|System.Collections.Generic.EnumEqualityComparer`1[[DiceType, Project]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 12
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.284353882
+    - Name: 
+      Entry: 4
+      Data: 0.8490566
+    - Name: 
+      Entry: 4
+      Data: 0.8288887
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 13
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.850980461
+    - Name: 
+      Entry: 4
+      Data: 0.82745105
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 14
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.850980461
+    - Name: 
+      Entry: 4
+      Data: 0.82745105
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 15
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.850980461
+    - Name: 
+      Entry: 4
+      Data: 0.82745105
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 16
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.850980461
+    - Name: 
+      Entry: 4
+      Data: 0.82745105
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 17
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.286274523
+    - Name: 
+      Entry: 4
+      Data: 0.850980461
+    - Name: 
+      Entry: 4
+      Data: 0.82745105
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Marine
+    - Name: $v
+      Entry: 7
+      Data: 6|System.Collections.Generic.Dictionary`2[[DiceType, Project],[DiceMaterialAndSprite,
+        Project]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 7|System.Collections.Generic.EnumEqualityComparer`1[[DiceType, Project]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 18
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.253648967
+    - Name: 
+      Entry: 4
+      Data: 0.281557858
+    - Name: 
+      Entry: 4
+      Data: 0.9433962
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 19
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.254901975
+    - Name: 
+      Entry: 4
+      Data: 0.282352954
+    - Name: 
+      Entry: 4
+      Data: 0.9450981
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 20
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.254901975
+    - Name: 
+      Entry: 4
+      Data: 0.282352954
+    - Name: 
+      Entry: 4
+      Data: 0.9450981
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 21
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.254901975
+    - Name: 
+      Entry: 4
+      Data: 0.282352954
+    - Name: 
+      Entry: 4
+      Data: 0.9450981
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 22
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.254901975
+    - Name: 
+      Entry: 4
+      Data: 0.282352954
+    - Name: 
+      Entry: 4
+      Data: 0.9450981
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 23
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.254901975
+    - Name: 
+      Entry: 4
+      Data: 0.282352954
+    - Name: 
+      Entry: 4
+      Data: 0.9450981
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Orange
+    - Name: $v
+      Entry: 7
+      Data: 8|System.Collections.Generic.Dictionary`2[[DiceType, Project],[DiceMaterialAndSprite,
+        Project]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 9|System.Collections.Generic.EnumEqualityComparer`1[[DiceType, Project]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 24
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9056604
+    - Name: 
+      Entry: 4
+      Data: 0.577161
+    - Name: 
+      Entry: 4
+      Data: 0.2947668
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 25
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9058824
+    - Name: 
+      Entry: 4
+      Data: 0.5764706
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 26
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9058824
+    - Name: 
+      Entry: 4
+      Data: 0.5764706
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 27
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9058824
+    - Name: 
+      Entry: 4
+      Data: 0.5764706
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 28
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9058824
+    - Name: 
+      Entry: 4
+      Data: 0.5764706
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 29
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9058824
+    - Name: 
+      Entry: 4
+      Data: 0.5764706
+    - Name: 
+      Entry: 4
+      Data: 0.294117659
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: White
+    - Name: $v
+      Entry: 7
+      Data: 10|System.Collections.Generic.Dictionary`2[[DiceType, Project],[DiceMaterialAndSprite,
+        Project]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 11|System.Collections.Generic.EnumEqualityComparer`1[[DiceType, Project]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 30
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.9528302
+    - Name: 
+      Entry: 4
+      Data: 0.9528302
+    - Name: 
+      Entry: 4
+      Data: 0.9528302
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 6
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 31
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 8
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 32
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 33
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 12
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 34
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 20
+    - Name: $v
+      Entry: 7
+      Data: DiceMaterialAndSprite, Project
+    - Name: material
+      Entry: 10
+      Data: 35
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 0.952941239
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

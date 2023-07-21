@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e3ffc81e5a75e40b72ee1a0bc7ecef, type: 3}
+  m_Name: 2.8_CaveX_Dark34
+  m_EditorClassIdentifier: 
+  monsterBag:
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: da7e5193e538b8a429e505e9d47e9333, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: bb47f3349b6349546ac3619f0f119a27, type: 2}
+      pp: 30
+    - attack: {fileID: 11400000, guid: 1090a95a97f5cfe47ab770fbed749af7, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 6c01b0eef20afc441b3f83e07ffd78c7, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 35a681e79b1fa92479924bd96988ca2e, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 23
+      _exp: 31405
+      _vida: 71
+      _vidaMax: 71
+      _mana: 57
+      _manaMax: 57
+      _ataque: 33
+      _defesa: 40
+      _spAtaque: 39
+      _spDefesa: 38
+      _velocidade: 36
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 4
+      ivDef: 10
+      ivSpAtk: 4
+      ivSpDef: 9
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Marine
+    dices: 0a000000
+    combatLessonsAtivos: []
+    combatLessons:
+    - {fileID: 11400000, guid: 362085d547f47464fa43eb256e9801d0, type: 2}
+    - {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
+  itens: []

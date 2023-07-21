@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71125a2b12973d4499fe603a31ee642b, type: 3}
+  m_Name: LojaCombatLessons1
+  m_EditorClassIdentifier: 
+  itensDaLoja:
+  - {fileID: 11400000, guid: 23fab640b5755824c84d2c63103f86be, type: 2}
+  - {fileID: 11400000, guid: 87914201eb74d0940a3e37be62f33869, type: 2}
+  - {fileID: 11400000, guid: b6c1056c3c331f84cbe04d3deb4c0026, type: 2}
+  - {fileID: 11400000, guid: 3e0f5e8ecc6e4514ba58089ea4f6bdc0, type: 2}
+  - {fileID: 11400000, guid: 3b83b79b775d6f942ab38f0f4415704f, type: 2}
+  - {fileID: 11400000, guid: 1e5f56ae64492914eb318acb80b8d4d6, type: 2}
+  - {fileID: 11400000, guid: 5731179795f24124e9bba1cf43c14a8d, type: 2}
+  - {fileID: 11400000, guid: 4dd6a75fb7d9d9b41b53a63ec34e12b5, type: 2}
+  - {fileID: 11400000, guid: e03191a612fe1c148825bc9e1911563d, type: 2}
+  - {fileID: 11400000, guid: 56a8a888119ae7244b8adab3f1043981, type: 2}

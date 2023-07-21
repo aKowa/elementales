@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7f4fe8112dd1f43ba144e25988ac4d, type: 3}
+  m_Name: DialogosCondicionais_TrappedBushes
+  m_EditorClassIdentifier: 
+  listaDeFlags: {fileID: 11400000, guid: 731ce29cd4ee2d34194356b88f498584, type: 2}
+  dialogosCondicionais:
+  - condicoes:
+    - nomeDaFlag: TrappedBushes_Found
+      valor: 0
+    dialogo: {fileID: 11400000, guid: d6b3b2eb07ed05341b2da3800a8d4821, type: 2}
+  - condicoes:
+    - nomeDaFlag: TrappedBushes_Found
+      valor: 1
+    dialogo: {fileID: 11400000, guid: da36792f96cad474793d0a246ce40978, type: 2}
+  listasDeDialogosCondicionais: []

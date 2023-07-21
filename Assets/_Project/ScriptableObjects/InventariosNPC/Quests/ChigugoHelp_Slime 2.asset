@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e3ffc81e5a75e40b72ee1a0bc7ecef, type: 3}
+  m_Name: ChigugoHelp_Slime 2
+  m_EditorClassIdentifier: 
+  monsterBag:
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: c4d21fc38a89f2940b06fc0aeebefbe4, type: 2}
+    status: []
+    attacks: []
+    _atributosAtuais:
+      _nivel: 8
+      _exp: 512
+      _vida: 28
+      _vidaMax: 28
+      _mana: 39
+      _manaMax: 39
+      _ataque: 14
+      _defesa: 13
+      _spAtaque: 15
+      _spDefesa: 12
+      _velocidade: 14
+      ivVida: 6
+      ivMana: 4
+      ivAtk: 11
+      ivDef: 6
+      ivSpAtk: 9
+      ivSpDef: 5
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Default
+    dices: 08000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 2304c04a3b095e9428db8aa30f1deef7, type: 2}
+    status: []
+    attacks: []
+    _atributosAtuais:
+      _nivel: 7
+      _exp: 343
+      _vida: 29
+      _vidaMax: 29
+      _mana: 38
+      _manaMax: 38
+      _ataque: 14
+      _defesa: 14
+      _spAtaque: 14
+      _spDefesa: 14
+      _velocidade: 16
+      ivVida: 6
+      ivMana: 4
+      ivAtk: 12
+      ivDef: 7
+      ivSpAtk: 11
+      ivSpDef: 7
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Default
+    dices: 06000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  itens: []

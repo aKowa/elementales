@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e72677c1b4b9d48a3d1520895ca990, type: 3}
+  m_Name: Paralyzed
+  m_EditorClassIdentifier: 
+  tipoDeEfeito: 2
+  tipoStackStatus: 1
+  statusEffectOpcoesDentroCombate:
+    ativoDuranteCombate: 1
+    bloqueiFuga: 0
+    danoNoCombate: 0
+    danoDentroCombate:
+      tipoDano: 1
+      danoFixo: 0
+      danoEmPorcentagem: 5
+    efeitoPassaComTempo: 0
+    quantidadeDuracaoTurnos: 5
+    chancePorcentagemEfeitoPassar: 20
+    statusEffectBloquearComando:
+      bloqueiaComando: 1
+      porcentagem: 1
+      porcentagemBloquearAcao: 25
+    statusEffectDebufAtributo:
+    - atributo: 4
+      valorDebuff: -6
+    removerStatusComAtaqueTipo: []
+    tiposImunes: []
+    aplicado: 0
+  statusEffectOpcoesForaCombate:
+    ativoPosCombate: 1
+    danoPosCombate: 0
+    danoForaCombate:
+      tipoDano: 0
+      danoFixo: 0
+      danoEmPorcentagem: 5
+    quantidadeTicksAtivarEfeito: 0
+    desapareceAposTicks: 0
+    quantidadeTicksMaximo: 25
+  nome: Paralyzed
+  statusColor: {r: 0.92080235, g: 1, b: 0, a: 1}
+  dialogoBloqueouComando: {fileID: 11400000, guid: 1add1e9b003394b46a93ffeca8eb7062, type: 2}
+  dialogoTerminouEfeito: {fileID: 11400000, guid: 438a2469c49093746ba37f61474e909f, type: 2}
+  tipoDeEfeitoVisual: 1
+  corDoEfeito: {r: 0.9537551, g: 1, b: 0.41037738, a: 1}
+  velocidadeDoEfeito: 1

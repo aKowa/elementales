@@ -1,0 +1,11 @@
+{
+    "dialogos": [
+        {
+            "texto": "Incrivel."
+        },
+        {
+            "texto": "Sensacional. Demais, realmente incrível, isto é longo só para testar os typing sounds."
+        }
+    ],
+    "respostas": []
+}

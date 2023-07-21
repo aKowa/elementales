@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e437a0921590f64bb89dcfbfb2c9276, type: 3}
+  m_Name: Ensinar_ColdExplosion
+  m_EditorClassIdentifier: 
+  ataque: {fileID: 11400000, guid: dca4a083d87e71a44927df935dd6e840, type: 2}
+  dialogoNaoPodeAprender: {fileID: 11400000, guid: 6263faa572e6f5b4684b4ea48a732406, type: 2}
+  dialogoAprendeuHabilidade: {fileID: 11400000, guid: 21eda619183f2a04bbf3cb7ba4581cee, type: 2}
+  dialogoJaSabeHabilidade: {fileID: 11400000, guid: 698d8f72c1a5a2f4ca5268c670fdd994, type: 2}
+  dialogoQuerEsquecerHabilidade: {fileID: 11400000, guid: 40097e98d807db342a799aae4c0ed6fa, type: 2}

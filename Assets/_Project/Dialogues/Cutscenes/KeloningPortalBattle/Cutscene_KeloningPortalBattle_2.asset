@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: Cutscene_KeloningPortalBattle_2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Long before you were even born, %player, I ruled the land of the Elemantors.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: You see this orb? The tale I could tell you on how it came to be in my
+      possession...
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: ... would fill the time between now and the next full moon.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: The orb of power, long before magic was even studied by humankind...
+  responses:
+  - responseText: Listen
+    dialogueObject: {fileID: 11400000, guid: 8d6b6cc9954bcd743b5670d23eb156bc, type: 2}
+  - responseText: Interrupt
+    dialogueObject: {fileID: 11400000, guid: d053c8dc2f5cc9b4a95a4e972319ff73, type: 2}

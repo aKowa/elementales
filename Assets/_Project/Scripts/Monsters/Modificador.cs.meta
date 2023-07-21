@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/_Project/Scripts/Monsters/Modificador.cs.meta
+guid: c2ad539a749961249b4fb581f53b1906
+========
+guid: 5c2332589ab07294098579f70f6e97e8
+>>>>>>>> Development:Assets/_Project/Scripts/Inventory/MonsterBook.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730dbfbfeca746c46946cfce45c7ec53, type: 3}
+  m_Name: Fall Tree
+  m_EditorClassIdentifier: 
+  _name: Futree
+  categoria: 
+  descricao: A strong warrior with the heart of a buttefly, the Futree belongs to
+    the tree-like Elemantor family. They are sturdy and gentle, and rather harmless
+    if left alone.
+  altura: 8.8
+  peso: 208
+  monsterRarity: 50
+  monsterTypes:
+  - {fileID: 11400000, guid: df1176191f625424a9dcaa88a1a9e3be, type: 2}
+  miniatura: {fileID: 21300000, guid: 36e1d1dc274007d4a9cc48a666d86f58, type: 3}
+  _total: 320
+  _attributesBase:
+    _vida: 62
+    _mana: 27
+    _ataque: 67
+    _defesa: 47
+    _velocidade: 41
+    _spAtaque: 52
+    _spDefesa: 51
+  animator: {fileID: 22100000, guid: 414fd36e93cfc374ba7cb4b015e06402, type: 2}
+  complete: 1
+  upgradesPerLevels:
+  - ataque: {fileID: 11400000, guid: 74909aa2e90eca1489baa71957163a8e, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 1
+    typeOfAttack: 2
+    level: 1
+  - ataque: {fileID: 11400000, guid: 92652707d8b95a84da17ee6d3dd2b61b, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 2
+    level: 1
+  - ataque: {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 1
+  - ataque: {fileID: 11400000, guid: 2bcea84e72af3964c8b03f4e693c7306, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 1
+  - ataque: {fileID: 11400000, guid: 3c5b4ebe12e77cf4cb86c47d309cd154, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 7
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 8
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 362085d547f47464fa43eb256e9801d0, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 12
+  - ataque: {fileID: 11400000, guid: 2c87d6afeec497e46b8b138119ff0246, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 13
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 1
+    typeOfAttack: 0
+    level: 16
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 35e5bc133c190cf488260aa01651fad3, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 23
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 24
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 32
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: b12654522b9615043a0a23c15b61964e, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 33
+  - ataque: {fileID: 11400000, guid: 3db2f7fa065be51429adec3d4dadf58f, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 35
+  - ataque: {fileID: 11400000, guid: 8a0145bea03cf534bbe632bbec62bca8, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 43
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: c098c8ec0b0ef9249b438f267538a5b9, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 48
+  - ataque: {fileID: 11400000, guid: f15183f2b682bce4b8b00225c38efeb5, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 52
+  - ataque: {fileID: 11400000, guid: 091bf4de1fb9c844889a5e45ab41daa9, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 56
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 59
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 3700a3862672e4e458b5b6aa7dd15754, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 61
+  - ataque: {fileID: 11400000, guid: 744cdc9c7f8b6e94a9c688a6bf6aae67, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 69
+  learnableAttacks:
+  - {fileID: 11400000, guid: 74909aa2e90eca1489baa71957163a8e, type: 2}
+  - {fileID: 11400000, guid: 92652707d8b95a84da17ee6d3dd2b61b, type: 2}
+  - {fileID: 11400000, guid: e06bdc8ac609b224f9e29e5e36f04c0c, type: 2}
+  - {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+  - {fileID: 11400000, guid: 2bcea84e72af3964c8b03f4e693c7306, type: 2}
+  - {fileID: 11400000, guid: 33346e81046f6204792a5db4e1fcb48c, type: 2}
+  - {fileID: 11400000, guid: 984148b4ed0ec1b4089da45fe8c09230, type: 2}
+  - {fileID: 11400000, guid: 3c5b4ebe12e77cf4cb86c47d309cd154, type: 2}
+  - {fileID: 11400000, guid: 2c87d6afeec497e46b8b138119ff0246, type: 2}
+  - {fileID: 11400000, guid: 3db2f7fa065be51429adec3d4dadf58f, type: 2}
+  - {fileID: 11400000, guid: 8a0145bea03cf534bbe632bbec62bca8, type: 2}
+  - {fileID: 11400000, guid: f15183f2b682bce4b8b00225c38efeb5, type: 2}
+  - {fileID: 11400000, guid: 091bf4de1fb9c844889a5e45ab41daa9, type: 2}
+  - {fileID: 11400000, guid: 744cdc9c7f8b6e94a9c688a6bf6aae67, type: 2}
+  combatLessonsPorNivel:
+  - nivel: 12
+    combatLesson: {fileID: 11400000, guid: 362085d547f47464fa43eb256e9801d0, type: 2}
+  - nivel: 23
+    combatLesson: {fileID: 11400000, guid: 35e5bc133c190cf488260aa01651fad3, type: 2}
+  - nivel: 33
+    combatLesson: {fileID: 11400000, guid: b12654522b9615043a0a23c15b61964e, type: 2}
+  - nivel: 48
+    combatLesson: {fileID: 11400000, guid: c098c8ec0b0ef9249b438f267538a5b9, type: 2}
+  - nivel: 59
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+  - nivel: 61
+    combatLesson: {fileID: 11400000, guid: 3700a3862672e4e458b5b6aa7dd15754, type: 2}
+  numAttacks: 11
+  numDiceUpgrades: 5
+  audioEntrada: {fileID: 0}
+  audioMorrendo: {fileID: 0}

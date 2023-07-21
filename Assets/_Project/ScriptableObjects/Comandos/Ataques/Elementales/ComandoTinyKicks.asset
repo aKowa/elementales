@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoTinyKicks
+  m_EditorClassIdentifier: 
+  nome: Tiny Kicks
+  prioridade: 2
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: fa431a6642761674eabb5a597a0c1c7e, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 444c53de0389fed44b7765a055f5a7d8, type: 2}
+  animacaoSprite: 1
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 0
+    _tipoAtaque: {fileID: 11400000, guid: d1ccc9bb89da90946b7eca671a0686b8, type: 2}
+    _poder: 20
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 8
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor kicks as best as it can, possibly hitting up to 3 times!
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 25
+  setPowerMargin: 7

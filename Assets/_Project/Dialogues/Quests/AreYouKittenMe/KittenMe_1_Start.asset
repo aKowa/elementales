@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: KittenMe_1_Start
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Sweet darling, can you help me?
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: My sweet, beautiful, purrfect Selmenda ran away yesterday and she's been
+      lost since then!
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: A nasty Elemantor entered my house and sweet Missy got scared. Trully CATastrophic.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Can you find Missy for me? She climbs trees when she's scared, but gets
+      afraid to jump back down.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I saw her running to Lemi's Beach!
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Thank you so very miauch...
+  responses: []

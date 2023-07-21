@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: NPCCave of Lost 5
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Thank Mobbard for blocking the entrance to the cave with a boulder.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: There were some insane treasure hunters walzing into the cave like it's
+      nothing.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Some of them never came back.
+  responses: []

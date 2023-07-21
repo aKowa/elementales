@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoOwlStare
+  m_EditorClassIdentifier: 
+  nome: Owl Stare
+  prioridade: 2
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 94cbcad867d14c4439ec43ed7cdbc469, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: a59525f1b44ff1945b08961a06758d5e, type: 2}
+  animacaoSprite: 0
+  animacaoMovimento: 7
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: 583042b1bbdc1de47818cab88fba2f8b, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 7
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: Cause an opponent to lose concentration, moderatelly decreasing its
+    ATTACK and SPECIAL ATTACK.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: -1
+  setPowerMargin: 0

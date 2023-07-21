@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5095bc2fbf4613247b3ea3b6dde943c9, type: 3}
+  m_Name: ComandoManaPotion_1
+  m_EditorClassIdentifier: 
+  nome: Mana Potion
+  prioridade: 8
+  target: 0
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: b3d63c3d0db84484ba0ae22d337aea7e, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: fc3a96cc9ca23634fb6761660700ac11, type: 2}

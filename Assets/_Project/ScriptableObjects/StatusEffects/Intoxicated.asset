@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ba13c7778afc34487a6c1e9f769b18, type: 3}
+  m_Name: Intoxicated
+  m_EditorClassIdentifier: 
+  tipoDeEfeito: 2
+  tipoStackStatus: 0
+  statusEffectOpcoesDentroCombate:
+    ativoDuranteCombate: 1
+    bloqueiFuga: 0
+    danoNoCombate: 1
+    danoDentroCombate:
+      tipoDano: 1
+      danoFixo: 0
+      danoEmPorcentagem: 12
+    efeitoPassaComTempo: 1
+    quantidadeDuracaoTurnosMin: 3
+    quantidadeDuracaoTurnosMax: 6
+    chancePorcentagemEfeitoPassar: 0
+    statusEffectBloquearComando:
+      bloqueiaComando: 0
+      porcentagem: 0
+      porcentagemBloquearAcao: 0
+    statusEffectDebufAtributo: []
+    removerStatusComAtaqueTipo: []
+    tiposImunes:
+    - {fileID: 11400000, guid: 569907d0a9b21274ab04b21ec6fb9359, type: 2}
+  statusEffectOpcoesForaCombate:
+    ativoPosCombate: 1
+    danoPosCombate: 0
+    danoForaCombate:
+      tipoDano: 1
+      danoFixo: 0
+      danoEmPorcentagem: 5
+    quantidadeTicksAtivarEfeito: 5
+    desapareceAposTicks: 1
+    quantidadeTicksMaximo: 25
+  nome: Intoxicated
+  statusColor: {r: 0.30776075, g: 0.49056602, b: 0.39439315, a: 1}
+  dialogoBloqueouComando: {fileID: 0}
+  dialogoTerminouEfeito: {fileID: 11400000, guid: 438a2469c49093746ba37f61474e909f, type: 2}
+  tipoDeEfeitoVisual: 2
+  corDoEfeito: {r: 0.30776075, g: 0.49056602, b: 0.39439315, a: 1}
+  velocidadeDoEfeito: 1
+  progressaoDano: 0c0000000f00000019000000

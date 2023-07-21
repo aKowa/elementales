@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoSquawk
+  m_EditorClassIdentifier: 
+  nome: Squawk
+  prioridade: 2
+  target: 2
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 2a41f394fb9b0d04d8d63e037c5d4a18, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 7ab4af6f184b0eb4c89e047e47500873, type: 2}
+  animacaoSprite: 0
+  animacaoMovimento: 7
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: 583042b1bbdc1de47818cab88fba2f8b, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 8
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: Release a scream that inspires the allied team, moderatelly increasing
+    ATTACK and SPECIAL ATTACK.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 3
+  setPowerMargin: 0

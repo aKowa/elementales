@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e3ffc81e5a75e40b72ee1a0bc7ecef, type: 3}
+  m_Name: 3.0_LostDungeon43
+  m_EditorClassIdentifier: 
+  monsterBag:
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 80dddda12be646d4ea60c52ac1fa9f25, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 4e50e2a07db4cbd4b903f540c8817d7a, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 7aacb78ca44524d4c9587950a649085e, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 6c01b0eef20afc441b3f83e07ffd78c7, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: bb47f3349b6349546ac3619f0f119a27, type: 2}
+      pp: 30
+    _atributosAtuais:
+      _nivel: 24
+      _exp: 13824
+      _vida: 72
+      _vidaMax: 72
+      _mana: 57
+      _manaMax: 57
+      _ataque: 32
+      _defesa: 43
+      _spAtaque: 33
+      _spDefesa: 44
+      _velocidade: 30
+      ivVida: 0
+      ivMana: 0
+      ivAtk: 0
+      ivDef: 0
+      ivSpAtk: 0
+      ivSpDef: 0
+      ivVel: 0
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: 
+    dices: 0a00000004000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: e747ba8d4296dc24c93d4c29503119b7, type: 2}
+    - {fileID: 11400000, guid: 986795039a5b3e74ead9c7bb3f39803b, type: 2}
+    combatLessons: []
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 75397b88671c5434f8f93a3a183e8cc5, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: bb47f3349b6349546ac3619f0f119a27, type: 2}
+      pp: 30
+    - attack: {fileID: 11400000, guid: 92652707d8b95a84da17ee6d3dd2b61b, type: 2}
+      pp: 30
+    - attack: {fileID: 11400000, guid: 6c01b0eef20afc441b3f83e07ffd78c7, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 7aacb78ca44524d4c9587950a649085e, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 25
+      _exp: 15625
+      _vida: 66
+      _vidaMax: 66
+      _mana: 58
+      _manaMax: 58
+      _ataque: 32
+      _defesa: 39
+      _spAtaque: 27
+      _spDefesa: 37
+      _velocidade: 26
+      ivVida: 0
+      ivMana: 0
+      ivAtk: 0
+      ivDef: 0
+      ivSpAtk: 0
+      ivSpDef: 0
+      ivVel: 0
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: 
+    dices: 0800000006000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 14b0994114a0b784aa846661a4743a8f, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 7aacb78ca44524d4c9587950a649085e, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 31fb88430505a4541aad276529bc324d, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 2a17f6be865a7464ea28900ba0d5e560, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 2bcea84e72af3964c8b03f4e693c7306, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 26
+      _exp: 17576
+      _vida: 68
+      _vidaMax: 68
+      _mana: 59
+      _manaMax: 59
+      _ataque: 27
+      _defesa: 33
+      _spAtaque: 29
+      _spDefesa: 35
+      _velocidade: 33
+      ivVida: 0
+      ivMana: 0
+      ivAtk: 0
+      ivDef: 0
+      ivSpAtk: 0
+      ivSpDef: 0
+      ivVel: 0
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: 
+    dices: 0800000006000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: e747ba8d4296dc24c93d4c29503119b7, type: 2}
+    - {fileID: 11400000, guid: cd123a25900b13a4ba6ba258055f9a75, type: 2}
+    - {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
+    - {fileID: 11400000, guid: 986795039a5b3e74ead9c7bb3f39803b, type: 2}
+    combatLessons: []
+  itens: []

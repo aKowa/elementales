@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03248f1548ffc8439c2f727ab3f57ae, type: 3}
+  m_Name: Magnetism
+  m_EditorClassIdentifier: 
+  poderExtraContraCertoTipo:
+  - tiposAtaquesDanoExtra:
+    - {fileID: 11400000, guid: f04a7d55fe6bdd1409eb2ca73ee8d7d4, type: 2}
+    multiplicadorPoder: 2

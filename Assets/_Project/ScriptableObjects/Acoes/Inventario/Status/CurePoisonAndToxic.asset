@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63fcd30f50004fa3a276aefcd39f30b7, type: 3}
+  m_Name: CurePoisonAndToxic
+  m_EditorClassIdentifier: 
+  statusParaCurar:
+  - {fileID: 11400000, guid: c929352ca92f1bd469065e29679350a1, type: 2}
+  - {fileID: 11400000, guid: 71796a75c141ba145b6ed62b3003f330, type: 2}

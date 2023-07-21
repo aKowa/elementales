@@ -1,0 +1,63 @@
+ManifestFileVersion: 0
+CRC: 4190719103
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4ad7328bf1c78538724284814b17c7a2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 63c91c98e08bec0553cb04f6707fbd29
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 61
+  Script: {instanceID: 0}
+- Class: 68
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 616a7d8b779349d9a7994b931c647c5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fae6665f25b64e3ea4773532f283af5b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 349cd86085df40dba677ab3f41455b70, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/LumenSection/LevelLinker/Sample/Scenes/Garden.unity
+- Assets/LumenSection/LevelLinker/Sample/Scenes/ThroneRoom.unity
+- Assets/LumenSection/LevelLinker/Sample/Scenes/Hallway.unity
+Dependencies: []

@@ -1,0 +1,24 @@
+{
+    "name": "Project.IAP",
+    "rootNamespace": "",
+    "references": [
+        "GUID:60bfecf5cb232594891bc622f40d6bed",
+        "GUID:fe25561d224ed4743af4c60938a59d0b",
+        "GUID:5e0b455853cd340e0813387221dfd501",
+        "GUID:94e1de2458b07d0bf1e9f13e6ae06443",
+        "GUID:08d1c582746949b40ba6a45cdb776bdf",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:059c931883a8a274690376c0592ea9a0",
+        "GUID:ef8153a1a2cc5c3429d61aaa346e76cc",
+        "GUID:29a2de257580c9c48b97f1b7597589c3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

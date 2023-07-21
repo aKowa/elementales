@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e3ffc81e5a75e40b72ee1a0bc7ecef, type: 3}
+  m_Name: 2.2_RouteX_Toxic22
+  m_EditorClassIdentifier: 
+  monsterBag:
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 934982f0f81cab74d9f9a03ab0626c29, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: e06bdc8ac609b224f9e29e5e36f04c0c, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 10
+      _exp: 31405
+      _vida: 34
+      _vidaMax: 34
+      _mana: 41
+      _manaMax: 41
+      _ataque: 13
+      _defesa: 22
+      _spAtaque: 13
+      _spDefesa: 14
+      _velocidade: 17
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 4
+      ivDef: 10
+      ivSpAtk: 4
+      ivSpDef: 9
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Marine
+    dices: 08000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 434dcdc57b908424ca419b4959789f85, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: e06bdc8ac609b224f9e29e5e36f04c0c, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 1ca20213b4d292c4bb2c9326de77b713, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 10
+      _exp: 31405
+      _vida: 35
+      _vidaMax: 35
+      _mana: 40
+      _manaMax: 40
+      _ataque: 18
+      _defesa: 14
+      _spAtaque: 22
+      _spDefesa: 14
+      _velocidade: 14
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 4
+      ivDef: 10
+      ivSpAtk: 4
+      ivSpDef: 9
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Default
+    dices: 08000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 914a2adc66b01ab4984e64294be60e1c, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 2a17f6be865a7464ea28900ba0d5e560, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: e06bdc8ac609b224f9e29e5e36f04c0c, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 10
+      _exp: 31405
+      _vida: 34
+      _vidaMax: 34
+      _mana: 40
+      _manaMax: 40
+      _ataque: 14
+      _defesa: 18
+      _spAtaque: 15
+      _spDefesa: 16
+      _velocidade: 15
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 4
+      ivDef: 10
+      ivSpAtk: 4
+      ivSpDef: 9
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Default
+    dices: 08000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  itens: []

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: FishingMaster_Start
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Ahoy gentlekid!
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I see a special 'mon with ye! Finally someone with the right mindset.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Where did you find such a nice water dweller? Doesn't matter!
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Ye got the good taste and thus I can help.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: But first, a trial for the kid with style.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Me wants to test yer brains, yer experience. Got that, kid?
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: <i>*You get the feeling he wants to quiz you.*</i>
+  responses:
+  - responseText: Do I have a choice?
+    dialogueObject: {fileID: 11400000, guid: c4366619ec14d064faff8c5cdea50109, type: 2}
+  - responseText: No, I need more time
+    dialogueObject: {fileID: 11400000, guid: 200dde28d3b5d784c84ce41749f1a8ed, type: 2}

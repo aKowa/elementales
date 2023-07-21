@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 898bf81a16b34e64fbfb51133645a270
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - itemParaAbrir: {instanceID: 0}
+  - dialogoPortaTrancada: {fileID: 11400000, guid: 8175ab89e2c60fe478965bbb4aac1c1b, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

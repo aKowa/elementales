@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd25aca5d63a114392edf0a74b20915, type: 3}
+  m_Name: VenomousLesson
+  m_EditorClassIdentifier: 
+  nome: Venomous
+  prioridade: 1
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 0}
+  animacaoEfeito: {fileID: 22100000, guid: e168bc9d00c78d448bbfa57d75d796a5, type: 2}
+  animacaoSprite: 0
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 0
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 0
+    _tipoAtaque: {fileID: 11400000, guid: 8b04742528e60d841a354703b7a17c00, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 0
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: When this Elemantor gets a dice value of 8 on a direct attack, they
+    have a moderate chance of poisoning the target.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 2
+  setPowerMargin: 0
+  effects:
+  - efeito: {fileID: 11400000, guid: 9c2a662b225936446933d54d65ad3260, type: 2}
+    valorDinamico: 0
+    condicaoValorDinamico: 0
+    condicaoValor: 08000000
+    condicaoTarget: 1
+    condicaoAtaque: 3
+    targetDoEfeito: 1
+    attackType: {fileID: 0}
+  nivelPoder: 50

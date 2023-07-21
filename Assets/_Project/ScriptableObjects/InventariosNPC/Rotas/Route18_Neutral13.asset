@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e3ffc81e5a75e40b72ee1a0bc7ecef, type: 3}
+  m_Name: Route18_Neutral13
+  m_EditorClassIdentifier: 
+  monsterBag:
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: db7de77c81e312a41add82b26fcaf2e0, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: ab58927ea1f802b4da3d353be847b365, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 5fabdb80477ab434484a64801e6d9b9f, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 984148b4ed0ec1b4089da45fe8c09230, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 5
+      _exp: 31405
+      _vida: 0
+      _vidaMax: 12
+      _mana: 1
+      _manaMax: 31
+      _ataque: 6
+      _defesa: 6
+      _spAtaque: 6
+      _spDefesa: 6
+      _velocidade: 6
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 4
+      ivDef: 10
+      ivSpAtk: 4
+      ivSpDef: 9
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Marine
+    dices: 06000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 57ecc928626299745a899b4342a01325, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 2a17f6be865a7464ea28900ba0d5e560, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: afdef2354ecfbf54caa505c9f41570d8, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 3
+      _exp: 31405
+      _vida: 0
+      _vidaMax: 11
+      _mana: 11
+      _manaMax: 31
+      _ataque: 6
+      _defesa: 5
+      _spAtaque: 5
+      _spDefesa: 5
+      _velocidade: 5
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 4
+      ivDef: 10
+      ivSpAtk: 4
+      ivSpDef: 9
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Default
+    dices: 06000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  itens: []

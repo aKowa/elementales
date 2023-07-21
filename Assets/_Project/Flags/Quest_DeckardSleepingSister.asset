@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0863662233dce45ab7003fa3aa143a, type: 3}
+  m_Name: Quest_DeckardSleepingSister
+  m_EditorClassIdentifier: 
+  listaDeFlags:
+  - nome: SleepingSister_Start
+    valor: 0
+  - nome: SleepingSister_MonsterCatched
+    valor: 0
+  - nome: SleepingSister_QuestEnded
+    valor: 0
+  - nome: Daniel
+    valor: 0

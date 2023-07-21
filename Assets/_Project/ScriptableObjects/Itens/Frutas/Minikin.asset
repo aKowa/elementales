@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ffb1c328b8de9428f2f37b835b254d, type: 3}
+  m_Name: Minikin
+  m_EditorClassIdentifier: 
+  tipo: 0
+  efeito: 4
+  nome: Minikin
+  imagem: {fileID: 21300000, guid: 8a58b689a025d114a996ab0c7bd1879c, type: 3}
+  descricao: Plantable fruit that can be consumed during battle to increase SPECIAL
+    DEFENSE until the end of the battle.
+  preco: 0
+  efeitoForaDaBatalha: {fileID: 0}
+  efeitoNaBatalha: {fileID: 11400000, guid: ffad3609163eda241b1cf63ca53bedb1, type: 2}
+  comandoNaBatalha: {fileID: 11400000, guid: 7c62f937d676a2f46a88a5eb43ab0ac2, type: 2}

@@ -1,0 +1,106 @@
+:root {
+    flex-direction: Column;
+    flex-grow: 1;
+}
+
+.no-map-text {
+    flex-grow: 1;
+    background-color:  grey;
+    -unity-text-align: middle-center;
+    font-size: 20px;
+}
+
+.scroll-view {
+    flex-grow: 1;
+}
+
+.level {
+    width: 102px;
+    flex-direction: Column;
+}
+
+.level > .box {
+    position: absolute;
+    top:  0;
+    left: 0;
+
+    width:  102px;
+    height: 100%;
+
+    background-color: black;
+    border-color: grey;
+    border-width: 2px;
+}
+
+.level > .box.hovered {
+    background-color: #B05F00;
+}
+
+.level.selected > .box {
+    border-color: yellow;
+}
+
+.level > TextElement {
+    font-size: 20px;
+    color: white;
+
+    margin-left:  2px;
+    margin-right: 2px;
+}
+
+.level > .door {
+    margin-left:  3px;
+    margin-right: 3px;
+    
+    /*border-color: red;*/
+    /*border-width: 1px;*/
+
+    flex-direction: Row;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.level > .door > .plug {
+    width:  10px;
+    height: 10px;
+
+    position: absolute;
+    transform-origin: left center;
+    translate: 12px 50%;
+    
+    background-color: white;
+
+    border-color: grey;
+    border-width: 1px;
+
+    flex-shrink: 0;
+}
+
+.level > .door > .plug.left-side {
+    translate: -98px 50%;
+}
+
+.level > .door > .plug.hovered {
+    background-color: #B05F00;
+}
+
+.level > .door > .plug.dragged {
+    background-color: red;
+}
+
+.level > .door > .plug.dragged-invalid {
+    background-color: white;
+}
+
+.level > .door > TextElement {
+    border-top-color: grey;
+    border-top-width: 1px;
+
+    margin-bottom: 1px;
+
+    flex-grow: 1;
+
+    font-size: 11px;
+    color: white;
+    -unity-text-align: upper-right;
+}

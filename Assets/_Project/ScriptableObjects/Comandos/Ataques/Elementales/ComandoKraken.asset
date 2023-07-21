@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoKraken
+  m_EditorClassIdentifier: 
+  nome: Kraken
+  prioridade: 2
+  target: 4
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: b477347bb70ec0c49b255119631b23fa, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 7cfabd51b5a717747ac6d187d578ca5f, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 1
+    _tipoAtaque: {fileID: 11400000, guid: 6c44737bc24dde14a942ef6fdae7409b, type: 2}
+    _poder: 110
+    _chanceAcerto: 80
+  maxPP: 0
+  custoMana: 22
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor summons a water Kraken to attack the enemy team and decrease
+    their SPEED.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 108
+  setPowerMargin: 12

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ffb1c328b8de9428f2f37b835b254d, type: 3}
+  m_Name: Fire_Key
+  m_EditorClassIdentifier: 
+  tipo: 3
+  efeito: 8
+  nome: Fire Key
+  imagem: {fileID: 21300000, guid: 913f2e89e2e367b4680799d573e24cf3, type: 3}
+  descricao: A key made out of magical fire. Its use is unknown, but you sense a
+    great power within it.
+  preco: 0
+  efeitoForaDaBatalha: {fileID: 0}
+  efeitoNaBatalha: {fileID: 0}
+  comandoNaBatalha: {fileID: 0}

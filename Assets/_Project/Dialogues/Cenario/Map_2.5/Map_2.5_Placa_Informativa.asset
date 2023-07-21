@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: Map_2.5_Placa_Informativa
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Welcome to Ellion, the land where your Elemantors come true!
+  responses:
+  - responseText: Train Station
+    dialogueObject: {fileID: 11400000, guid: 3c56639d41b5bc5409af79a438571751, type: 2}
+  - responseText: Cave of Lost
+    dialogueObject: {fileID: 11400000, guid: 91afc6e1843e9b34581ffaebf3e632de, type: 2}
+  - responseText: Sailing Permit
+    dialogueObject: {fileID: 11400000, guid: 10257eb35d56da347b8f27de5904f424, type: 2}

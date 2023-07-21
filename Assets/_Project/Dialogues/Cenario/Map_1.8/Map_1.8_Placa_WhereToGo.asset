@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: Map_1.8_Placa_WhereToGo
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Everywhere!
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: To the west of Central Park is the route that leads to the Nightwoods and
+      to the Cave of Lost.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: We don't really recommend any of these destinations to be honest.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Going south is the route that leads to Ellion's Welcome. There you may
+      take the train and travel to your heart's desire.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: East is Mobra's Springs. A tropical paradise at the center of Ellion.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: There, you may take a boat, but that's an adventurous trip.
+  responses: []

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: bfc2923465ad3e048ad29dd463f53f04
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - monstroAnimacaoBase: {fileID: 5750184919352000928, guid: 539d2fafd8bdbf5498fe18afb2e811eb, type: 3}
+  - efeitoAtaque: {instanceID: 0}
+  - correr: {fileID: 11400000, guid: 5c96d8a49b4a8614680001b3ce3ab5d5, type: 2}
+  - trocarMonstro: {fileID: 11400000, guid: cf134c417ab82734692f1a878fa8c3df, type: 2}
+  - arenaPadrao: {fileID: 11400000, guid: a84b659ebd291d7448e27c57e56f6600, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

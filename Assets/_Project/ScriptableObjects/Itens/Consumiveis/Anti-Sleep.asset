@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ffb1c328b8de9428f2f37b835b254d, type: 3}
+  m_Name: Anti-Sleep
+  m_EditorClassIdentifier: 
+  tipo: 0
+  efeito: 3
+  nome: Anti-Sleep
+  imagem: {fileID: 21300000, guid: af32d094470addd47af77abbd9785f8d, type: 3}
+  descricao: Cures the Sleeping status from an Elemantor.
+  preco: 0
+  efeitoForaDaBatalha: {fileID: 11400000, guid: 2d7501f8e4701624e9ba37c033b8b46d, type: 2}
+  efeitoNaBatalha: {fileID: 11400000, guid: 2d7501f8e4701624e9ba37c033b8b46d, type: 2}
+  comandoNaBatalha: {fileID: 11400000, guid: fd2580f5c99e924489f77f76ea2c392f, type: 2}

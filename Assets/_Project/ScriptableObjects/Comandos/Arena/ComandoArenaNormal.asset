@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a4a68c90cbd7349b8d697940bbbf4a, type: 3}
+  m_Name: ComandoArenaNormal
+  m_EditorClassIdentifier: 
+  nome: Arena Normal
+  prioridade: 7
+  target: 0
+  acao: {fileID: 11400000, guid: 180d1f5cdaa05d84db6bcbe6b5b758ae, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: cad8751f5ca82ea41b52f95a2f9ec6a2, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 411400f08467a894186e6cb311e7c629, type: 3}
+  m_Name: GlobalGameplaySettings
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  balanceSettings: {fileID: 11400000, guid: 7d3a0adead314e14e99c2ebe6be71f38, type: 2}
+  organizationSettings: {fileID: 11400000, guid: eb15c247d94cdba45b889f7eedf4859f, type: 2}
+  diceDiceSettings: {fileID: 11400000, guid: 91db6a25be5770943a4350444d96fed6, type: 2}
+  listas: {fileID: 11400000, guid: 7a3ddf2a98962b849bb95e5cd92f07ba, type: 2}
+  animationTest: {fileID: 7400000, guid: 292baacecfbd69f489d4349f45caebd1, type: 2}
+  attBaseTeste: 36
+  ivTeste: 10
+  levelTeste: 5

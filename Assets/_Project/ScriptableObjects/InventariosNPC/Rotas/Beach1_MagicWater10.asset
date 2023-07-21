@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e3ffc81e5a75e40b72ee1a0bc7ecef, type: 3}
+  m_Name: Beach1_MagicWater10
+  m_EditorClassIdentifier: 
+  monsterBag:
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 9c10b6dd15a668e4aba37546c9bd242f, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: bc7a7a743e8df374c88681eac0785866, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 5950ff0f208b9144fbb8a51b3a6b19af, type: 2}
+      pp: 10
+    - attack: {fileID: 11400000, guid: 984148b4ed0ec1b4089da45fe8c09230, type: 2}
+      pp: 0
+    _atributosAtuais:
+      _nivel: 9
+      _exp: 31405
+      _vida: 29
+      _vidaMax: 29
+      _mana: 40
+      _manaMax: 40
+      _ataque: 14
+      _defesa: 15
+      _spAtaque: 16
+      _spDefesa: 17
+      _velocidade: 15
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 4
+      ivDef: 10
+      ivSpAtk: 4
+      ivSpDef: 9
+      ivVel: 12
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: 
+      where: 
+      levelMet: 0
+    diceMaterial: Marine
+    dices: 08000000
+    combatLessonsAtivos: []
+    combatLessons: []
+  itens: []

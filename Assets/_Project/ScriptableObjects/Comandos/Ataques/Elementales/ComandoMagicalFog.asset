@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoMagicalFog
+  m_EditorClassIdentifier: 
+  nome: Magical Fog
+  prioridade: 2
+  target: 0
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 430fd677fb5cf4249b03f8fb5ba91088, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: dfe774b9a4f399040b00985341e1b326, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 0
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: ff2f9b8b6e3dd024aacf4f48f6dcf9fd, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 5
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor surrounds itself with a magical fog and greatly increases
+    its SPECIAL DEFENSE.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 4
+  setPowerMargin: 6

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0863662233dce45ab7003fa3aa143a, type: 3}
+  m_Name: Baus
+  m_EditorClassIdentifier: 
+  listaDeFlags:
+  - nome: Map_Teste_B1
+    valor: 0
+  - nome: Map_1.1_B1
+    valor: 0
+  - nome: Map_1.2_B1
+    valor: 0
+  - nome: Map_1.2_B2
+    valor: 0
+  - nome: Map_1.2_B3
+    valor: 0
+  - nome: Map_1.2_B4
+    valor: 0
+  - nome: Map_1.3_B1
+    valor: 0
+  - nome: Map_1.3_B2
+    valor: 0
+  - nome: Map_1.3_B3
+    valor: 0
+  - nome: Map_1.3_B4
+    valor: 0
+  - nome: Map_1.3_B5
+    valor: 0
+  - nome: Map_1.5.2_B1
+    valor: 0
+  - nome: Map_1.5.2_B2
+    valor: 0
+  - nome: Map_1.4_B1
+    valor: 0
+  - nome: Map_1.4_B2
+    valor: 0
+  - nome: Map_1.4_B3
+    valor: 0
+  - nome: Map_1.5_B1
+    valor: 0
+  - nome: Map_1.5_B2
+    valor: 0
+  - nome: Map_1.6_B1
+    valor: 0
+  - nome: Map_1.8_B1
+    valor: 0
+  - nome: Map_1.8_B2
+    valor: 0
+  - nome: Map_1.8_Arena_B1
+    valor: 0
+  - nome: Map_1.8_Arena_B2
+    valor: 0
+  - nome: Map_1.8_Arena_B3
+    valor: 0
+  - nome: Map_1.8_Arena_B4
+    valor: 0
+  - nome: Map_1.8_HC_B2
+    valor: 0
+  - nome: Map_1.8_HC_B1
+    valor: 0
+  - nome: Map_2.2_B1
+    valor: 0
+  - nome: Map_2.2_B2
+    valor: 0
+  - nome: Map_2.6_H3_B1
+    valor: 0
+  - nome: Map_2.6_H3_B2
+    valor: 0
+  - nome: Map_2.7_B1
+    valor: 0
+  - nome: Map_2.7_B2
+    valor: 0
+  - nome: Map_2.11_B1
+    valor: 0
+  - nome: Map_2.11_B2
+    valor: 0
+  - nome: Map_2.11_B3
+    valor: 0
+  - nome: Map_2.11_B4
+    valor: 0
+  - nome: Map_3.0_B1
+    valor: 0
+  - nome: Map_3.0_B2
+    valor: 0
+  - nome: Map_3.1_B1
+    valor: 0
+  - nome: Map_3.0_B3
+    valor: 0
+  - nome: Map_3.0_B4
+    valor: 0
+  - nome: Map_3.0_B5
+    valor: 0
+  - nome: Map_3.0_B6
+    valor: 0
+  - nome: Map_3.0_B7
+    valor: 0
+  - nome: Map_3.0_B8
+    valor: 0
+  - nome: Map_3.0_B9
+    valor: 0
+  - nome: Map_3.0_B10
+    valor: 0
+  - nome: Map_3.0_B11
+    valor: 0
+  - nome: Map_3.0_B12
+    valor: 0
+  - nome: Map_1.3_B6
+    valor: 0
+  - nome: Map_1.6_B2
+    valor: 0
+  - nome: Map_1.7_B1
+    valor: 0
+  - nome: Map_2.1_B1
+    valor: 0
+  - nome: Map_2.3_B1
+    valor: 0
+  - nome: Map_2.5_B1
+    valor: 0
+  - nome: Map_2.5_B2
+    valor: 0
+  - nome: Map_2.5_HC_B1
+    valor: 0
+  - nome: Map_2.5_HC_B2
+    valor: 0
+  - nome: Map_2.6_B1
+    valor: 0
+  - nome: Map_2.6_HiddenCave_B1
+    valor: 0
+  - nome: Map_2.9_B1
+    valor: 0
+  - nome: Map_3.2_B1
+    valor: 0
+  - nome: Map_3.2_B2
+    valor: 0
+  - nome: Map_3.2_B3
+    valor: 0
+  - nome: Map_3.2_B4
+    valor: 0
+  - nome: Map_3.2_B5
+    valor: 0
+  - nome: Map_3.2_B6
+    valor: 0

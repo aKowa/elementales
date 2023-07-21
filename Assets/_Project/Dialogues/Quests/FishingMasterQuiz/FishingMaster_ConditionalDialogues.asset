@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7f4fe8112dd1f43ba144e25988ac4d, type: 3}
+  m_Name: FishingMaster_ConditionalDialogues
+  m_EditorClassIdentifier: 
+  listaDeFlags: {fileID: 11400000, guid: a9ddf3828dbeab844b98aa754652da18, type: 2}
+  dialogosCondicionais:
+  - condicoes:
+    - nomeDaFlag: FishingMaster_CanStartQuiz
+      valor: 0
+    - nomeDaFlag: FishingMaster_QuestEnded
+      valor: 0
+    dialogo: {fileID: 11400000, guid: 50926c69fb7fcda4ab6ac383160b8f18, type: 2}
+  - condicoes:
+    - nomeDaFlag: FishingMaster_CanStartQuiz
+      valor: 1
+    - nomeDaFlag: FishingMaster_QuestEnded
+      valor: 0
+    dialogo: {fileID: 11400000, guid: 37828ee49f346544e9a1970ea0e16dd0, type: 2}
+  - condicoes: []
+    dialogo: {fileID: 11400000, guid: 7bf2b572d5be85744938ee80180b732e, type: 2}
+  listasDeDialogosCondicionais: []

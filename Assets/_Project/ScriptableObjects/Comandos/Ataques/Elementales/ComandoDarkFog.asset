@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoDarkFog
+  m_EditorClassIdentifier: 
+  nome: Dark Fog
+  prioridade: 2
+  target: 4
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 14d1c7368b9079446a2029ad47b315ab, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: ff62b63ef0c13b3488961de54995743a, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 0
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: 821b77c8490a9d945a434d139b50588d, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 7
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor creates a dark fog around the enemy team, decreasing their
+    DEFENSE.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 21
+  setPowerMargin: 18

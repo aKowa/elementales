@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Efeito_AquaAgility
+  m_Controller: {fileID: 9100000, guid: aec257d59a8939e4f8efde66c2472022, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 66fd77ef9c3f6ef4fa9b1f30de16987e, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3967a5d0fe0e6be478ffdbc1ccb935b3, type: 2}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: AboutCombatLessons
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: ~Kay Lo's Lessons and Techniques
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'Page 10:'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Combat Lessons are special in nature.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: An Elemantor can learn any lesson, but a good trainer will pair their Elemantor's
+      particularities with the right lesson.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Lessons can be found in scrolls, but an Elemantor will learn their fair
+      share of lessons throughout their evolutive journey.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: If you want an Elemantor to learn a Combat Lesson but it is not adept to
+      learning it, then a scroll will come in handy.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: The scroll will teach any Elemantor, but the power that binds it will also
+      destroy the scroll upon use.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: So choose your target wisely.
+  responses: []

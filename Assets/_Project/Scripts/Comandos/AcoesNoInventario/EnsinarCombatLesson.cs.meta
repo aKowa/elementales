@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2eb9c39b007b28b45817fb2ee3642ac5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - combatLesson: {instanceID: 0}
+  - dialogoAprendeuCombatLesson: {fileID: 11400000, guid: ec9c5689b63323b43aa7ba7111c91ffc, type: 2}
+  - dialogoJaAprendeuCombatLesson: {fileID: 11400000, guid: 9a1b49e6958cd9941a11718173241fbe, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

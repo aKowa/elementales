@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7f4fe8112dd1f43ba144e25988ac4d, type: 3}
+  m_Name: DialogosCondicionais_SailorJoseph_EllionsWelcome
+  m_EditorClassIdentifier: 
+  listaDeFlags: {fileID: 11400000, guid: 1bee0cb89c2d2f246836ce6a91f3eeec, type: 2}
+  dialogosCondicionais:
+  - condicoes:
+    - nomeDaFlag: Sailor_Batalha
+      valor: 0
+    dialogo: {fileID: 11400000, guid: 5c6fa572c54c21a41b998d5ea849e83d, type: 2}
+  - condicoes:
+    - nomeDaFlag: Sailor_ItemVendido
+      valor: 0
+    dialogo: {fileID: 11400000, guid: 9b50ef13197e7c046b3f777eb086463e, type: 2}
+  - condicoes: []
+    dialogo: {fileID: 11400000, guid: e4ba2e255d36b32429c9f5cfafcd78ee, type: 2}
+  listasDeDialogosCondicionais: []

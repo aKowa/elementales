@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cec653c9ad51a6240833328f589c5d93, type: 3}
+  m_Name: ComandoTrocarMonstro
+  m_EditorClassIdentifier: 
+  nome: Change Monster
+  prioridade: 9
+  target: 0
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 3deb0bf3707c6b0409fea2ae2901a189, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: e168bc9d00c78d448bbfa57d75d796a5, type: 2}
+  dialogoTrocaNaoFoiPossivel: {fileID: 11400000, guid: ab978d902fd62cc4fad4a483bc71c8c5, type: 2}

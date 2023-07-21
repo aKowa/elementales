@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoMultiCut
+  m_EditorClassIdentifier: 
+  nome: Multi Cut
+  prioridade: 2
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: b51561da8a172ec4f93e3c1e073a29dc, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 2451e1f1ffd785a49bad9b418d187dbd, type: 2}
+  animacaoSprite: 1
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 0
+    _tipoAtaque: {fileID: 11400000, guid: f04a7d55fe6bdd1409eb2ca73ee8d7d4, type: 2}
+    _poder: 30
+    _chanceAcerto: 85
+  maxPP: 0
+  custoMana: 17
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor releases a combo of hits that can attack up to 5 times.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 40
+  setPowerMargin: 24

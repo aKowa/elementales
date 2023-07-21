@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: Cutscene_EscolherElemonInicial_6
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'You chose %monstro. Interesting choice!
+
+      I would''ve picked differently,
+      but do as your heart says!'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Here, take these Bronze Rings, you can use them to capture wild Elemantors
+      and grow your team.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Also, take a health potion. You never know what you'll come across, right?
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I'm also giving you a spare Type Manual that I had in my house. This is
+      crucial for your journey.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Check the Type Manual in the inventory when you have the time. It will
+      teach you all about Elemantor types.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Use these with care, train well, and you will succeed.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I'm glad to be a part of this, %player. I sense great things, big things
+      coming up.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Now, if I may, I have some errands to run. We'll see each other shortly!
+  responses: []

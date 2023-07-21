@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoPureRing
+  m_EditorClassIdentifier: 
+  nome: Pure Ring
+  prioridade: 2
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 56759997ea5cac148bf8ee66e6b9d14d, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: f7732089eb031e848b371f8908f4840e, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 1
+    _tipoAtaque: {fileID: 11400000, guid: ff2f9b8b6e3dd024aacf4f48f6dcf9fd, type: 2}
+    _poder: 75
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 12
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: Conjure an attack that is of the primary type of the target.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 71
+  setPowerMargin: 0

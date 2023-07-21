@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7f4fe8112dd1f43ba144e25988ac4d, type: 3}
+  m_Name: TestConditionalDialogue
+  m_EditorClassIdentifier: 
+  listaDeFlags: {fileID: 11400000, guid: 6f3361d3b22010248a9c157869b79463, type: 2}
+  dialogosCondicionais:
+  - condicoes:
+    - nomeDaFlag: Flag1
+      valor: 0
+    - nomeDaFlag: Flag2
+      valor: 1
+    dialogo: {fileID: 11400000, guid: ac2a36fe00083b64eb3eed0c4e308932, type: 2}
+  - condicoes:
+    - nomeDaFlag: Flag1
+      valor: 1
+    - nomeDaFlag: Flag2
+      valor: 1
+    dialogo: {fileID: 11400000, guid: fd159ce041a0b9645a02accbb8c45758, type: 2}
+  listasDeDialogosCondicionais:
+  - condicoes:
+    - nomeDaFlag: Flag3
+      valor: 1
+    listaDeDialogos: {fileID: 11400000, guid: bed4412349cbdb44c86ab757d16c0b97, type: 2}
+  - condicoes: []
+    listaDeDialogos: {fileID: 11400000, guid: c8a6d9c1a20c97c4fba5610dccec5160, type: 2}

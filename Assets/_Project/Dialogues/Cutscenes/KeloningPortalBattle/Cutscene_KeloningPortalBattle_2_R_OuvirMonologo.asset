@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: Cutscene_KeloningPortalBattle_2_R_OuvirMonologo
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'I have trod unmapped paths in pursuit of the purest magic there is.
+
+      Behold!'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: This talisman is no mere bauble, but the Talisman of Pure Evil!
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: With this I can bend the mind, will and soul of any creature to my will.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: With such power in hands, all shall bow before me.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: And in no time, I will be the one capable of travelling through time as
+      well!
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: <i>The mentioning of time travel peaks your interest.</i>
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: '%player. Do you know what happens to a trapped mind?'
+  responses: []

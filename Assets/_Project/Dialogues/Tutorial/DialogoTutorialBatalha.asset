@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: DialogoTutorialBatalha
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Welcome to your first Elementales fight! There are some unique mechanics
+      that are important on the battlefield.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Would you like a quick tutorial?
+  responses:
+  - responseText: Yes, please!
+    dialogueObject: {fileID: 11400000, guid: def7e43ebded0fb4e8c79641b92f5d2d, type: 2}
+  - responseText: No, I'm familiar.
+    dialogueObject: {fileID: 0}

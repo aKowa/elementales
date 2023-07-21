@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730dbfbfeca746c46946cfce45c7ec53, type: 3}
+  m_Name: Fire Rabbit
+  m_EditorClassIdentifier: 
+  _name: Furabi
+  categoria: 
+  descricao: The Furabi can turn their fur into blazing fire to scare away predators
+    or to do the coolest party tricks.
+  altura: 0.5
+  peso: 7
+  monsterRarity: 50
+  monsterTypes:
+  - {fileID: 11400000, guid: b9cc6297dd3b18145a7acc452bff6cbd, type: 2}
+  miniatura: {fileID: 21300000, guid: bfc58679fb0ebee4b82d848fc444af26, type: 3}
+  _total: 319
+  _attributesBase:
+    _vida: 62
+    _mana: 27
+    _ataque: 44
+    _defesa: 54
+    _velocidade: 54
+    _spAtaque: 47
+    _spDefesa: 58
+  animator: {fileID: 22100000, guid: 45a4942423c770440915edda4ee2849f, type: 2}
+  complete: 1
+  upgradesPerLevels:
+  - ataque: {fileID: 11400000, guid: bb47f3349b6349546ac3619f0f119a27, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 1
+    typeOfAttack: 0
+    level: 1
+  - ataque: {fileID: 11400000, guid: 31fb88430505a4541aad276529bc324d, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 2
+    level: 1
+  - ataque: {fileID: 11400000, guid: 2a17f6be865a7464ea28900ba0d5e560, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 1
+  - ataque: {fileID: 11400000, guid: 2bcea84e72af3964c8b03f4e693c7306, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 1
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 8
+  - ataque: {fileID: 11400000, guid: 6c01b0eef20afc441b3f83e07ffd78c7, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 9
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 13
+  - ataque: {fileID: 11400000, guid: 7aacb78ca44524d4c9587950a649085e, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 15
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 1
+    typeOfAttack: 0
+    level: 16
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 24
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 986795039a5b3e74ead9c7bb3f39803b, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 25
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 0a5a220d11fb83645896cf78984096dc, type: 2}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 32
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 6d09c0a440e10434694a93117e1cefc1, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 45
+  - ataque: {fileID: 11400000, guid: 8446642fc6cd1b4478284a6ee58dc210, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 49
+  - ataque: {fileID: 11400000, guid: b3b3679c8c1ecde42b603a0b8837e5bf, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 56
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 6b63ccbd8f095d74aa3beb1547407cb3, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 58
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 60
+  - ataque: {fileID: 11400000, guid: fee87fa08cff71c47aea5f23e803a2b0, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 61
+  - ataque: {fileID: 11400000, guid: efddb189ff579904095b06546c99c8fe, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 77
+  learnableAttacks:
+  - {fileID: 11400000, guid: bb47f3349b6349546ac3619f0f119a27, type: 2}
+  - {fileID: 11400000, guid: 5fabdb80477ab434484a64801e6d9b9f, type: 2}
+  - {fileID: 11400000, guid: afdef2354ecfbf54caa505c9f41570d8, type: 2}
+  - {fileID: 11400000, guid: 31fb88430505a4541aad276529bc324d, type: 2}
+  - {fileID: 11400000, guid: 2a17f6be865a7464ea28900ba0d5e560, type: 2}
+  - {fileID: 11400000, guid: 4e50e2a07db4cbd4b903f540c8817d7a, type: 2}
+  - {fileID: 11400000, guid: 2bcea84e72af3964c8b03f4e693c7306, type: 2}
+  - {fileID: 11400000, guid: 6c01b0eef20afc441b3f83e07ffd78c7, type: 2}
+  - {fileID: 11400000, guid: 7aacb78ca44524d4c9587950a649085e, type: 2}
+  - {fileID: 11400000, guid: 984148b4ed0ec1b4089da45fe8c09230, type: 2}
+  - {fileID: 11400000, guid: 8446642fc6cd1b4478284a6ee58dc210, type: 2}
+  - {fileID: 11400000, guid: b3b3679c8c1ecde42b603a0b8837e5bf, type: 2}
+  - {fileID: 11400000, guid: d31695516f5d89646a76934197ff92d5, type: 2}
+  - {fileID: 11400000, guid: fee87fa08cff71c47aea5f23e803a2b0, type: 2}
+  - {fileID: 11400000, guid: efddb189ff579904095b06546c99c8fe, type: 2}
+  - {fileID: 11400000, guid: ff7553061e9955e4ca296c7da6d91efb, type: 2}
+  combatLessonsPorNivel:
+  - nivel: 13
+    combatLesson: {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
+  - nivel: 25
+    combatLesson: {fileID: 11400000, guid: 986795039a5b3e74ead9c7bb3f39803b, type: 2}
+  - nivel: 32
+    combatLesson: {fileID: 11400000, guid: 0a5a220d11fb83645896cf78984096dc, type: 2}
+  - nivel: 45
+    combatLesson: {fileID: 11400000, guid: 6d09c0a440e10434694a93117e1cefc1, type: 2}
+  - nivel: 58
+    combatLesson: {fileID: 11400000, guid: 6b63ccbd8f095d74aa3beb1547407cb3, type: 2}
+  - nivel: 60
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+  numAttacks: 10
+  numDiceUpgrades: 5
+  audioEntrada: {fileID: 0}
+  audioMorrendo: {fileID: 0}

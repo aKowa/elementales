@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Project/Scenes/Menus/Logos.unity
+    guid: 011ca660c829fce459762bf78cc3c4d0
+  - enabled: 1
+    path: Assets/_Project/Scenes/Menus/TelaInicial.unity
+    guid: b6a91077f991b0f43b75262d1ee3b590
+  - enabled: 1
+    path: Assets/_Project/Scenes/Menus/MenuPrincipal.unity
+    guid: c4f563f9f9e6f4340a5701b80adb866e
+  - enabled: 1
+    path: Assets/_Project/Scenes/Indoor/Casa_Protagonista.unity
+    guid: 464199d940325ff4aa970304e5371109
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.1/1.1_HomeTown.unity
+    guid: 6d25ce9bfb19f63469305f62631d5de9
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.2/1.2_Route24.unity
+    guid: 4209926cc7317314fafcf8c5baa43391
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.3/1.3_GrabisTown.unity
+    guid: 9839decc78af94e47af46f0dca0aecba
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.4/1.4_Route21.unity
+    guid: f742fdb7f13a5ec4abfa85e82f46d028
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.5/1.5_ShorelineTown.unity
+    guid: 20fe823130f919a4a875265cd05d02ea
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.5.2/1.5.2_ShorelineGlade.unity
+    guid: d91835b87d683cf40ac193d70b193649
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.6/1.6_LemisBeach.unity
+    guid: d1c28c0a222e9b641bc039286b0ab54f
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.7/1.7_Route18.unity
+    guid: 725b650eac8b7274683b5496921593d1
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.8/1.8_Central Park.unity
+    guid: 8805afb786dee9a4098f7c00dcf42635
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.1/2.1_Route12.unity
+    guid: a9184c6c15011674dbebf1acec84ecd5
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.2/2.2_Route6.unity
+    guid: 4bb38f64d040da14a81964615a04f871
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.3/2.3_YonderTown.unity
+    guid: 505b4e4aa38774244b346635f66bb52c
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.4/2.4_MobrasRiver.unity
+    guid: 4b5de81020b9c6147b3eb8535edf0577
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.5/2.5_EllionsWelcome.unity
+    guid: a1312dfd1084d7a40aa5ba131b18994f
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.6/2.6_CaveOfLost_f1.unity
+    guid: f3623c130b3a6fd43b825e32712b0d41
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.6/2.6_HiddenCave_1.unity
+    guid: 27b539f09b2a472479df1bea83938fdd
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.6/2.6_HiddenCave_2.unity
+    guid: bd4e041baf12a794b8cb9bf9c2c3e19d
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.6/2.6_HiddenCave_3.unity
+    guid: c6f02e1312e83c74ebfedaf11f762c91
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.8/2.8_Map_Cave.unity
+    guid: 342556d90cc4e5d4a886f3959e397d62
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.7/2.7_ClusterLake.unity
+    guid: 267c1b714448e6d4db089322f0664af2
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.9_Map_Portal.unity
+    guid: 0c2551346cae611478da74c57cc31b65
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.3/Healing_Center_1.3.unity
+    guid: 761969026f8f8cd478dd947123c4aaa0
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.3/Casa_Steven.unity
+    guid: 357b845b78a7dc14dbd4689601fad9ec
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.3/Map_1.3_Casa_NPC_1.unity
+    guid: 96b87093fffb25c4cade50ab18ffdecf
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.3/Map_1.3_Casa_NPC_2.unity
+    guid: 564d2d927774d664f8dcfa3cda5348a0
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.8/1.8_Healing_Center.unity
+    guid: 5e750db5d1d62c149840364de3ddc945
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.8/1.8_Casa_NPC_1.unity
+    guid: e740add2a3217424eaa1d82f3e797f97
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.8/1.8_Casa_NPC_2.unity
+    guid: 299addd1a50f99845abffd3664f67f02
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.8/1.8_Arena.unity
+    guid: 8ffe7e3f4b8d8fb4baa848ac0e78bdf7
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_1/1.8/1.8_Ginasio.unity
+    guid: 4c54b353e88f6744fb0cff6f2c802b9a
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.5/2.5_Healing_Center.unity
+    guid: 34205631c52d5504f84ac2e9821f909e
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.5/2.5_Casa_NPC_SailorJoseph.unity
+    guid: d177f790962140044a43ef1d18637416
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_2/2.11_CaveEntrance.unity
+    guid: 8642346458770f24ca25cdd447d03793
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_3/3.0_LostDungeon.unity
+    guid: 2a5437de66c887f44aad1a9f6fc48bad
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_3/3.1/3.1_TrainStation.unity
+    guid: c590093e408457c44b2b428e32d5e9b8
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_3/3.1/3.1_Tent.unity
+    guid: 68c1f991524bc0241b17fce3f687a3d0
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_3/3.2_Map_PicoLendario.unity
+    guid: e32fc7ce00fed0a49b0978493c7b2e15
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_3/3.3_Map_CavernaPicoLendario.unity
+    guid: 73867d920370e55498d419f363dd9f34
+  - enabled: 1
+    path: Assets/_Project/Scenes/Parte_3/3.4_HomeBeach.unity
+    guid: b8181ec6e6c437243b3cf868aafd0755
+  - enabled: 1
+    path: Assets/_Project/Scenes/Especiais/Map_Barco.unity
+    guid: d5415a502cc5a09458f800182d18a198
+  m_configObjects: {}

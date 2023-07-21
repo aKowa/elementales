@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: SailorJoseph_LostDungeon_BeingRescued_1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'ZzZ...
+
+      ZzZ...'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'Z... Oh! '
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Jeez, I dreamt that a bunch of Warmeldas had stolen my boat.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'Hey Fella, did you to that? Is the Elemantor gone? '
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: bb4c1879603487544b409fd14956eaed, type: 2}

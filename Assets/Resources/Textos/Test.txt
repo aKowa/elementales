@@ -1,0 +1,18 @@
+{
+    "dialogos": [
+        {
+            "texto": "Este é um teste. Vamos, testar... coisas."
+        },
+        {
+            "texto": "Pode ter imagens aqui."
+        }
+    ],
+    "respostas": [
+        {
+            "texto": "Uau"
+        },
+        {
+            "texto": "Incrivel"
+        }
+    ]
+}

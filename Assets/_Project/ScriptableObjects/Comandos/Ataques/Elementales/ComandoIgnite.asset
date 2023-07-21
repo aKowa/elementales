@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoIgnite
+  m_EditorClassIdentifier: 
+  nome: Ignite
+  prioridade: 2
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: a9e9bf0369200b54bbeae82f3ebf528a, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: e4e91c22259a87f46b04f731029441ec, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 1
+    _tipoAtaque: {fileID: 11400000, guid: b9cc6297dd3b18145a7acc452bff6cbd, type: 2}
+    _poder: 40
+    _chanceAcerto: 95
+  maxPP: 0
+  custoMana: 8
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor snaps a burst of flame that may also burn the opponent.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 45
+  setPowerMargin: 10

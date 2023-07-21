@@ -1,0 +1,57 @@
+Hello, and thank you for purchasing this 8-Bit RPG Music Pack!
+
+I hope you will enjoy it, and find good use for these tracks in your game.
+All tracks come as WAV files. 
+
+_________________________________________________________
+
+# Credits
+
+You don't need to credit me if you use these tracks in your game, but credits are *always* welcome :)
+Otherwise, or additionally, send me a message to tell me about your game! I'd be glad to share it with my audience. 
+
+If you want to hire me to write custom music for your game, reach out at kyoomei@outlook.fr ! 
+You can check out the rest of my work at www.kyoomei.com. 
+
+_________________________________________________________
+
+## About authenticity, The Journey Begins & Ending the Reign of Evil
+
+As you can see, The Journey begins comes in four different files. Why?
+
+If you're looking for absolute 8-bit realism in your game, you might know there were only 
+four channels dedicated to audio back in the day (plus the samples channel, but we don't talk about the samples channel...). 
+
+The noise channel is typically used for SFX/SE (sound effects), but it could also be used to emulate drums. 
+So, depending on where you want to use The Journey Begins, perhaps you don't mind having the drums play. 
+Perhaps you do. That's why I included both versions. 
+
+Similar to Ending the Reign of Evil, The Journey Begins also has a short intro, not to be included in the main loop. 
+Hence the multiple files for these two tracks!
+
+_________________________________________________________
+
+### Intended context for each track
+
+For reference, allow me to mention the intended context for each track.
+
+1. The Journey Begins: Overworld 
+2. World of Mysteries: Introduction / Cutscenes
+3. The One We Need: Character Theme
+4. Stronghold of Commerce: Town Theme 1
+5. Onwards, Bravely: Battle 
+6. Looking for Answers: Cave/Dungeon 
+7. Overcoming Peril: Boss Battle
+8. Lost Dreams: Town Theme 2
+9. The Baron's Castle: (Final) Dungeon 
+10. Ending the Reign of Evil: Final Boss Battle
+
+Of course, feel free to use them wherever you deem fit!
+
+_________________________________________________________
+
+Thanks again and see you around!
+
+Vladimir "Kyoomei" Romero
+www.kyoomei.com
+kyoomei@outlook.fr

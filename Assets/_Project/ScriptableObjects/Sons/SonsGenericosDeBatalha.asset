@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76a32abeef8a4d64ea5fc4a716f1103c, type: 3}
+  m_Name: SonsGenericosDeBatalha
+  m_EditorClassIdentifier: 
+  listaDeSons:
+  - nome: HitCritico
+    audio:
+    - {fileID: 8300000, guid: 583a630f40e4a8a44a271c8b95c986ba, type: 3}
+  - nome: Hit
+    audio:
+    - {fileID: 8300000, guid: 6feff6d8645528e4eaabe0e521d736b2, type: 3}
+  - nome: Miss
+    audio:
+    - {fileID: 8300000, guid: 4a04233e73017224fad5fdda5ce0c199, type: 3}

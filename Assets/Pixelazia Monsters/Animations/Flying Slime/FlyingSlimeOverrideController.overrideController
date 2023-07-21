@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlyingSlimeOverrideController
+  m_Controller: {fileID: 9100000, guid: 66ed26bd2e088e948b1e89ddbbe727aa, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a50ed424ac02747438ca2040694d636c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 94a8f6a83678bb04eae868b8f7bf4c2b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cd707371b5afe394197e2cd9bf93b870, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 32843a62258432e4ba9f5c291b59bb78, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0f3df7e89160c0f4c9b31de7f56510e9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 32843a62258432e4ba9f5c291b59bb78, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a7587568631f2074c931b3878ba56d29, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b1e6c7c8e5ac6eb4d847ab5f4636bbb8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 46855add92658c04bab1df2ba8fd8a1b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 22cf1415a99c0f449ba71a4d23975877, type: 2}

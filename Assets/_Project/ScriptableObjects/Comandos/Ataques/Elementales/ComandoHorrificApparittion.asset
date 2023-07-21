@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoHorrificApparittion
+  m_EditorClassIdentifier: 
+  nome: Horrific Apparition
+  prioridade: 2
+  target: 4
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 726393fbdf526a447bcca554b5447c09, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 5608318b5e4406448b26bfa8cc5bc0b0, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 1
+    _tipoAtaque: {fileID: 11400000, guid: 821b77c8490a9d945a434d139b50588d, type: 2}
+    _poder: 40
+    _chanceAcerto: 90
+  maxPP: 10
+  custoMana: 14
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor attacks the enemy team with the visage of ghosts, and
+    may apply fear on them.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 49
+  setPowerMargin: 14

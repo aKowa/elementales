@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoDarkMirror
+  m_EditorClassIdentifier: 
+  nome: Dark Mirror
+  prioridade: 2
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: f393957ad14fc014793b9b312dd5e5b7, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 1b7b2658ba909fd43adf18338ee73645, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 1
+    _tipoAtaque: {fileID: 11400000, guid: 821b77c8490a9d945a434d139b50588d, type: 2}
+    _poder: 30
+    _chanceAcerto: 95
+  maxPP: 30
+  custoMana: 6
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor uses dark magic to cause damage and pass a stat reduction
+    from itself to the opponent.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 58
+  setPowerMargin: 32

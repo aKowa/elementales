@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoDrainLife
+  m_EditorClassIdentifier: 
+  nome: Drain Life
+  prioridade: 2
+  target: 3
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: a93e7633c0690fd449793d0a1b46bdc7, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 3c209da2e5c72ed43b4e20d56b1e94cd, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 1
+    _tipoAtaque: {fileID: 11400000, guid: df1176191f625424a9dcaa88a1a9e3be, type: 2}
+    _poder: 45
+    _chanceAcerto: 95
+  maxPP: 0
+  custoMana: 17
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor uses the power of nature to deal damage and convert a
+    portion of that damage into life.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 53
+  setPowerMargin: 17

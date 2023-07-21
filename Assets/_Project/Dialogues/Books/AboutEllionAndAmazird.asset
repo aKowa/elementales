@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: AboutEllionAndAmazird
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: ~Dorio's Geography 101
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'Page 55:'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Ellion is of upmost importance to the Elemantor training community.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: The region is filled with interesting Elemantors of all types and afinities,
+      and the islands around won't disappoint either.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: There have been appearances there of unique Elemantor that we call "Legendary".
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: These are special and, usually, extremely strong and hard to catch.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: One of those is the giant green bird Amazird, popular for its flaming wings.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: The bird is so big that it can cast a shadow under the sun, like a cloud.
+  responses: []

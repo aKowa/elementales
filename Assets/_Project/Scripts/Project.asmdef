@@ -1,0 +1,27 @@
+{
+    "name": "Project",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:29a2de257580c9c48b97f1b7597589c3",
+        "GUID:607e5fc428cee124e9280c8cd460767b",
+        "GUID:24c9d247a0864e746b58e8e0d67ea280",
+        "GUID:efa45043feb7e4147a305b73b5cea642",
+        "GUID:8d03d0cd4402a32caad874079e62d2a4",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:e2b502050a850a64e835b182b58e29e6",
+        "GUID:c5c47d8c8b9325444969e98b2f096439",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:059c931883a8a274690376c0592ea9a0",
+        "GUID:5716dbd6c6ecb6f4faca9dd3ae054dca"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ChainedYetiOverrideController
+  m_Controller: {fileID: 9100000, guid: 66ed26bd2e088e948b1e89ddbbe727aa, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a50ed424ac02747438ca2040694d636c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d03b5d343aa34864db9cf67abc5c6741, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cd707371b5afe394197e2cd9bf93b870, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bfe5985d4e456e84aba07911269e31eb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0f3df7e89160c0f4c9b31de7f56510e9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bfe5985d4e456e84aba07911269e31eb, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a7587568631f2074c931b3878ba56d29, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 427358a8d4d6c584e8a97526043878ac, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 46855add92658c04bab1df2ba8fd8a1b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7f61c640d97de6c46bed5bb1d1eb8e01, type: 2}

@@ -1,0 +1,680 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8439a5695f67b56468e0371e1fffd835, type: 3}
+  m_Name: PlayerSO
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: skinsDeDados
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[System.Boolean,
+        mscorlib]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Default
+    - Name: $v
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Marine
+    - Name: $v
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: Orange
+    - Name: $v
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: White
+    - Name: $v
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: vasosDePlanta
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[VasoPlantaSave,
+        Project]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  spriteSexoMasculino: {fileID: 2800000, guid: 51eab5f04c8a74245aacc0c64a57407e, type: 3}
+  spriteSexoFeminino: {fileID: 2800000, guid: 9fc5d6a43aa83eb429f6b99f0b96c44f, type: 3}
+  playerName: Daniel
+  sexoDoPlayer: 0
+  dinheiro: 30391
+  tempoDeJogo: 2542
+  repelente: 0
+  hasMagnet: 1
+  monsterBank:
+  - boxName: Box 1
+  - boxName: Box 2
+  - boxName: Box 3
+  - boxName: Box 4
+  - boxName: Box 5
+  monsterBag:
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: e3aa67977125ea44daaff65c24027517, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 71e6f852b4c76a645b4acf42b4c9706d, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 744cdc9c7f8b6e94a9c688a6bf6aae67, type: 2}
+      pp: 10
+    - attack: {fileID: 11400000, guid: 3db2f7fa065be51429adec3d4dadf58f, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: ab58927ea1f802b4da3d353be847b365, type: 2}
+      pp: 30
+    _atributosAtuais:
+      _nivel: 22
+      _exp: 2302
+      _vida: 245
+      _vidaMax: 269
+      _mana: 153
+      _manaMax: 153
+      _ataque: 169
+      _defesa: 192
+      _spAtaque: 168
+      _spDefesa: 159
+      _velocidade: 155
+      ivVida: 0
+      ivMana: 13
+      ivAtk: 16
+      ivDef: 13
+      ivSpAtk: 15
+      ivSpDef: 6
+      ivVel: 2
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: Ash Ketchum
+      where: Mapa de Teste
+      levelMet: 99
+    diceMaterial: Orange
+    dices: 0c0000000a000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    combatLessons:
+    - {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+    - {fileID: 11400000, guid: 624377d2aa1635546b6f452e025cc753, type: 2}
+    - {fileID: 11400000, guid: 3ccd3bd94b7b78a4c8937ccb386d9395, type: 2}
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    - {fileID: 11400000, guid: 6b63ccbd8f095d74aa3beb1547407cb3, type: 2}
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: fea878460f0854d4c9f92fe9528c5ed9, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 5812fccae0f5f4e449841c2d6f8f84e3, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: fae2749630923884094d27a6b7fe551e, type: 2}
+      pp: 10
+    - attack: {fileID: 11400000, guid: 53f8fe418034bc94ea5c20a07db4c7a9, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: b66a1f1b8bbaf45468ef6e414dc97461, type: 2}
+      pp: 30
+    _atributosAtuais:
+      _nivel: 34
+      _exp: 760
+      _vida: 0
+      _vidaMax: 291
+      _mana: 93
+      _manaMax: 157
+      _ataque: 187
+      _defesa: 202
+      _spAtaque: 202
+      _spDefesa: 201
+      _velocidade: 263
+      ivVida: 2
+      ivMana: 11
+      ivAtk: 4
+      ivDef: 15
+      ivSpAtk: 1
+      ivSpDef: 12
+      ivVel: 15
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: Ash Ketchum
+      where: Mapa de Teste
+      levelMet: 99
+    diceMaterial: Orange
+    dices: 140000000c000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+    - {fileID: 11400000, guid: 362085d547f47464fa43eb256e9801d0, type: 2}
+    combatLessons:
+    - {fileID: 11400000, guid: 362085d547f47464fa43eb256e9801d0, type: 2}
+    - {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+    - {fileID: 11400000, guid: 0a5a220d11fb83645896cf78984096dc, type: 2}
+    - {fileID: 11400000, guid: 17f170bfcaf1cba4f91f352ea4498af3, type: 2}
+    - {fileID: 11400000, guid: 6a0cba656f62e384f9a2ded707cf1dd0, type: 2}
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 52f7a5606dff5f045a7b9b3b34545dfb, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 5950ff0f208b9144fbb8a51b3a6b19af, type: 2}
+      pp: 10
+    - attack: {fileID: 11400000, guid: 33346e81046f6204792a5db4e1fcb48c, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: b66a1f1b8bbaf45468ef6e414dc97461, type: 2}
+      pp: 30
+    _atributosAtuais:
+      _nivel: 24
+      _exp: 163
+      _vida: 286
+      _vidaMax: 286
+      _mana: 138
+      _manaMax: 138
+      _ataque: 114
+      _defesa: 133
+      _spAtaque: 120
+      _spDefesa: 92
+      _velocidade: 104
+      ivVida: 7
+      ivMana: 3
+      ivAtk: 13
+      ivDef: 10
+      ivSpAtk: 15
+      ivSpDef: 6
+      ivVel: 4
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: Ash Ketchum
+      where: Mapa de Teste
+      levelMet: 99
+    diceMaterial: Orange
+    dices: 0800000008000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: 362085d547f47464fa43eb256e9801d0, type: 2}
+    - {fileID: 11400000, guid: e747ba8d4296dc24c93d4c29503119b7, type: 2}
+    combatLessons:
+    - {fileID: 11400000, guid: 362085d547f47464fa43eb256e9801d0, type: 2}
+    - {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+    - {fileID: 11400000, guid: 3ccd3bd94b7b78a4c8937ccb386d9395, type: 2}
+    - {fileID: 11400000, guid: e747ba8d4296dc24c93d4c29503119b7, type: 2}
+    - {fileID: 11400000, guid: b12654522b9615043a0a23c15b61964e, type: 2}
+    - {fileID: 11400000, guid: 6b63ccbd8f095d74aa3beb1547407cb3, type: 2}
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: e17c247847fe40a4f96da2e6d08c5c5a, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 5812fccae0f5f4e449841c2d6f8f84e3, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: fae2749630923884094d27a6b7fe551e, type: 2}
+      pp: 10
+    - attack: {fileID: 11400000, guid: 53f8fe418034bc94ea5c20a07db4c7a9, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: b66a1f1b8bbaf45468ef6e414dc97461, type: 2}
+      pp: 30
+    _atributosAtuais:
+      _nivel: 25
+      _exp: 401
+      _vida: 229
+      _vidaMax: 261
+      _mana: 158
+      _manaMax: 158
+      _ataque: 233
+      _defesa: 165
+      _spAtaque: 159
+      _spDefesa: 169
+      _velocidade: 155
+      ivVida: 12
+      ivMana: 0
+      ivAtk: 5
+      ivDef: 12
+      ivSpAtk: 6
+      ivSpDef: 16
+      ivVel: 2
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: Ash Ketchum
+      where: Mapa de Teste
+      levelMet: 99
+    diceMaterial: Orange
+    dices: 0c0000000a000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+    combatLessons:
+    - {fileID: 11400000, guid: cd123a25900b13a4ba6ba258055f9a75, type: 2}
+    - {fileID: 11400000, guid: 33e8673d9b71a44469e57f217540602c, type: 2}
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+    - {fileID: 11400000, guid: 17f170bfcaf1cba4f91f352ea4498af3, type: 2}
+    - {fileID: 11400000, guid: 6a0cba656f62e384f9a2ded707cf1dd0, type: 2}
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: 9c10b6dd15a668e4aba37546c9bd242f, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 5950ff0f208b9144fbb8a51b3a6b19af, type: 2}
+      pp: 10
+    - attack: {fileID: 11400000, guid: 33346e81046f6204792a5db4e1fcb48c, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: b66a1f1b8bbaf45468ef6e414dc97461, type: 2}
+      pp: 30
+    _atributosAtuais:
+      _nivel: 99
+      _exp: 970299
+      _vida: 221
+      _vidaMax: 221
+      _mana: 152
+      _manaMax: 152
+      _ataque: 104
+      _defesa: 115
+      _spAtaque: 135
+      _spDefesa: 133
+      _velocidade: 111
+      ivVida: 4
+      ivMana: 3
+      ivAtk: 1
+      ivDef: 4
+      ivSpAtk: 6
+      ivSpDef: 2
+      ivVel: 6
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: Ash Ketchum
+      where: Mapa de Teste
+      levelMet: 99
+    diceMaterial: Orange
+    dices: 0800000008000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    - {fileID: 11400000, guid: 837a480693bce9f4e95014a316c96249, type: 2}
+    combatLessons:
+    - {fileID: 11400000, guid: cd123a25900b13a4ba6ba258055f9a75, type: 2}
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    - {fileID: 11400000, guid: 61100324ff2301e44bd4aa23b8bbb887, type: 2}
+    - {fileID: 11400000, guid: 0a5a220d11fb83645896cf78984096dc, type: 2}
+    - {fileID: 11400000, guid: 6a0cba656f62e384f9a2ded707cf1dd0, type: 2}
+    - {fileID: 11400000, guid: 837a480693bce9f4e95014a316c96249, type: 2}
+  - nickName: 
+    _monsterData: {fileID: 11400000, guid: e17c247847fe40a4f96da2e6d08c5c5a, type: 2}
+    status: []
+    attacks:
+    - attack: {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: 5950ff0f208b9144fbb8a51b3a6b19af, type: 2}
+      pp: 10
+    - attack: {fileID: 11400000, guid: 33346e81046f6204792a5db4e1fcb48c, type: 2}
+      pp: 0
+    - attack: {fileID: 11400000, guid: b66a1f1b8bbaf45468ef6e414dc97461, type: 2}
+      pp: 30
+    _atributosAtuais:
+      _nivel: 24
+      _exp: 970299
+      _vida: 0
+      _vidaMax: 251
+      _mana: 159
+      _manaMax: 159
+      _ataque: 237
+      _defesa: 165
+      _spAtaque: 160
+      _spDefesa: 158
+      _velocidade: 163
+      ivVida: 2
+      ivMana: 2
+      ivAtk: 9
+      ivDef: 12
+      ivSpAtk: 7
+      ivSpDef: 5
+      ivVel: 10
+      modificadorDebuffAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpAtaque:
+        listaBuffsDebuffs: []
+      modificadorDebuffSpDefesa:
+        listaBuffsDebuffs: []
+      modificadorDebuffVelocidade:
+        listaBuffsDebuffs: []
+    monsterInfo:
+      firstTrainer: Ash Ketchum
+      where: Mapa de Teste
+      levelMet: 99
+    diceMaterial: Orange
+    dices: 0c0000000a000000
+    combatLessonsAtivos:
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+    combatLessons:
+    - {fileID: 11400000, guid: cd123a25900b13a4ba6ba258055f9a75, type: 2}
+    - {fileID: 11400000, guid: 33e8673d9b71a44469e57f217540602c, type: 2}
+    - {fileID: 11400000, guid: 7e3bbd2bb48559a48917183547c6442b, type: 2}
+    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
+    - {fileID: 11400000, guid: 17f170bfcaf1cba4f91f352ea4498af3, type: 2}
+    - {fileID: 11400000, guid: 6a0cba656f62e384f9a2ded707cf1dd0, type: 2}
+  itens:
+  - item: {fileID: 11400000, guid: 654ece2d5ad5d324bba1f7628f42f6b7, type: 2}
+    quantidade: 50
+  - item: {fileID: 11400000, guid: 4d0bedd901d8d1840b8e60922481f2b5, type: 2}
+    quantidade: 58
+  - item: {fileID: 11400000, guid: 7ace08c82b617d347a14b0143e40c800, type: 2}
+    quantidade: 77
+  - item: {fileID: 11400000, guid: 261a657500d281640969d69af089224e, type: 2}
+    quantidade: 52
+  - item: {fileID: 11400000, guid: 0962659d67501d444a354460469bdf63, type: 2}
+    quantidade: 58
+  - item: {fileID: 11400000, guid: e23a6b313eb370141a1e5a565c0d310e, type: 2}
+    quantidade: 48
+  - item: {fileID: 11400000, guid: 56cd9ac1428457a4c8431c1828272c3e, type: 2}
+    quantidade: 59
+  - item: {fileID: 11400000, guid: 58bd765d06fde0c4bb87884cd0276d32, type: 2}
+    quantidade: 55
+  - item: {fileID: 11400000, guid: f90d6c4dbebd7a74282bd648d88d1139, type: 2}
+    quantidade: 25
+  - item: {fileID: 11400000, guid: 71ed39920f520f942973fee75b1eb6bc, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 31d178c697c836c4bbe7a7d8b4f28835, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 00af85b54f561cd48b1d88854604cad6, type: 2}
+    quantidade: 2
+  monsterBalls:
+  - item: {fileID: 11400000, guid: 7e0bf0eb35b2ca4488abfb1f022d9535, type: 2}
+    quantidade: 5
+  - item: {fileID: 11400000, guid: b3975f248969a5649bc57ffd39b885af, type: 2}
+    quantidade: 41
+  - item: {fileID: 11400000, guid: 09184dd163a45bc4c97be81a8a0c9abe, type: 2}
+    quantidade: 36
+  - item: {fileID: 11400000, guid: 33b68afe3972fa9449e5139ebd2603fb, type: 2}
+    quantidade: 33
+  - item: {fileID: 11400000, guid: 5757656b8ee285a40b02c3e1abb602bf, type: 2}
+    quantidade: 2
+  habilidades:
+  - item: {fileID: 11400000, guid: b84dd3fabc98bd04f9c59a174ec98738, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 4dd6a75fb7d9d9b41b53a63ec34e12b5, type: 2}
+    quantidade: 6
+  - item: {fileID: 11400000, guid: 3b83b79b775d6f942ab38f0f4415704f, type: 2}
+    quantidade: 4
+  - item: {fileID: 11400000, guid: 1e5f56ae64492914eb318acb80b8d4d6, type: 2}
+    quantidade: 4
+  - item: {fileID: 11400000, guid: 3e0f5e8ecc6e4514ba58089ea4f6bdc0, type: 2}
+    quantidade: 6
+  - item: {fileID: 11400000, guid: e03191a612fe1c148825bc9e1911563d, type: 2}
+    quantidade: 6
+  - item: {fileID: 11400000, guid: c8d76f2111b933e458033de888cd537f, type: 2}
+    quantidade: 3
+  - item: {fileID: 11400000, guid: b6c1056c3c331f84cbe04d3deb4c0026, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 5731179795f24124e9bba1cf43c14a8d, type: 2}
+    quantidade: 6
+  - item: {fileID: 11400000, guid: 87914201eb74d0940a3e37be62f33869, type: 2}
+    quantidade: 2
+  - item: {fileID: 11400000, guid: 23fab640b5755824c84d2c63103f86be, type: 2}
+    quantidade: 2
+  - item: {fileID: 11400000, guid: 56a8a888119ae7244b8adab3f1043981, type: 2}
+    quantidade: 2
+  - item: {fileID: 11400000, guid: 5228f3f8e2702784babc2f40820964b1, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 429b51f66a21ae24d8531ba254cb65b4, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 0832110b74c1f7f48a60acf89763e8b5, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 72511e345828f4a4ab8fb2bdd4004ace, type: 2}
+    quantidade: 1
+  itensChave:
+  - item: {fileID: 11400000, guid: 003e016fc2e5f6d43be6769058712e9d, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 99a087cb9c2b98742b611027bb4a631f, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 695959f4b7d6d4e47aad32a3644a3d56, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 1f40e34dcdeb87149b26ffffd253309f, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 37a2e3a498dc79c4782e572a2b641038, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 37a2e3a498dc79c4782e572a2b641038, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: f307e72399c838c49939d323af1cadb5, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 5bbcbf4aba5afd142ae3af6f555ca6fb, type: 2}
+    quantidade: 1
+  - item: {fileID: 11400000, guid: 4aca4303aa5e129469647fdb85feef3f, type: 2}
+    quantidade: 1
+  monsterBook:
+    monsterEntries:
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 1
+      wasCaptured: 1
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0
+    - wasFound: 0
+      wasCaptured: 0

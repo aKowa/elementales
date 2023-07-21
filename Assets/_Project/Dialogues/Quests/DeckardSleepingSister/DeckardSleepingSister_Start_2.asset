@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: DeckardSleepingSister_Start_2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Thank you, %player. That is very kind of you.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I promise you that I will help you further.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: A nasty Spigo was haunting the city some days ago. It used a spell on my
+      sister that put her to sleep.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: She's been sleeping for three days now, and I'm very worried trying to
+      find a cure.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I found out that there are three Elemantors that can provide an antidote.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: 'Those are:
+
+      The Masron, a Metal type Elemantor that is very attuned
+      to the arcane.'
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: The Lakell, a very rare and strong Elemantor that can only be found underwater.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: And the Spigo itself, a Dark type Elemantor that haunts old locations.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: If you capture one of those three Elemantors, I will give you something
+      that will help you on your journey.
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: I'm counting on you, %player!
+  responses: []

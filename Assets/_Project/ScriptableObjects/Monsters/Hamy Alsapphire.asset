@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730dbfbfeca746c46946cfce45c7ec53, type: 3}
+  m_Name: Hamy Alsapphire
+  m_EditorClassIdentifier: 
+  _name: Haphire
+  categoria: 
+  descricao: Legend says that Haphire is one of two man-made Elemantors, created
+    to travel through time. On the day Haphire woke up, everyone in the lab disappeared,
+    and with them, the secrets of time that had been recently discovered.
+  altura: 1.9
+  peso: 145
+  monsterRarity: 280
+  monsterTypes:
+  - {fileID: 11400000, guid: f04a7d55fe6bdd1409eb2ca73ee8d7d4, type: 2}
+  - {fileID: 11400000, guid: df1176191f625424a9dcaa88a1a9e3be, type: 2}
+  - {fileID: 11400000, guid: 583042b1bbdc1de47818cab88fba2f8b, type: 2}
+  miniatura: {fileID: 21300000, guid: 5e4a3d2fe27b6e143b8d570690c1b30c, type: 3}
+  _total: 625
+  _attributesBase:
+    _vida: 92
+    _mana: 60
+    _ataque: 97
+    _defesa: 125
+    _velocidade: 92
+    _spAtaque: 119
+    _spDefesa: 100
+  animator: {fileID: 22100000, guid: 4ef92744deaaff34e9530b88101f6a3e, type: 2}
+  complete: 0
+  upgradesPerLevels: []
+  learnableAttacks:
+  - {fileID: 11400000, guid: 53f8fe418034bc94ea5c20a07db4c7a9, type: 2}
+  - {fileID: 11400000, guid: bd0532dd5a4995041b842ed28357acca, type: 2}
+  - {fileID: 11400000, guid: 3c5b4ebe12e77cf4cb86c47d309cd154, type: 2}
+  - {fileID: 11400000, guid: 2c87d6afeec497e46b8b138119ff0246, type: 2}
+  - {fileID: 11400000, guid: 671e015e1555b4845afe3cce4419b654, type: 2}
+  - {fileID: 11400000, guid: 8db97267afaf676438a8fc80d79f67eb, type: 2}
+  - {fileID: 11400000, guid: 7881a20a6bc1bb64f9f67d6d8dba7641, type: 2}
+  - {fileID: 11400000, guid: e4f26b23cec33904f8490f9edccc2a01, type: 2}
+  - {fileID: 11400000, guid: 25109eb3595eb574f80c8408b67f88a3, type: 2}
+  - {fileID: 11400000, guid: 091bf4de1fb9c844889a5e45ab41daa9, type: 2}
+  - {fileID: 11400000, guid: 669458ac532a50a4bb94cc4ee55455ad, type: 2}
+  - {fileID: 11400000, guid: e9a91351189b3e848a5b9b0b18c68037, type: 2}
+  - {fileID: 11400000, guid: dfa3284283435234fa24cdd6ae41bcc3, type: 2}
+  - {fileID: 11400000, guid: 0d54abed467d21547b0f5dbbce4c2b99, type: 2}
+  - {fileID: 11400000, guid: a9f480964d8c23649b93d241fe940e8f, type: 2}
+  - {fileID: 11400000, guid: 4cc4e01abf720ac4f84bfee9205c81b5, type: 2}
+  - {fileID: 11400000, guid: 52c1224b08aba204f8f6532c48210af5, type: 2}
+  - {fileID: 11400000, guid: 8d0f1ecaf959bcb41a3fda4a00a0abb3, type: 2}
+  - {fileID: 11400000, guid: 55b6086cbad92fe4e9a1acd0161c53d5, type: 2}
+  - {fileID: 11400000, guid: e2be7fe5c73a2794288e7a0ab4818bbc, type: 2}
+  - {fileID: 11400000, guid: b0b9ee379f5fa3047ab39ad1833b939f, type: 2}
+  - {fileID: 11400000, guid: fae2749630923884094d27a6b7fe551e, type: 2}
+  - {fileID: 11400000, guid: 87900cedf6b6b384f9dfc61003789afe, type: 2}
+  - {fileID: 11400000, guid: a9a0ba68cf8875e469e623cb6199e62f, type: 2}
+  - {fileID: 11400000, guid: 31e39efc58a328844ad14605370978e5, type: 2}
+  - {fileID: 11400000, guid: 92652707d8b95a84da17ee6d3dd2b61b, type: 2}
+  - {fileID: 11400000, guid: 5812fccae0f5f4e449841c2d6f8f84e3, type: 2}
+  - {fileID: 11400000, guid: 1090a95a97f5cfe47ab770fbed749af7, type: 2}
+  combatLessonsPorNivel:
+  - nivel: 6
+    combatLesson: {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
+  - nivel: 19
+    combatLesson: {fileID: 11400000, guid: e747ba8d4296dc24c93d4c29503119b7, type: 2}
+  - nivel: 24
+    combatLesson: {fileID: 11400000, guid: b12654522b9615043a0a23c15b61964e, type: 2}
+  - nivel: 36
+    combatLesson: {fileID: 11400000, guid: 865bddabc53a0ed4393cd57eadb1ddb6, type: 2}
+  - nivel: 47
+    combatLesson: {fileID: 11400000, guid: 3700a3862672e4e458b5b6aa7dd15754, type: 2}
+  - nivel: 63
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+  numAttacks: 0
+  numDiceUpgrades: 0
+  audioEntrada: {fileID: 0}
+  audioMorrendo: {fileID: 0}

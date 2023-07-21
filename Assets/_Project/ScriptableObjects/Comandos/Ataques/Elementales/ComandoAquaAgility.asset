@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoAquaAgility
+  m_EditorClassIdentifier: 
+  nome: Aqua Agility
+  prioridade: 2
+  target: 0
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 91912693e6d60584ca1f8a101739ae85, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 8bdcb8faa923b4f4e826edeceaa72b76, type: 2}
+  animacaoSprite: 0
+  animacaoMovimento: 5
+  rodarEfeitoAposOFimDaAnimacao: 0
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: 6c44737bc24dde14a942ef6fdae7409b, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 30
+  custoMana: 3
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor surrounds itself in a layer of water that makes it gain
+    more SPEED.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 5
+  setPowerMargin: 6

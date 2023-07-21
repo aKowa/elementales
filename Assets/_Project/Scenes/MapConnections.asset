@@ -1,0 +1,958 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac92fc1420a34d411b1ec1ea4a3fe03a, type: 3}
+  m_Name: MapConnections
+  m_EditorClassIdentifier: 
+  LevelPrefix: 
+  LevelSuffix: 
+  mLevels:
+  - Guid: 20fe823130f919a4a875265cd05d02ea
+    Name: 1.5_ShorelineTown
+    PositionOnMap: {x: 350, y: 230}
+    Doors:
+    - Guid: Map_CityOfDragons_4
+      Name: Gateway Escondida Baixo
+      LeftSide: 0
+    - Guid: Map_CityOfDragons_1
+      Name: Gateway Esquerda
+      LeftSide: 0
+    - Guid: Map_CityOfDragons_2
+      Name: Gateway Direita Cima
+      LeftSide: 0
+    - Guid: Map_CityOfDragons_3
+      Name: Gateway Direita Baixo
+      LeftSide: 0
+  - Guid: f742fdb7f13a5ec4abfa85e82f46d028
+    Name: 1.4_Route21
+    PositionOnMap: {x: 510, y: 240}
+    Doors:
+    - Guid: 1.4_Map_Route_1
+      Name: Gateway Direita
+      LeftSide: 0
+    - Guid: 1.4_Map_Route_2
+      Name: Gateway Esquerda
+      LeftSide: 0
+  - Guid: a9184c6c15011674dbebf1acec84ecd5
+    Name: 2.1_Route12
+    PositionOnMap: {x: 420, y: 660}
+    Doors:
+    - Guid: 2.1_Map_Route_1
+      Name: Gateway_Direita
+      LeftSide: 0
+    - Guid: 2.1_Map_Route_3
+      Name: Gateway_Baixo
+      LeftSide: 0
+  - Guid: 4b5de81020b9c6147b3eb8535edf0577
+    Name: 2.4_MobrasRiver
+    PositionOnMap: {x: 490, y: 920}
+    Doors:
+    - Guid: 2.4_Water_1
+      Name: Gateway_Esquerda
+      LeftSide: 0
+  - Guid: 4209926cc7317314fafcf8c5baa43391
+    Name: 1.2_Route24
+    PositionOnMap: {x: 780, y: 180}
+    Doors:
+    - Guid: Map_Route_1
+      Name: Gateway_Direita
+      LeftSide: 0
+    - Guid: Map_Route_2
+      Name: Gateway_Esquerda
+      LeftSide: 0
+    - Guid: Map_Route_3
+      Name: Gateway_Baixo
+      LeftSide: 0
+  - Guid: 505b4e4aa38774244b346635f66bb52c
+    Name: 2.3_YonderTown
+    PositionOnMap: {x: 350, y: 850}
+    Doors:
+    - Guid: Map_CityOfBeasts_1
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: Map_CityOfBeasts_2
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: Map_CityOfBeasts_3
+      Name: Gateway_Direita
+      LeftSide: 0
+  - Guid: 3531a573dcb8be6418c795fa8765aa0f
+    Name: Map_Teste
+    PositionOnMap: {x: 150, y: 0}
+    Doors:
+    - Guid: MapaTeste_G1
+      Name: EntradaDeBaixo
+      LeftSide: 0
+  - Guid: 28ddf4c56b0208c4da0b9f7451d50405
+    Name: Map_Teste2
+    PositionOnMap: {x: 290, y: 0}
+    Doors:
+    - Guid: MapaDeTeste2_G1
+      Name: EntradaDeCima
+      LeftSide: 0
+  - Guid: 761969026f8f8cd478dd947123c4aaa0
+    Name: Healing_Center_1.3
+    PositionOnMap: {x: 650, y: 80}
+    Doors:
+    - Guid: Healing_Center_1.3
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 357b845b78a7dc14dbd4689601fad9ec
+    Name: Casa_Steven
+    PositionOnMap: {x: 650, y: 0}
+    Doors:
+    - Guid: Casa_Steven_1
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 9839decc78af94e47af46f0dca0aecba
+    Name: 1.3_GrabisTown
+    PositionOnMap: {x: 650, y: 190}
+    Doors:
+    - Guid: Mapa_1.3_Porta_CasaDoSteven
+      Name: Gateway_Porta_CasaDoSteven
+      LeftSide: 0
+    - Guid: Map_1.3_HealingCenter
+      Name: Gateway_Porta_HealingCenter
+      LeftSide: 0
+    - Guid: Map_HumanCity_1
+      Name: Gateway_Direita
+      LeftSide: 0
+    - Guid: Map_HumanCity_2
+      Name: Gateway_Esquerda
+      LeftSide: 0
+    - Guid: Map_1.3_Casa_Npc_1
+      Name: Gateway_Casa_Cima
+      LeftSide: 0
+    - Guid: Map_1.3_Casa_Npc_2
+      Name: Gateway_Casa_Baixo
+      LeftSide: 0
+  - Guid: 267c1b714448e6d4db089322f0664af2
+    Name: 2.7_ClusterLake
+    PositionOnMap: {x: 330, y: 1050}
+    Doors:
+    - Guid: 2.7_Map_Water_1
+      Name: Gateway_Direita
+      LeftSide: 0
+  - Guid: 96b87093fffb25c4cade50ab18ffdecf
+    Name: Map_1.3_Casa_NPC_1
+    PositionOnMap: {x: 920, y: 440}
+    Doors:
+    - Guid: Map_1.3_Casa_1_Saida
+      Name: Gateway_Entrada
+      LeftSide: 0
+  - Guid: 564d2d927774d664f8dcfa3cda5348a0
+    Name: Map_1.3_Casa_NPC_2
+    PositionOnMap: {x: 920, y: 330}
+    Doors:
+    - Guid: Map_1.3_Casa_2_Entrada
+      Name: Gateway_Entrada
+      LeftSide: 0
+  - Guid: 4bb38f64d040da14a81964615a04f871
+    Name: 2.2_Route6
+    PositionOnMap: {x: 600, y: 850}
+    Doors:
+    - Guid: 2.2_Map_Route_1
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: 42b03688-a516-4b48-bb52-39aaf2fd4f70
+      Name: Gateway_Baixo
+      LeftSide: 0
+  - Guid: 8805afb786dee9a4098f7c00dcf42635
+    Name: 1.8_Central Park
+    PositionOnMap: {x: 590, y: 530}
+    Doors:
+    - Guid: 1.8_Healing_Center
+      Name: Gateway HealingCenter
+      LeftSide: 0
+    - Guid: Map_CityOfElves_1
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: Map_CityOfElves_2
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: Map_CityOfElves_3
+      Name: Gateway_Esquerda
+      LeftSide: 0
+    - Guid: Map_CityOfElves_4
+      Name: Gateway_Direita
+      LeftSide: 0
+    - Guid: 1.8_Casa_Npc_1
+      Name: Gateway_Casa_Npc_1
+      LeftSide: 0
+    - Guid: 1.8_Casa_Npc_2
+      Name: Gateway_Casa_Npc_2
+      LeftSide: 0
+    - Guid: 1.8_Casa_Deckard
+      Name: Gateway_Casa_Deckard
+      LeftSide: 0
+  - Guid: 299addd1a50f99845abffd3664f67f02
+    Name: 1.8_Casa_NPC_2
+    PositionOnMap: {x: 810, y: 870}
+    Doors:
+    - Guid: 1.8_Casa_Npc_Entrada_2
+      Name: Gateway
+      LeftSide: 0
+  - Guid: e740add2a3217424eaa1d82f3e797f97
+    Name: 1.8_Casa_NPC_1
+    PositionOnMap: {x: 810, y: 790}
+    Doors:
+    - Guid: 1.8_Casa_Npc_1_Entrada
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 5e750db5d1d62c149840364de3ddc945
+    Name: 1.8_Healing_Center
+    PositionOnMap: {x: 810, y: 670}
+    Doors:
+    - Guid: Healing_Center_1.8
+      Name: Gateway HealingCenter
+      LeftSide: 0
+  - Guid: 8ffe7e3f4b8d8fb4baa848ac0e78bdf7
+    Name: 1.8_Arena
+    PositionOnMap: {x: 970, y: 610}
+    Doors:
+    - Guid: 1.8_Arena_Gateway_1
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 4c54b353e88f6744fb0cff6f2c802b9a
+    Name: 1.8_Ginasio
+    PositionOnMap: {x: 810, y: 560}
+    Doors:
+    - Guid: 1.8_Ginasio_Gateway_Arena
+      Name: Arena
+      LeftSide: 0
+    - Guid: 1.8_Ginasio_Gateway_Entrada
+      Name: Entrada
+      LeftSide: 0
+  - Guid: 725b650eac8b7274683b5496921593d1
+    Name: 1.7_Route18
+    PositionOnMap: {x: 250, y: 460}
+    Doors:
+    - Guid: 1.7_Map_Route_1
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: 778b46ef-1993-47b5-9e58-0cc09fec36fb
+      Name: Gateway_Baixo
+      LeftSide: 0
+  - Guid: d91835b87d683cf40ac193d70b193649
+    Name: 1.5.2_ShorelineGlade
+    PositionOnMap: {x: 360, y: 110}
+    Doors:
+    - Guid: Shoreline Glade 1
+      Name: ShorelineGlade_Up
+      LeftSide: 0
+  - Guid: c590093e408457c44b2b428e32d5e9b8
+    Name: 3.1_TrainStation
+    PositionOnMap: {x: 820, y: 980}
+    Doors:
+    - Guid: TrainStation_Entrada
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: 3.1_EnterTent
+      Name: Gateway_Tent
+      LeftSide: 0
+  - Guid: a1312dfd1084d7a40aa5ba131b18994f
+    Name: 2.5_EllionsWelcome
+    PositionOnMap: {x: 640, y: 980}
+    Doors:
+    - Guid: Map_Human_City_1
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: Map_Human_City_2
+      Name: Gateway_Direita
+      LeftSide: 0
+    - Guid: Map_Human_City_3
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: 2.5_HealingCenter_Cidade
+      Name: Gateway_HealingCenter_Cidade
+      LeftSide: 0
+    - Guid: 2.5_CasaSailorJoseph_Entrada
+      Name: Gateway_CasaSailorJoseph
+      LeftSide: 0
+  - Guid: 8642346458770f24ca25cdd447d03793
+    Name: 2.11_CaveEntrance
+    PositionOnMap: {x: 520, y: 1140}
+    Doors:
+    - Guid: 2.11_CaveEntrance1
+      Name: Gateway_Entrance
+      LeftSide: 0
+    - Guid: 2.11_CaveEntrance2
+      Name: Gateway_Cave
+      LeftSide: 0
+  - Guid: 68c1f991524bc0241b17fce3f687a3d0
+    Name: 3.1_Tent
+    PositionOnMap: {x: 990, y: 980}
+    Doors:
+    - Guid: 2.11_Tent_1
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 34205631c52d5504f84ac2e9821f909e
+    Name: 2.5_Healing_Center
+    PositionOnMap: {x: 820, y: 1080}
+    Doors:
+    - Guid: 2.5_HealingCenter_Entrada
+      Name: Gateway_HealingCenter
+      LeftSide: 0
+  - Guid: 73867d920370e55498d419f363dd9f34
+    Name: 3.3_Map_CavernaPicoLendario
+    PositionOnMap: {x: 40, y: 710}
+    Doors:
+    - Guid: Caverna_Gelo_Lendario_1
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: Caverna_Gelo_Lendario_2
+      Name: Gateway_Cima
+      LeftSide: 0
+  - Guid: d1c28c0a222e9b641bc039286b0ab54f
+    Name: 1.6_LemisBeach
+    PositionOnMap: {x: 40, y: 280}
+    Doors:
+    - Guid: Map_Beach_1
+      Name: Gateway_Direita_Cima
+      LeftSide: 0
+    - Guid: Map_Beach_2
+      Name: Gateway_Direita_Baixo
+      LeftSide: 0
+    - Guid: Map_Beach_3
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: Map_Beach_PicoLendario
+      Name: Gateway_PicoLendario
+      LeftSide: 0
+    - Guid: Map_Beach_HomeBeach
+      Name: Gateway_HomeBeach
+      LeftSide: 0
+  - Guid: e32fc7ce00fed0a49b0978493c7b2e15
+    Name: 3.2_Map_PicoLendario
+    PositionOnMap: {x: 40, y: 520}
+    Doors:
+    - Guid: Mapa_Lendario_1
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: Mapa_Lendario_2
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: Mapa_Lendario_LemisBeach
+      Name: Gateway_LemisBeach
+      LeftSide: 0
+  - Guid: f3623c130b3a6fd43b825e32712b0d41
+    Name: 2.6_CaveOfLost_f1
+    PositionOnMap: {x: 80, y: 990}
+    Doors:
+    - Guid: 2.6_Map_Cave_1
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: 2.6_Map_Cave_2
+      Name: Gateway_Esquerda
+      LeftSide: 0
+    - Guid: 2.6_Map_Cave_3
+      Name: Gateway_Direita
+      LeftSide: 0
+    - Guid: 2.6_Map_Cave_Hidden1
+      Name: Gateway_Hidden1
+      LeftSide: 0
+    - Guid: 2.6_Map_Cave_Hidden2
+      Name: Gateway_Hidden2
+      LeftSide: 0
+    - Guid: 2.6_Map_Cave_Hidden3
+      Name: Gateway_Hidden3
+      LeftSide: 0
+  - Guid: 342556d90cc4e5d4a886f3959e397d62
+    Name: 2.8_Map_Cave
+    PositionOnMap: {x: 570, y: 1260}
+    Doors:
+    - Guid: 2.8_Map_Cave_1
+      Name: Gateway_Cima
+      LeftSide: 0
+    - Guid: 2.8_Map_Cave_2
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: 2.8_Map_Cave_3
+      Name: Gateway_Esquerda
+      LeftSide: 0
+  - Guid: c6f02e1312e83c74ebfedaf11f762c91
+    Name: 2.6_HiddenCave_3
+    PositionOnMap: {x: 90, y: 1240}
+    Doors:
+    - Guid: 2.6_HiddenCave3
+      Name: Gateway
+      LeftSide: 0
+  - Guid: bd4e041baf12a794b8cb9bf9c2c3e19d
+    Name: 2.6_HiddenCave_2
+    PositionOnMap: {x: 210, y: 1230}
+    Doors:
+    - Guid: 2.6_HiddenCave2
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 27b539f09b2a472479df1bea83938fdd
+    Name: 2.6_HiddenCave_1
+    PositionOnMap: {x: 210, y: 1110}
+    Doors:
+    - Guid: 2.6_HiddenCave1
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 6d25ce9bfb19f63469305f62631d5de9
+    Name: 1.1_HomeTown
+    PositionOnMap: {x: 900, y: 20}
+    Doors:
+    - Guid: Map_HomeTown_1
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: Map_HomeTown_2
+      Name: Gateway_Esquerda
+      LeftSide: 0
+    - Guid: Map_HomeTown_3
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 464199d940325ff4aa970304e5371109
+    Name: Casa_Protagonista
+    PositionOnMap: {x: 1020, y: 180}
+    Doors:
+    - Guid: Casa_Protagonista_1
+      Name: Gateway
+      LeftSide: 1
+  - Guid: b8181ec6e6c437243b3cf868aafd0755
+    Name: 3.4_HomeBeach
+    PositionOnMap: {x: 200, y: 120}
+    Doors:
+    - Guid: Map_BeachTown_1
+      Name: Gateway
+      LeftSide: 0
+    - Guid: Map_HomeBeach-LemisBeach
+      Name: Gateway_LemisBeach
+      LeftSide: 0
+  - Guid: 2a5437de66c887f44aad1a9f6fc48bad
+    Name: 3.0_LostDungeon
+    PositionOnMap: {x: 720, y: 1320}
+    Doors:
+    - Guid: LostDungeon_Entrada
+      Name: Gateway_Entrada
+      LeftSide: 0
+    - Guid: LostDungeon_Portal
+      Name: Gateway_Portal
+      LeftSide: 0
+  - Guid: d177f790962140044a43ef1d18637416
+    Name: 2.5_Casa_NPC_SailorJoseph
+    PositionOnMap: {x: 840, y: 1200}
+    Doors:
+    - Guid: 2.5_Casa_NPC_SailorJoseph_Saida
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 0c2551346cae611478da74c57cc31b65
+    Name: 2.9_Map_Portal
+    PositionOnMap: {x: 880, y: 1370}
+    Doors:
+    - Guid: 2.9_Map_Portal_1
+      Name: Gateway_CIma
+      LeftSide: 0
+  mConnection:
+  - LevelGuid1: 28ddf4c56b0208c4da0b9f7451d50405
+    LevelGuid2: 3531a573dcb8be6418c795fa8765aa0f
+    DoorGuid1: MapaDeTeste2_G1
+    DoorGuid2: MapaTeste_G1
+    Points: []
+  - LevelGuid1: 6d25ce9bfb19f63469305f62631d5de9
+    LevelGuid2: 4209926cc7317314fafcf8c5baa43391
+    DoorGuid1: Map_HomeTown_2
+    DoorGuid2: Map_Route_1
+    Points: []
+  - LevelGuid1: 4209926cc7317314fafcf8c5baa43391
+    LevelGuid2: 9839decc78af94e47af46f0dca0aecba
+    DoorGuid1: Map_Route_2
+    DoorGuid2: Map_HumanCity_1
+    Points: []
+  - LevelGuid1: f742fdb7f13a5ec4abfa85e82f46d028
+    LevelGuid2: 9839decc78af94e47af46f0dca0aecba
+    DoorGuid1: 1.4_Map_Route_1
+    DoorGuid2: Map_HumanCity_2
+    Points: []
+  - LevelGuid1: f742fdb7f13a5ec4abfa85e82f46d028
+    LevelGuid2: 20fe823130f919a4a875265cd05d02ea
+    DoorGuid1: 1.4_Map_Route_2
+    DoorGuid2: Map_CityOfDragons_1
+    Points: []
+  - LevelGuid1: d1c28c0a222e9b641bc039286b0ab54f
+    LevelGuid2: 20fe823130f919a4a875265cd05d02ea
+    DoorGuid1: Map_Beach_1
+    DoorGuid2: Map_CityOfDragons_2
+    Points: []
+  - LevelGuid1: d1c28c0a222e9b641bc039286b0ab54f
+    LevelGuid2: 20fe823130f919a4a875265cd05d02ea
+    DoorGuid1: Map_Beach_2
+    DoorGuid2: Map_CityOfDragons_3
+    Points: []
+  - LevelGuid1: d1c28c0a222e9b641bc039286b0ab54f
+    LevelGuid2: 725b650eac8b7274683b5496921593d1
+    DoorGuid1: Map_Beach_3
+    DoorGuid2: 1.7_Map_Route_1
+    Points:
+    - {x: 280, y: 400}
+  - LevelGuid1: a9184c6c15011674dbebf1acec84ecd5
+    LevelGuid2: 8805afb786dee9a4098f7c00dcf42635
+    DoorGuid1: 2.1_Map_Route_1
+    DoorGuid2: Map_CityOfElves_3
+    Points: []
+  - LevelGuid1: a9184c6c15011674dbebf1acec84ecd5
+    LevelGuid2: 505b4e4aa38774244b346635f66bb52c
+    DoorGuid1: 2.1_Map_Route_3
+    DoorGuid2: Map_CityOfBeasts_1
+    Points:
+    - {x: 530, y: 840}
+    - {x: 460, y: 840}
+  - LevelGuid1: 4b5de81020b9c6147b3eb8535edf0577
+    LevelGuid2: 505b4e4aa38774244b346635f66bb52c
+    DoorGuid1: 2.4_Water_1
+    DoorGuid2: Map_CityOfBeasts_3
+    Points: []
+  - LevelGuid1: 725b650eac8b7274683b5496921593d1
+    LevelGuid2: 8805afb786dee9a4098f7c00dcf42635
+    DoorGuid1: 778b46ef-1993-47b5-9e58-0cc09fec36fb
+    DoorGuid2: Map_CityOfElves_1
+    Points:
+    - {x: 690, y: 540}
+  - LevelGuid1: 8805afb786dee9a4098f7c00dcf42635
+    LevelGuid2: 4bb38f64d040da14a81964615a04f871
+    DoorGuid1: Map_CityOfElves_2
+    DoorGuid2: 2.2_Map_Route_1
+    Points:
+    - {x: 770, y: 770}
+    - {x: 770, y: 910}
+  - LevelGuid1: 505b4e4aa38774244b346635f66bb52c
+    LevelGuid2: f3623c130b3a6fd43b825e32712b0d41
+    DoorGuid1: Map_CityOfBeasts_2
+    DoorGuid2: 2.6_Map_Cave_1
+    Points:
+    - {x: 460, y: 960}
+    - {x: 460, y: 960}
+  - LevelGuid1: 267c1b714448e6d4db089322f0664af2
+    LevelGuid2: f3623c130b3a6fd43b825e32712b0d41
+    DoorGuid1: 2.7_Map_Water_1
+    DoorGuid2: 2.6_Map_Cave_2
+    Points: []
+  - LevelGuid1: 6d25ce9bfb19f63469305f62631d5de9
+    LevelGuid2: 464199d940325ff4aa970304e5371109
+    DoorGuid1: Map_HomeTown_3
+    DoorGuid2: Casa_Protagonista_1
+    Points: []
+  - LevelGuid1: 9839decc78af94e47af46f0dca0aecba
+    LevelGuid2: 761969026f8f8cd478dd947123c4aaa0
+    DoorGuid1: Map_1.3_HealingCenter
+    DoorGuid2: Healing_Center_1.3
+    Points: []
+  - LevelGuid1: 5e750db5d1d62c149840364de3ddc945
+    LevelGuid2: 8805afb786dee9a4098f7c00dcf42635
+    DoorGuid1: Healing_Center_1.8
+    DoorGuid2: 1.8_Healing_Center
+    Points: []
+  - LevelGuid1: 9839decc78af94e47af46f0dca0aecba
+    LevelGuid2: 357b845b78a7dc14dbd4689601fad9ec
+    DoorGuid1: Mapa_1.3_Porta_CasaDoSteven
+    DoorGuid2: Casa_Steven_1
+    Points:
+    - {x: 760, y: 280}
+    - {x: 760, y: 280}
+  - LevelGuid1: e32fc7ce00fed0a49b0978493c7b2e15
+    LevelGuid2: 73867d920370e55498d419f363dd9f34
+    DoorGuid1: Mapa_Lendario_1
+    DoorGuid2: Caverna_Gelo_Lendario_1
+    Points:
+    - {x: 180, y: 610}
+    - {x: 180, y: 820}
+  - LevelGuid1: 73867d920370e55498d419f363dd9f34
+    LevelGuid2: e32fc7ce00fed0a49b0978493c7b2e15
+    DoorGuid1: Caverna_Gelo_Lendario_2
+    DoorGuid2: Mapa_Lendario_2
+    Points:
+    - {x: 200, y: 840}
+    - {x: 200, y: 630}
+    - {x: 150, y: 630}
+  - LevelGuid1: 9839decc78af94e47af46f0dca0aecba
+    LevelGuid2: 96b87093fffb25c4cade50ab18ffdecf
+    DoorGuid1: Map_1.3_Casa_Npc_2
+    DoorGuid2: Map_1.3_Casa_1_Saida
+    Points: []
+  - LevelGuid1: 9839decc78af94e47af46f0dca0aecba
+    LevelGuid2: 564d2d927774d664f8dcfa3cda5348a0
+    DoorGuid1: Map_1.3_Casa_Npc_1
+    DoorGuid2: Map_1.3_Casa_2_Entrada
+    Points: []
+  - LevelGuid1: 8805afb786dee9a4098f7c00dcf42635
+    LevelGuid2: e740add2a3217424eaa1d82f3e797f97
+    DoorGuid1: 1.8_Casa_Npc_1
+    DoorGuid2: 1.8_Casa_Npc_1_Entrada
+    Points: []
+  - LevelGuid1: 8805afb786dee9a4098f7c00dcf42635
+    LevelGuid2: 299addd1a50f99845abffd3664f67f02
+    DoorGuid1: 1.8_Casa_Npc_2
+    DoorGuid2: 1.8_Casa_Npc_Entrada_2
+    Points: []
+  - LevelGuid1: 34205631c52d5504f84ac2e9821f909e
+    LevelGuid2: a1312dfd1084d7a40aa5ba131b18994f
+    DoorGuid1: 2.5_HealingCenter_Entrada
+    DoorGuid2: 2.5_HealingCenter_Cidade
+    Points: []
+  - LevelGuid1: a1312dfd1084d7a40aa5ba131b18994f
+    LevelGuid2: 4bb38f64d040da14a81964615a04f871
+    DoorGuid1: Map_Human_City_1
+    DoorGuid2: 42b03688-a516-4b48-bb52-39aaf2fd4f70
+    Points: []
+  - LevelGuid1: c590093e408457c44b2b428e32d5e9b8
+    LevelGuid2: a1312dfd1084d7a40aa5ba131b18994f
+    DoorGuid1: TrainStation_Entrada
+    DoorGuid2: Map_Human_City_2
+    Points: []
+  - LevelGuid1: 4c54b353e88f6744fb0cff6f2c802b9a
+    LevelGuid2: 8805afb786dee9a4098f7c00dcf42635
+    DoorGuid1: 1.8_Ginasio_Gateway_Entrada
+    DoorGuid2: 1.8_Casa_Deckard
+    Points: []
+  - LevelGuid1: 8ffe7e3f4b8d8fb4baa848ac0e78bdf7
+    LevelGuid2: 4c54b353e88f6744fb0cff6f2c802b9a
+    DoorGuid1: 1.8_Arena_Gateway_1
+    DoorGuid2: 1.8_Ginasio_Gateway_Arena
+    Points: []
+  - LevelGuid1: 20fe823130f919a4a875265cd05d02ea
+    LevelGuid2: d91835b87d683cf40ac193d70b193649
+    DoorGuid1: Map_CityOfDragons_4
+    DoorGuid2: Shoreline Glade 1
+    Points: []
+  - LevelGuid1: a1312dfd1084d7a40aa5ba131b18994f
+    LevelGuid2: d177f790962140044a43ef1d18637416
+    DoorGuid1: 2.5_CasaSailorJoseph_Entrada
+    DoorGuid2: 2.5_Casa_NPC_SailorJoseph_Saida
+    Points: []
+  - LevelGuid1: f3623c130b3a6fd43b825e32712b0d41
+    LevelGuid2: 27b539f09b2a472479df1bea83938fdd
+    DoorGuid1: 2.6_Map_Cave_Hidden1
+    DoorGuid2: 2.6_HiddenCave1
+    Points: []
+  - LevelGuid1: f3623c130b3a6fd43b825e32712b0d41
+    LevelGuid2: bd4e041baf12a794b8cb9bf9c2c3e19d
+    DoorGuid1: 2.6_Map_Cave_Hidden2
+    DoorGuid2: 2.6_HiddenCave2
+    Points: []
+  - LevelGuid1: f3623c130b3a6fd43b825e32712b0d41
+    LevelGuid2: c6f02e1312e83c74ebfedaf11f762c91
+    DoorGuid1: 2.6_Map_Cave_Hidden3
+    DoorGuid2: 2.6_HiddenCave3
+    Points: []
+  - LevelGuid1: a1312dfd1084d7a40aa5ba131b18994f
+    LevelGuid2: 8642346458770f24ca25cdd447d03793
+    DoorGuid1: Map_Human_City_3
+    DoorGuid2: 2.11_CaveEntrance1
+    Points: []
+  - LevelGuid1: f3623c130b3a6fd43b825e32712b0d41
+    LevelGuid2: 342556d90cc4e5d4a886f3959e397d62
+    DoorGuid1: 2.6_Map_Cave_3
+    DoorGuid2: 2.8_Map_Cave_3
+    Points: []
+  - LevelGuid1: 342556d90cc4e5d4a886f3959e397d62
+    LevelGuid2: 8642346458770f24ca25cdd447d03793
+    DoorGuid1: 2.8_Map_Cave_1
+    DoorGuid2: 2.11_CaveEntrance2
+    Points: []
+  - LevelGuid1: c590093e408457c44b2b428e32d5e9b8
+    LevelGuid2: 68c1f991524bc0241b17fce3f687a3d0
+    DoorGuid1: 3.1_EnterTent
+    DoorGuid2: 2.11_Tent_1
+    Points: []
+  - LevelGuid1: d1c28c0a222e9b641bc039286b0ab54f
+    LevelGuid2: e32fc7ce00fed0a49b0978493c7b2e15
+    DoorGuid1: Map_Beach_PicoLendario
+    DoorGuid2: Mapa_Lendario_LemisBeach
+    Points:
+    - {x: 220, y: 420}
+    - {x: 220, y: 650}
+  - LevelGuid1: 6d25ce9bfb19f63469305f62631d5de9
+    LevelGuid2: b8181ec6e6c437243b3cf868aafd0755
+    DoorGuid1: Map_HomeTown_1
+    DoorGuid2: Map_BeachTown_1
+    Points: []
+  - LevelGuid1: d1c28c0a222e9b641bc039286b0ab54f
+    LevelGuid2: b8181ec6e6c437243b3cf868aafd0755
+    DoorGuid1: Map_Beach_HomeBeach
+    DoorGuid2: Map_HomeBeach-LemisBeach
+    Points: []
+  - LevelGuid1: 342556d90cc4e5d4a886f3959e397d62
+    LevelGuid2: 2a5437de66c887f44aad1a9f6fc48bad
+    DoorGuid1: 2.8_Map_Cave_2
+    DoorGuid2: LostDungeon_Entrada
+    Points: []
+  - LevelGuid1: 2a5437de66c887f44aad1a9f6fc48bad
+    LevelGuid2: 0c2551346cae611478da74c57cc31b65
+    DoorGuid1: LostDungeon_Portal
+    DoorGuid2: 2.9_Map_Portal_1
+    Points: []
+  mSerializedConnection:
+  - Door1Guid: MapaDeTeste2_G1
+    Door2Guid: MapaTeste_G1
+    Level1Name: Map_Teste2
+    Level2Name: Map_Teste
+    Door1Name: EntradaDeCima
+    Door2Name: EntradaDeBaixo
+  - Door1Guid: Map_HomeTown_2
+    Door2Guid: Map_Route_1
+    Level1Name: 1.1_HomeTown
+    Level2Name: 1.2_Route24
+    Door1Name: Gateway_Esquerda
+    Door2Name: Gateway_Direita
+  - Door1Guid: Map_Route_2
+    Door2Guid: Map_HumanCity_1
+    Level1Name: 1.2_Route24
+    Level2Name: 1.3_GrabisTown
+    Door1Name: Gateway_Esquerda
+    Door2Name: Gateway_Direita
+  - Door1Guid: 1.4_Map_Route_1
+    Door2Guid: Map_HumanCity_2
+    Level1Name: 1.4_Route21
+    Level2Name: 1.3_GrabisTown
+    Door1Name: Gateway Direita
+    Door2Name: Gateway_Esquerda
+  - Door1Guid: 1.4_Map_Route_2
+    Door2Guid: Map_CityOfDragons_1
+    Level1Name: 1.4_Route21
+    Level2Name: 1.5_ShorelineTown
+    Door1Name: Gateway Esquerda
+    Door2Name: Gateway Esquerda
+  - Door1Guid: Map_Beach_1
+    Door2Guid: Map_CityOfDragons_2
+    Level1Name: 1.6_LemisBeach
+    Level2Name: 1.5_ShorelineTown
+    Door1Name: Gateway_Direita_Cima
+    Door2Name: Gateway Direita Cima
+  - Door1Guid: Map_Beach_2
+    Door2Guid: Map_CityOfDragons_3
+    Level1Name: 1.6_LemisBeach
+    Level2Name: 1.5_ShorelineTown
+    Door1Name: Gateway_Direita_Baixo
+    Door2Name: Gateway Direita Baixo
+  - Door1Guid: Map_Beach_3
+    Door2Guid: 1.7_Map_Route_1
+    Level1Name: 1.6_LemisBeach
+    Level2Name: 1.7_Route18
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Cima
+  - Door1Guid: 2.1_Map_Route_1
+    Door2Guid: Map_CityOfElves_3
+    Level1Name: 2.1_Route12
+    Level2Name: 1.8_Central Park
+    Door1Name: Gateway_Direita
+    Door2Name: Gateway_Esquerda
+  - Door1Guid: 2.1_Map_Route_3
+    Door2Guid: Map_CityOfBeasts_1
+    Level1Name: 2.1_Route12
+    Level2Name: 2.3_YonderTown
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Cima
+  - Door1Guid: 2.4_Water_1
+    Door2Guid: Map_CityOfBeasts_3
+    Level1Name: 2.4_MobrasRiver
+    Level2Name: 2.3_YonderTown
+    Door1Name: Gateway_Esquerda
+    Door2Name: Gateway_Direita
+  - Door1Guid: 778b46ef-1993-47b5-9e58-0cc09fec36fb
+    Door2Guid: Map_CityOfElves_1
+    Level1Name: 1.7_Route18
+    Level2Name: 1.8_Central Park
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Cima
+  - Door1Guid: Map_CityOfElves_2
+    Door2Guid: 2.2_Map_Route_1
+    Level1Name: 1.8_Central Park
+    Level2Name: 2.2_Route6
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Cima
+  - Door1Guid: Map_CityOfBeasts_2
+    Door2Guid: 2.6_Map_Cave_1
+    Level1Name: 2.3_YonderTown
+    Level2Name: 2.6_CaveOfLost_f1
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Cima
+  - Door1Guid: 2.7_Map_Water_1
+    Door2Guid: 2.6_Map_Cave_2
+    Level1Name: 2.7_ClusterLake
+    Level2Name: 2.6_CaveOfLost_f1
+    Door1Name: Gateway_Direita
+    Door2Name: Gateway_Esquerda
+  - Door1Guid: Map_HomeTown_3
+    Door2Guid: Casa_Protagonista_1
+    Level1Name: 1.1_HomeTown
+    Level2Name: Casa_Protagonista
+    Door1Name: Gateway
+    Door2Name: Gateway
+  - Door1Guid: Map_1.3_HealingCenter
+    Door2Guid: Healing_Center_1.3
+    Level1Name: 1.3_GrabisTown
+    Level2Name: Healing_Center_1.3
+    Door1Name: Gateway_Porta_HealingCenter
+    Door2Name: Gateway
+  - Door1Guid: Healing_Center_1.8
+    Door2Guid: 1.8_Healing_Center
+    Level1Name: 1.8_Healing_Center
+    Level2Name: 1.8_Central Park
+    Door1Name: Gateway HealingCenter
+    Door2Name: Gateway HealingCenter
+  - Door1Guid: Mapa_1.3_Porta_CasaDoSteven
+    Door2Guid: Casa_Steven_1
+    Level1Name: 1.3_GrabisTown
+    Level2Name: Casa_Steven
+    Door1Name: Gateway_Porta_CasaDoSteven
+    Door2Name: Gateway
+  - Door1Guid: Mapa_Lendario_1
+    Door2Guid: Caverna_Gelo_Lendario_1
+    Level1Name: 3.2_Map_PicoLendario
+    Level2Name: 3.3_Map_CavernaPicoLendario
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Baixo
+  - Door1Guid: Caverna_Gelo_Lendario_2
+    Door2Guid: Mapa_Lendario_2
+    Level1Name: 3.3_Map_CavernaPicoLendario
+    Level2Name: 3.2_Map_PicoLendario
+    Door1Name: Gateway_Cima
+    Door2Name: Gateway_Cima
+  - Door1Guid: Map_1.3_Casa_Npc_2
+    Door2Guid: Map_1.3_Casa_1_Saida
+    Level1Name: 1.3_GrabisTown
+    Level2Name: Map_1.3_Casa_NPC_1
+    Door1Name: Gateway_Casa_Baixo
+    Door2Name: Gateway_Entrada
+  - Door1Guid: Map_1.3_Casa_Npc_1
+    Door2Guid: Map_1.3_Casa_2_Entrada
+    Level1Name: 1.3_GrabisTown
+    Level2Name: Map_1.3_Casa_NPC_2
+    Door1Name: Gateway_Casa_Cima
+    Door2Name: Gateway_Entrada
+  - Door1Guid: 1.8_Casa_Npc_1
+    Door2Guid: 1.8_Casa_Npc_1_Entrada
+    Level1Name: 1.8_Central Park
+    Level2Name: 1.8_Casa_NPC_1
+    Door1Name: Gateway_Casa_Npc_1
+    Door2Name: Gateway
+  - Door1Guid: 1.8_Casa_Npc_2
+    Door2Guid: 1.8_Casa_Npc_Entrada_2
+    Level1Name: 1.8_Central Park
+    Level2Name: 1.8_Casa_NPC_2
+    Door1Name: Gateway_Casa_Npc_2
+    Door2Name: Gateway
+  - Door1Guid: 2.5_HealingCenter_Entrada
+    Door2Guid: 2.5_HealingCenter_Cidade
+    Level1Name: 2.5_Healing_Center
+    Level2Name: 2.5_EllionsWelcome
+    Door1Name: Gateway_HealingCenter
+    Door2Name: Gateway_HealingCenter_Cidade
+  - Door1Guid: Map_Human_City_1
+    Door2Guid: 42b03688-a516-4b48-bb52-39aaf2fd4f70
+    Level1Name: 2.5_EllionsWelcome
+    Level2Name: 2.2_Route6
+    Door1Name: Gateway_Cima
+    Door2Name: Gateway_Baixo
+  - Door1Guid: TrainStation_Entrada
+    Door2Guid: Map_Human_City_2
+    Level1Name: 3.1_TrainStation
+    Level2Name: 2.5_EllionsWelcome
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Direita
+  - Door1Guid: 1.8_Ginasio_Gateway_Entrada
+    Door2Guid: 1.8_Casa_Deckard
+    Level1Name: 1.8_Ginasio
+    Level2Name: 1.8_Central Park
+    Door1Name: Entrada
+    Door2Name: Gateway_Casa_Deckard
+  - Door1Guid: 1.8_Arena_Gateway_1
+    Door2Guid: 1.8_Ginasio_Gateway_Arena
+    Level1Name: 1.8_Arena
+    Level2Name: 1.8_Ginasio
+    Door1Name: Gateway
+    Door2Name: Arena
+  - Door1Guid: Map_CityOfDragons_4
+    Door2Guid: Shoreline Glade 1
+    Level1Name: 1.5_ShorelineTown
+    Level2Name: 1.5.2_ShorelineGlade
+    Door1Name: Gateway Escondida Baixo
+    Door2Name: ShorelineGlade_Up
+  - Door1Guid: 2.5_CasaSailorJoseph_Entrada
+    Door2Guid: 2.5_Casa_NPC_SailorJoseph_Saida
+    Level1Name: 2.5_EllionsWelcome
+    Level2Name: 2.5_Casa_NPC_SailorJoseph
+    Door1Name: Gateway_CasaSailorJoseph
+    Door2Name: Gateway
+  - Door1Guid: 2.6_Map_Cave_Hidden1
+    Door2Guid: 2.6_HiddenCave1
+    Level1Name: 2.6_CaveOfLost_f1
+    Level2Name: 2.6_HiddenCave_1
+    Door1Name: Gateway_Hidden1
+    Door2Name: Gateway
+  - Door1Guid: 2.6_Map_Cave_Hidden2
+    Door2Guid: 2.6_HiddenCave2
+    Level1Name: 2.6_CaveOfLost_f1
+    Level2Name: 2.6_HiddenCave_2
+    Door1Name: Gateway_Hidden2
+    Door2Name: Gateway
+  - Door1Guid: 2.6_Map_Cave_Hidden3
+    Door2Guid: 2.6_HiddenCave3
+    Level1Name: 2.6_CaveOfLost_f1
+    Level2Name: 2.6_HiddenCave_3
+    Door1Name: Gateway_Hidden3
+    Door2Name: Gateway
+  - Door1Guid: Map_Human_City_3
+    Door2Guid: 2.11_CaveEntrance1
+    Level1Name: 2.5_EllionsWelcome
+    Level2Name: 2.11_CaveEntrance
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Entrance
+  - Door1Guid: 2.6_Map_Cave_3
+    Door2Guid: 2.8_Map_Cave_3
+    Level1Name: 2.6_CaveOfLost_f1
+    Level2Name: 2.8_Map_Cave
+    Door1Name: Gateway_Direita
+    Door2Name: Gateway_Esquerda
+  - Door1Guid: 2.8_Map_Cave_1
+    Door2Guid: 2.11_CaveEntrance2
+    Level1Name: 2.8_Map_Cave
+    Level2Name: 2.11_CaveEntrance
+    Door1Name: Gateway_Cima
+    Door2Name: Gateway_Cave
+  - Door1Guid: 3.1_EnterTent
+    Door2Guid: 2.11_Tent_1
+    Level1Name: 3.1_TrainStation
+    Level2Name: 3.1_Tent
+    Door1Name: Gateway_Tent
+    Door2Name: Gateway
+  - Door1Guid: Map_Beach_PicoLendario
+    Door2Guid: Mapa_Lendario_LemisBeach
+    Level1Name: 1.6_LemisBeach
+    Level2Name: 3.2_Map_PicoLendario
+    Door1Name: Gateway_PicoLendario
+    Door2Name: Gateway_LemisBeach
+  - Door1Guid: Map_HomeTown_1
+    Door2Guid: Map_BeachTown_1
+    Level1Name: 1.1_HomeTown
+    Level2Name: 3.4_HomeBeach
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway
+  - Door1Guid: Map_Beach_HomeBeach
+    Door2Guid: Map_HomeBeach-LemisBeach
+    Level1Name: 1.6_LemisBeach
+    Level2Name: 3.4_HomeBeach
+    Door1Name: Gateway_HomeBeach
+    Door2Name: Gateway_LemisBeach
+  - Door1Guid: 2.8_Map_Cave_2
+    Door2Guid: LostDungeon_Entrada
+    Level1Name: 2.8_Map_Cave
+    Level2Name: 3.0_LostDungeon
+    Door1Name: Gateway_Baixo
+    Door2Name: Gateway_Entrada
+  - Door1Guid: LostDungeon_Portal
+    Door2Guid: 2.9_Map_Portal_1
+    Level1Name: 3.0_LostDungeon
+    Level2Name: 2.9_Map_Portal
+    Door1Name: Gateway_Portal
+    Door2Name: Gateway_CIma

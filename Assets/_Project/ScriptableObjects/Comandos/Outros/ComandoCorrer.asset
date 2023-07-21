@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f600ad72cabe3cf419823918df7bf98c, type: 3}
+  m_Name: ComandoCorrer
+  m_EditorClassIdentifier: 
+  nome: Run
+  prioridade: 10
+  target: 0
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 37d74f5f068213f469340cddee15672b, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: e168bc9d00c78d448bbfa57d75d796a5, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoTurtleUp
+  m_EditorClassIdentifier: 
+  nome: Turtle Up
+  prioridade: 3
+  target: 0
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 998946a9877a2f54bb4a7ccf8ec9f424, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 9bc5efe2c7dfe424e92a89e68c44e131, type: 2}
+  animacaoSprite: 0
+  animacaoMovimento: 7
+  rodarEfeitoAposOFimDaAnimacao: 0
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: df1176191f625424a9dcaa88a1a9e3be, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 30
+  custoMana: 4
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: Steady up. Increases DEFENSE at the cost of SPEED. This move is faster
+    than other attacks.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 9
+  setPowerMargin: 5

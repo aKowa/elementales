@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71dc2b686cd518144986ef63d2ca13a3, type: 3}
+  m_Name: Map_1.8_PlacaInformativa
+  m_EditorClassIdentifier: 
+  dialogue:
+  - portrait: {fileID: 0}
+    typingSound: {fileID: 0}
+    text: Welcome to Central Park, everyone's favorite place in all of Ellion!
+  responses:
+  - responseText: Tournament
+    dialogueObject: {fileID: 11400000, guid: 9c7783dadb169c145808355ca7b96c2f, type: 2}
+  - responseText: Where to Go
+    dialogueObject: {fileID: 11400000, guid: 02c391c639673c24080ab957c54f5cc7, type: 2}
+  - responseText: Bushes
+    dialogueObject: {fileID: 11400000, guid: 434566ec316eaf84394225c46923486c, type: 2}

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1e437a0921590f64bb89dcfbfb2c9276
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ataque: {instanceID: 0}
+  - dialogoNaoPodeAprender: {fileID: 11400000, guid: 6263faa572e6f5b4684b4ea48a732406, type: 2}
+  - dialogoAprendeuHabilidade: {fileID: 11400000, guid: 21eda619183f2a04bbf3cb7ba4581cee, type: 2}
+  - dialogoJaSabeHabilidade: {fileID: 11400000, guid: 698d8f72c1a5a2f4ca5268c670fdd994, type: 2}
+  - dialogoQuerEsquecerHabilidade: {fileID: 11400000, guid: 40097e98d807db342a799aae4c0ed6fa, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

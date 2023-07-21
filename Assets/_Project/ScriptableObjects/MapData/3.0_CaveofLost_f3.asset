@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b2e0586c7b344f0b82f476e3d7f1e32, type: 3}
+  m_Name: 3.0_CaveofLost_f3
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 7deef3f597e4f9d4782e7cd9a6e3e87b, type: 2}
+    - {fileID: 11400000, guid: 08f4352d92701be489b3f6a810b8733d, type: 2}
+    - {fileID: 11400000, guid: cdb0b99cc9206ac47a63c4e1ea068f02, type: 2}
+    - {fileID: 11400000, guid: c91599c3b440c514c9617a725007f5c2, type: 2}
+    - {fileID: 11400000, guid: f083bfb006ef5af4fbc3e5086427a0e7, type: 2}
+    - {fileID: 11400000, guid: e17c247847fe40a4f96da2e6d08c5c5a, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: monsterSprites
+      Entry: 7
+      Data: 0|MonsterData[,], Project
+    - Name: 
+      Entry: 12
+      Data: 16
+    - Name: ranks
+      Entry: 1
+      Data: 8|2
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  mapName: Cave of Lost, 3rd Floor
+  mapDescription: 
+  mapPreview: {fileID: 21300000, guid: 7e987834a1304e444b4ba906ebebd10e, type: 3}
+  mapAmbientAudio: []
+  mapAmbientMusic: []

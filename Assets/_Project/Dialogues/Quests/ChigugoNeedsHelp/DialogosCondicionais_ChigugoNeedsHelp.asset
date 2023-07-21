@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7f4fe8112dd1f43ba144e25988ac4d, type: 3}
+  m_Name: DialogosCondicionais_ChigugoNeedsHelp
+  m_EditorClassIdentifier: 
+  listaDeFlags: {fileID: 11400000, guid: bc4d13bb84fb76743943fdffdbe0413d, type: 2}
+  dialogosCondicionais:
+  - condicoes:
+    - nomeDaFlag: ChigugoHelp_QuestAccepted
+      valor: 0
+    dialogo: {fileID: 11400000, guid: 9a8395f398601c44cbec7f4e0ee279ea, type: 2}
+  - condicoes:
+    - nomeDaFlag: ChigugoHelp_QuestAccepted
+      valor: 1
+    - nomeDaFlag: ChigugoHelp_ChigugoSaved
+      valor: 0
+    dialogo: {fileID: 11400000, guid: a4077218eae381b469cdc50b1005fc7e, type: 2}
+  - condicoes:
+    - nomeDaFlag: ChigugoHelp_QuestAccepted
+      valor: 1
+    - nomeDaFlag: ChigugoHelp_ChigugoSaved
+      valor: 1
+    - nomeDaFlag: ChigugoHelp_QuestEnded
+      valor: 0
+    dialogo: {fileID: 11400000, guid: 39e3f5dbb7357ad44b315f5b67efa2ea, type: 2}
+  - condicoes: []
+    dialogo: {fileID: 11400000, guid: 9890ceb9579875f4386f73c0334a1a8e, type: 2}
+  listasDeDialogosCondicionais: []

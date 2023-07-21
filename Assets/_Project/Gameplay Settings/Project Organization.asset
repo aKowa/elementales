@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3a54f884cb4273a2dfd41a894ec19c, type: 3}
+  m_Name: Project Organization
+  m_EditorClassIdentifier: 
+  eachMonsterHasAFolder: 0
+  monstersParentFolder: Assets/_Project/ScriptableObjects/Monsters
+  itemsParentFolder: Assets/_Project/ScriptableObjects/Itens
+  commandsParentFolder: Assets/_Project/ScriptableObjects/Comandos
+  attackCommandsParentFolder: Assets/_Project/ScriptableObjects/Comandos/Ataques/Elementales
+  combatLessonsParentFolder: Assets/_Project/ScriptableObjects/Combat Lessons/Readied
+    Lessons
+  mapsParentFolder: Assets/_Project/ScriptableObjects/MapData
+  statusEffectsParentFolder: Assets/_Project/ScriptableObjects/StatusEffects
+  baseAnimator: {fileID: 9100000, guid: 66ed26bd2e088e948b1e89ddbbe727aa, type: 2}
+  animationsFolder: Assets/Pixelazia Monsters/Animations
+  idleName: Idle
+  attackName: Attack
+  spAttackName: Attack
+  takeHitName: Hurt
+  deathName: Death

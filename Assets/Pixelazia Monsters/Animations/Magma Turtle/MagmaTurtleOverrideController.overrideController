@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MagmaTurtleOverrideController
+  m_Controller: {fileID: 9100000, guid: 66ed26bd2e088e948b1e89ddbbe727aa, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a50ed424ac02747438ca2040694d636c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 15e4a2b5a5263074aa448ae2a349018b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: cd707371b5afe394197e2cd9bf93b870, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 18ebda98f06ca044d9a85a55c24bbf47, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0f3df7e89160c0f4c9b31de7f56510e9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 18ebda98f06ca044d9a85a55c24bbf47, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a7587568631f2074c931b3878ba56d29, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a49413216d258b14f80d04c340c0e4a8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 46855add92658c04bab1df2ba8fd8a1b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a7f69891cebc3574a8d531e1e5727468, type: 2}

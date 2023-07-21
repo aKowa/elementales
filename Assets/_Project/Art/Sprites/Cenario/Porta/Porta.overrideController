@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Porta
+  m_Controller: {fileID: 9100000, guid: 9c95fb56a5694af4c920695edef6e095, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: fc0fdb46e0c3fbb4db27e91eaf9433d3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9031db47dbc364c4db32ab936f31905e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7b97d90d1e8f92d418f3ef21c6b1fb31, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 0b89bd1a6d7f251438dfd4dce1580912, type: 2}

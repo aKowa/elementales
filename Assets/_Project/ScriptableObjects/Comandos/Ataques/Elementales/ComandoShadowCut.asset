@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoShadowCut
+  m_EditorClassIdentifier: 
+  nome: Shadow Cut
+  prioridade: 2
+  target: 6
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: 276c194d7f90d0741963942a85718eae, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 4ea5e9c20a6d602498a504a38d0052a7, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 0
+    _tipoAtaque: {fileID: 11400000, guid: 821b77c8490a9d945a434d139b50588d, type: 2}
+    _poder: 80
+    _chanceAcerto: 95
+  maxPP: 0
+  custoMana: 12
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor and a random opponent's shadow team up, and they attack
+    the target at the same time.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 72
+  setPowerMargin: 0

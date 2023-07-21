@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd25aca5d63a114392edf0a74b20915, type: 3}
+  m_Name: SavagenessLesson
+  m_EditorClassIdentifier: 
+  nome: Savageness
+  prioridade: 2
+  target: 0
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 0}
+  animacaoEfeito: {fileID: 22100000, guid: e168bc9d00c78d448bbfa57d75d796a5, type: 2}
+  animacaoSprite: 0
+  animacaoMovimento: 0
+  rodarEfeitoAposOFimDaAnimacao: 0
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 0
+    _tipoAtaque: {fileID: 11400000, guid: 8b04742528e60d841a354703b7a17c00, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 0
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: When this Elemantor gets an odd dice value, that value is increased
+    by 2.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 1
+  setPowerMargin: 0
+  effects:
+  - efeito: {fileID: 11400000, guid: ccb55928f155e104f8c32a240804f545, type: 2}
+    valorDinamico: 0
+    condicaoValorDinamico: 0
+    condicaoValor: 01000000030000000500000007000000090000000b0000000d0000000f0000001100000013000000
+    condicaoTarget: 0
+    condicaoAtaque: 0
+    targetDoEfeito: 0
+    attackType: {fileID: 0}
+  nivelPoder: 26

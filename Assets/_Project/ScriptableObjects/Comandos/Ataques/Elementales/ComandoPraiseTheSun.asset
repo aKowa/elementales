@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c2b6bbdffbaa774cb2f4e63cbee655a, type: 3}
+  m_Name: ComandoPraiseTheSun
+  m_EditorClassIdentifier: 
+  nome: Praise The Sun
+  prioridade: 2
+  target: 2
+  turnosParaSerExecutado: 0
+  bloqueioAcaoDaOrigem: 0
+  acao: {fileID: 11400000, guid: fe1ca7ec565a4c4458e5c80602ae8252, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 70f7828bb278d5747be03a95d146c239, type: 2}
+  animacaoSprite: 2
+  animacaoMovimento: 8
+  rodarEfeitoAposOFimDaAnimacao: 1
+  dialogoGolpeParaTurnoSeguinte: {fileID: 0}
+  attackData:
+    categoria: 2
+    _tipoAtaque: {fileID: 11400000, guid: ff2f9b8b6e3dd024aacf4f48f6dcf9fd, type: 2}
+    _poder: 0
+    _chanceAcerto: 100
+  maxPP: 0
+  custoMana: 10
+  numeroRoundsComandoVivo: 0
+  consomePP: 0
+  descricao: The Elemantor praises the sun and greatly increases all allies' DEFENSE
+    and SPECIAL DEFENSE.
+  statusAplicarSelf: {fileID: 0}
+  statusSecundarios: []
+  powerMargin: 22
+  setPowerMargin: 20
