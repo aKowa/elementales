@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using BergamotaDialogueSystem;
+using BergamotaLibrary;
 using UnityEngine;
 using UnityEngine.Purchasing;
 using Random = UnityEngine.Random;
@@ -32,7 +33,11 @@ public class IAPShop : MonoBehaviour
     [SerializeField] private DialogueObject dialogoCompraSucesso, dialogoCompraFalhou;
     [SerializeField] private DialogueActivator dialogueActivator;
     [SerializeField] private EntregarItem entregarItem;
-    
+
+    //Sons
+    [Header("Sons")]
+    [SerializeField] private AudioClip somCompraItem;
+
     public void AssignButtonBehaviour(List<ItemSlotLojaIAP> itemSlotLojaIaps)
     {
         Debug.Log("OnFinishedUpdatingList_AssignButtonBehaviour");
@@ -140,6 +145,7 @@ public class IAPShop : MonoBehaviour
                 entregarItem.EntregarItens(itemsParaEntregar.ToArray());
             }
         }
+        SoundManager.instance.TocarSomIgnorandoPause(somCompraItem);
     }
 
     public void OnPurchaseFailed(Product product, PurchaseFailureReason reason)

@@ -15,5 +15,5 @@ MonoBehaviour:
   dialogue:
   - portrait: {fileID: 0}
     typingSound: {fileID: 0}
-    text: Come back later! Ho ho...
+    text: Until next time!
   responses: []

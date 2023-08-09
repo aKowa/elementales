@@ -1118,6 +1118,13 @@ AnimationClip:
     floatParameter: 1
     intParameter: 0
     messageOptions: 0
+  - time: 1
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: d82392971016da44b941c3e63b10b676, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 1.5
     functionName: SetTintEffectSlowNaOrigem
     data: 

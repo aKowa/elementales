@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Toxic Stone - Poison Shot
+  nome: Poison Shot Skill
   imagem: {fileID: 21300000, guid: e3a0aa3da5e18c94ebc124ff3a9fac83, type: 3}
   descricao: A slippery stone that can teach the Toxic type skill Poison Shot to
     one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 8fb5edad1a535ca43b81e3e6b2e69e33, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

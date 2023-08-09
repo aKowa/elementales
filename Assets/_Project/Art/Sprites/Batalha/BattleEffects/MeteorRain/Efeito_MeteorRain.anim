@@ -1511,10 +1511,38 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 1.15
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: c03eb932898919549bfc89f24b6f190f, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.9833333
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: c03eb932898919549bfc89f24b6f190f, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 2.85
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: c03eb932898919549bfc89f24b6f190f, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 3.55
     functionName: ExecutarAcao
     data: 
     objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 3.6833334
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: c03eb932898919549bfc89f24b6f190f, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

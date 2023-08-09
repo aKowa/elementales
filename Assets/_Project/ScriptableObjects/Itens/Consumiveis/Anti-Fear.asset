@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Anti-Fear
   imagem: {fileID: 21300000, guid: 62a195b3f5545d44ab38f8d02f675520, type: 3}
   descricao: Cure the Fear status from a friendly Elemantor.
-  preco: 0
+  preco: 250
   efeitoForaDaBatalha: {fileID: 11400000, guid: 75e499684463e0d43bd650563e46f682, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 75e499684463e0d43bd650563e46f682, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 1761778a8c487054fa41e8a6319a0d23, type: 2}

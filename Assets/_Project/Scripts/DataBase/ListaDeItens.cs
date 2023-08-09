@@ -7,8 +7,8 @@ using UnityEngine;
 public class ListaDeItens : SerializedDatabaseList<Item>, ISerializationCallbackReceiver
 {
     [ListDrawerSettings(Expanded = true)]
-    [SerializeField] private Item[] listaDeItemData;
-    public override Item[] Data { get => listaDeItemData; set => listaDeItemData = value; }
+    [SerializeField] private List<Item> listaDeItemData;
+    public override List<Item> Data { get => listaDeItemData; set => listaDeItemData = value; }
     public override string DataPath => GetDataPath();
 
     private string GetDataPath()

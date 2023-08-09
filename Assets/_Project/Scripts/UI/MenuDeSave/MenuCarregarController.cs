@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,6 +11,10 @@ public class MenuCarregarController : ViewController
     [SerializeField] private Transform saveSlotsHolder;
     [SerializeField] private RectTransform menuConfirmacaoCarregarSave;
     [SerializeField] private RectTransform menuConfirmacaoExcluirSave;
+    [SerializeField] private RectTransform menuExportarSave;
+    [SerializeField] private RectTransform menuImportarSave;
+    [SerializeField] private RectTransform menuImportacaoSucesso;
+    [SerializeField] private RectTransform menuImportacaoFalhou;
     [SerializeField] private RectTransform fundoBloqueadorDeAcoesDoMenu;
 
     //Variaveis
@@ -20,12 +23,12 @@ public class MenuCarregarController : ViewController
     private int indiceSlotAtual;
     private SaveData saveAtual;
 
+    private ManipuladorDeSave manipuladorDeSave;
+
     protected override void OnAwake()
     {
-        menuConfirmacaoCarregarSave.gameObject.SetActive(false);
-        menuConfirmacaoExcluirSave.gameObject.SetActive(false);
         fundoBloqueadorDeAcoesDoMenu.gameObject.SetActive(false);
-
+        
         FecharMenusSuspensos();
 
         saveAtual = null;
@@ -36,9 +39,12 @@ public class MenuCarregarController : ViewController
         {
             saveSlot.EventoSlotSelecionado.AddListener(SetarCarregamento);
             saveSlot.EventoBotaoExcluirSelecionado.AddListener(ExcluirSave);
-
+            saveSlot.EventoBotaoExportarSelecionado.AddListener(ExportarSave);
+            saveSlot.EventoBotaoImportarSelecionado.AddListener(ImportarSave);
             saveSlots.Add(saveSlot);
         }
+
+        manipuladorDeSave = GetComponent<ManipuladorDeSave>();
     }
 
     public override void OnOpen()
@@ -118,7 +124,21 @@ public class MenuCarregarController : ViewController
 
         menuConfirmacaoExcluirSave.gameObject.SetActive(true);
     }
+    
+    private void ExportarSave(int slot)
+    {
+        indiceSlotAtual = slot;
 
+        menuExportarSave.gameObject.SetActive(true);
+    }
+
+    private void ImportarSave(int slot)
+    {
+        indiceSlotAtual = slot;
+
+        menuImportarSave.gameObject.SetActive(true);
+    }
+    
     public void ConfirmarExcluirSave()
     {
         SaveManager.ExcluirSave(indiceSlotAtual);
@@ -128,10 +148,28 @@ public class MenuCarregarController : ViewController
         FecharMenusSuspensos();
     }
 
+    public void ConfirmarExportarSave()
+    {
+        StartCoroutine(manipuladorDeSave.ShareSaveFile(indiceSlotAtual));
+        
+        FecharMenusSuspensos();
+    }
+
+    public void ConfirmarImportarSave()
+    {
+        FecharMenusSuspensos();
+
+        manipuladorDeSave.ImportFile(indiceSlotAtual);
+    }
+
     public void FecharMenusSuspensos()
     {
         menuConfirmacaoCarregarSave.gameObject.SetActive(false);
         menuConfirmacaoExcluirSave.gameObject.SetActive(false);
+        menuExportarSave.gameObject.SetActive(false);
+        menuImportarSave.gameObject.SetActive(false);
+        menuImportacaoSucesso.gameObject.SetActive(false);
+        menuImportacaoFalhou.gameObject.SetActive(false);
     }
 
     private void Carregar()
@@ -143,6 +181,29 @@ public class MenuCarregarController : ViewController
         canvasGroup.blocksRaycasts = false;
 
         FazerTransicaoProMapaDoSave();
+    }
+
+    public void ImportarSave(string caminhoDoSave, int slot)
+    {
+        SaveData saveData = SaveManager.Carregar(caminhoDoSave);
+
+        if (saveData != null)
+        {
+            if (SaveManager.Salvar(saveData, slot) == true)
+            {
+                menuImportacaoSucesso.gameObject.SetActive(true);
+            }
+            else
+            {
+                menuImportacaoFalhou.gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            menuImportacaoFalhou.gameObject.SetActive(true);
+        }
+
+        IniciarSaveSlots();
     }
 
     private void FazerTransicaoProMapaDoSave()

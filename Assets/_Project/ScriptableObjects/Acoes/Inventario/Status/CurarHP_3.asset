@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: CurarHP_3
   m_EditorClassIdentifier: 
   quantidaDeCura: 400
+  somRecuperarVida: {fileID: 8300000, guid: c4bb182de1fec78438426ff7621dd9b7, type: 3}

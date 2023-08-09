@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 462576e271469c449a52dc65dd0ef250
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4060454024534987546
+    second: Butterfly_Idle_0
+  - first:
+      213: -7638704334702875537
+    second: Butterfly_Idle_1
+  - first:
+      213: -1083460475364705432
+    second: Butterfly_Idle_2
+  - first:
+      213: 5933778547726704277
+    second: Butterfly_Idle_3
+  - first:
+      213: -877662606011233956
+    second: Butterfly_Idle_4
+  - first:
+      213: -3807462484970624998
+    second: Butterfly_Idle_5
+  - first:
+      213: 584709858169875568
+    second: Butterfly_TomandoDano_0
+  - first:
+      213: -4127362289027203889
+    second: Butterfly_TomandoDano_1
+  - first:
+      213: -3079515089781843050
+    second: Butterfly_TomandoDano_2
+  - first:
+      213: 8261585028540979304
+    second: Butterfly_TomandoDano_3
+  - first:
+      213: -7193800949956070076
+    second: Butterfly_TomandoDano_4
+  - first:
+      213: -366832036790995669
+    second: Butterfly_TomandoDano_5
+  - first:
+      213: 400557994530464535
+    second: Butterfly_TomandoDano_6
+  - first:
+      213: -3098945623930071092
+    second: Butterfly_Atk_0
+  - first:
+      213: 251652454645052318
+    second: Butterfly_Atk_1
+  - first:
+      213: 7341678858577528220
+    second: Butterfly_Atk_2
+  - first:
+      213: -7770636130878756486
+    second: Butterfly_Atk_3
+  - first:
+      213: 8683859923529068812
+    second: Butterfly_Atk_4
+  - first:
+      213: 3682344240352338299
+    second: Butterfly_Atk_5
+  - first:
+      213: 6802519259912642609
+    second: Butterfly_Atk_6
+  - first:
+      213: -1957678232801892729
+    second: Butterfly_Morto_0
+  - first:
+      213: 7025902599822852288
+    second: Butterfly_Morto_1
+  - first:
+      213: 2596539738992308782
+    second: Butterfly_Morto_2
+  - first:
+      213: -9059480140408097811
+    second: Butterfly_Morto_3
+  - first:
+      213: -5173924849130903113
+    second: Butterfly_Morto_4
+  - first:
+      213: -614972342416445909
+    second: Butterfly_Morto_5
+  - first:
+      213: -3322854050535253770
+    second: Butterfly_Morto_6
+  - first:
+      213: 1388617869109085737
+    second: Butterfly_Morto_7
+  - first:
+      213: -6161828137249748530
+    second: Butterfly_Morto_8
+  - first:
+      213: 4296022524747278346
+    second: Butterfly_Morto_9
+  - first:
+      213: -1350317000164545984
+    second: Butterfly_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Butterfly_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13963f0c61a95830800000000000000
+      internalID: 4060454024534987546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c6cc111eeddf590800000000000000
+      internalID: -7638704334702875537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bf5b52076c6f0f0800000000000000
+      internalID: -1083460475364705432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e55119624095250800000000000000
+      internalID: 5933778547726704277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c598e08828ae1d3f0800000000000000
+      internalID: -877662606011233956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1823bfea0d292bc0800000000000000
+      internalID: -3807462484970624998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c62e0a48e4d1800800000000000000
+      internalID: 584709858169875568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccb037add9a8b6c0800000000000000
+      internalID: -4127362289027203889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b1911875d5345d0800000000000000
+      internalID: -3079515089781843050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868dedbcfcb07a270800000000000000
+      internalID: 8261585028540979304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4453001862c7a2c90800000000000000
+      internalID: -7193800949956070076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25f6d2c430c8eaf0800000000000000
+      internalID: -366832036790995669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7136eefaf511f8500800000000000000
+      internalID: 400557994530464535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7956bbf555ef4d0800000000000000
+      internalID: -3098945623930071092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9339fdf29c0e7300800000000000000
+      internalID: 251652454645052318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9542842602e2e560800000000000000
+      internalID: 7341678858577528220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79e72c0c97292490800000000000000
+      internalID: -7770636130878756486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0173356794438870800000000000000
+      internalID: 8683859923529068812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7128e2a3905a1330800000000000000
+      internalID: 3682344240352338299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130a8d0c937676e50800000000000000
+      internalID: 6802519259912642609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786245df40ee4d4e0800000000000000
+      internalID: -1957678232801892729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c04fe09035018160800000000000000
+      internalID: 7025902599822852288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2272d3b223c80420800000000000000
+      internalID: 2596539738992308782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3f44dbfc2464280800000000000000
+      internalID: -9059480140408097811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b96cf823c68238b0800000000000000
+      internalID: -5173924849130903113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ee39fa9ed2777f0800000000000000
+      internalID: -614972342416445909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8d065a8d9d2e1d0800000000000000
+      internalID: -3322854050535253770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926c101489c554310800000000000000
+      internalID: 1388617869109085737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec9c838b4f9cc7aa0800000000000000
+      internalID: -6161828137249748530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0863a699b98e9b30800000000000000
+      internalID: 4296022524747278346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Butterfly_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a6507b7d5b24de0800000000000000
+      internalID: -1350317000164545984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Butterfly_Idle_5: -3807462484970624998
+      Butterfly_Idle_0: 4060454024534987546
+      Butterfly_Morto_8: -6161828137249748530
+      Butterfly_TomandoDano_5: -366832036790995669
+      Butterfly_Morto_4: -5173924849130903113
+      Butterfly_TomandoDano_0: 584709858169875568
+      Butterfly_Morto_0: -1957678232801892729
+      Butterfly_Morto_3: -9059480140408097811
+      Butterfly_Idle_3: 5933778547726704277
+      Butterfly_TomandoDano_6: 400557994530464535
+      Butterfly_Atk_6: 6802519259912642609
+      Butterfly_Morto_5: -614972342416445909
+      Butterfly_Atk_1: 251652454645052318
+      Butterfly_Idle_2: -1083460475364705432
+      Butterfly_Atk_2: 7341678858577528220
+      Butterfly_Morto_6: -3322854050535253770
+      Butterfly_Idle_1: -7638704334702875537
+      Butterfly_TomandoDano_4: -7193800949956070076
+      Butterfly_Atk_4: 8683859923529068812
+      Butterfly_Morto_2: 2596539738992308782
+      Butterfly_Morto_10: -1350317000164545984
+      Butterfly_TomandoDano_3: 8261585028540979304
+      Butterfly_Idle_4: -877662606011233956
+      Butterfly_Atk_3: -7770636130878756486
+      Butterfly_Morto_7: 1388617869109085737
+      Butterfly_Morto_9: 4296022524747278346
+      Butterfly_Atk_5: 3682344240352338299
+      Butterfly_TomandoDano_1: -4127362289027203889
+      Butterfly_TomandoDano_2: -3079515089781843050
+      Butterfly_Atk_0: -3098945623930071092
+      Butterfly_Morto_1: 7025902599822852288
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

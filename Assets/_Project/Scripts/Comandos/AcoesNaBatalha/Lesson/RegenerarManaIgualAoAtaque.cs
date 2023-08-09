@@ -1,4 +1,5 @@
 using System.Linq;
+using BergamotaLibrary;
 using Sirenix.Utilities;
 using UnityEngine;
 
@@ -20,8 +21,12 @@ public class RegenerarManaIgualAoAtaque : AcaoNaBatalha
 
         if (comandoDoMonstro)
         {
-            if(Random.Range(0, 101) < chance)
+            if (Random.Range(0, 101) < chance)
+            {
                 monstroAtual.GetMonstro.RecuperarMana(Mathf.CeilToInt(comandoDoMonstro.CustoMana * manaPercentage));
+                battleManager.TocarSom("Mana");
+
+            }
         }
     }
 }

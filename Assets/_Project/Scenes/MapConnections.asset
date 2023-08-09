@@ -84,20 +84,6 @@ MonoBehaviour:
     - Guid: Map_CityOfBeasts_3
       Name: Gateway_Direita
       LeftSide: 0
-  - Guid: 3531a573dcb8be6418c795fa8765aa0f
-    Name: Map_Teste
-    PositionOnMap: {x: 150, y: 0}
-    Doors:
-    - Guid: MapaTeste_G1
-      Name: EntradaDeBaixo
-      LeftSide: 0
-  - Guid: 28ddf4c56b0208c4da0b9f7451d50405
-    Name: Map_Teste2
-    PositionOnMap: {x: 290, y: 0}
-    Doors:
-    - Guid: MapaDeTeste2_G1
-      Name: EntradaDeCima
-      LeftSide: 0
   - Guid: 761969026f8f8cd478dd947123c4aaa0
     Name: Healing_Center_1.3
     PositionOnMap: {x: 650, y: 80}
@@ -164,6 +150,9 @@ MonoBehaviour:
       LeftSide: 0
     - Guid: 42b03688-a516-4b48-bb52-39aaf2fd4f70
       Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: 2.2_Chekpoint
+      Name: Gateway_Checkpoint
       LeftSide: 0
   - Guid: 8805afb786dee9a4098f7c00dcf42635
     Name: 1.8_Central Park
@@ -258,6 +247,9 @@ MonoBehaviour:
     - Guid: 3.1_EnterTent
       Name: Gateway_Tent
       LeftSide: 0
+    - Guid: TrainStation_DragonCity
+      Name: Gateway_Train_Dragon
+      LeftSide: 0
   - Guid: a1312dfd1084d7a40aa5ba131b18994f
     Name: 2.5_EllionsWelcome
     PositionOnMap: {x: 640, y: 980}
@@ -294,23 +286,6 @@ MonoBehaviour:
     - Guid: 2.11_Tent_1
       Name: Gateway
       LeftSide: 0
-  - Guid: 34205631c52d5504f84ac2e9821f909e
-    Name: 2.5_Healing_Center
-    PositionOnMap: {x: 820, y: 1080}
-    Doors:
-    - Guid: 2.5_HealingCenter_Entrada
-      Name: Gateway_HealingCenter
-      LeftSide: 0
-  - Guid: 73867d920370e55498d419f363dd9f34
-    Name: 3.3_Map_CavernaPicoLendario
-    PositionOnMap: {x: 40, y: 710}
-    Doors:
-    - Guid: Caverna_Gelo_Lendario_1
-      Name: Gateway_Baixo
-      LeftSide: 0
-    - Guid: Caverna_Gelo_Lendario_2
-      Name: Gateway_Cima
-      LeftSide: 0
   - Guid: d1c28c0a222e9b641bc039286b0ab54f
     Name: 1.6_LemisBeach
     PositionOnMap: {x: 40, y: 280}
@@ -330,6 +305,9 @@ MonoBehaviour:
     - Guid: Map_Beach_HomeBeach
       Name: Gateway_HomeBeach
       LeftSide: 0
+    - Guid: CheckPoint
+      Name: Gateway_ChekPoint
+      LeftSide: 0
   - Guid: e32fc7ce00fed0a49b0978493c7b2e15
     Name: 3.2_Map_PicoLendario
     PositionOnMap: {x: 40, y: 520}
@@ -342,6 +320,9 @@ MonoBehaviour:
       LeftSide: 0
     - Guid: Mapa_Lendario_LemisBeach
       Name: Gateway_LemisBeach
+      LeftSide: 0
+    - Guid: 3.2_Chekpoint
+      Name: Gateway_Chekpoint
       LeftSide: 0
   - Guid: f3623c130b3a6fd43b825e32712b0d41
     Name: 2.6_CaveOfLost_f1
@@ -365,6 +346,9 @@ MonoBehaviour:
     - Guid: 2.6_Map_Cave_Hidden3
       Name: Gateway_Hidden3
       LeftSide: 0
+    - Guid: 2.6.1_CheckPointa
+      Name: Gateway_Checkpoint
+      LeftSide: 0
   - Guid: 342556d90cc4e5d4a886f3959e397d62
     Name: 2.8_Map_Cave
     PositionOnMap: {x: 570, y: 1260}
@@ -378,12 +362,8 @@ MonoBehaviour:
     - Guid: 2.8_Map_Cave_3
       Name: Gateway_Esquerda
       LeftSide: 0
-  - Guid: c6f02e1312e83c74ebfedaf11f762c91
-    Name: 2.6_HiddenCave_3
-    PositionOnMap: {x: 90, y: 1240}
-    Doors:
-    - Guid: 2.6_HiddenCave3
-      Name: Gateway
+    - Guid: 2.8_Checkpoint
+      Name: Gateway_Checkpoint
       LeftSide: 0
   - Guid: bd4e041baf12a794b8cb9bf9c2c3e19d
     Name: 2.6_HiddenCave_2
@@ -419,16 +399,6 @@ MonoBehaviour:
     - Guid: Casa_Protagonista_1
       Name: Gateway
       LeftSide: 1
-  - Guid: b8181ec6e6c437243b3cf868aafd0755
-    Name: 3.4_HomeBeach
-    PositionOnMap: {x: 200, y: 120}
-    Doors:
-    - Guid: Map_BeachTown_1
-      Name: Gateway
-      LeftSide: 0
-    - Guid: Map_HomeBeach-LemisBeach
-      Name: Gateway_LemisBeach
-      LeftSide: 0
   - Guid: 2a5437de66c887f44aad1a9f6fc48bad
     Name: 3.0_LostDungeon
     PositionOnMap: {x: 720, y: 1320}
@@ -453,6 +423,96 @@ MonoBehaviour:
     - Guid: 2.9_Map_Portal_1
       Name: Gateway_CIma
       LeftSide: 0
+  - Guid: b8181ec6e6c437243b3cf868aafd0755
+    Name: 3.4_HomeBeach
+    PositionOnMap: {x: 190, y: 120}
+    Doors:
+    - Guid: Map_BeachTown_1
+      Name: Gateway
+      LeftSide: 0
+    - Guid: Map_HomeBeach-LemisBeach
+      Name: Gateway_LemisBeach
+      LeftSide: 0
+  - Guid: 34205631c52d5504f84ac2e9821f909e
+    Name: 2.5_Healing_Center
+    PositionOnMap: {x: 950, y: 1090}
+    Doors:
+    - Guid: 2.5_HealingCenter_Entrada
+      Name: Gateway_HealingCenter
+      LeftSide: 0
+  - Guid: 62d01da87f4922744b34daf44ed20f6e
+    Name: 3.5_DragonTown
+    PositionOnMap: {x: 1180, y: 980}
+    Doors:
+    - Guid: DragonTown_TrainCity
+      Name: Gateway_DragonTown_TrainStation
+      LeftSide: 0
+  - Guid: 3531a573dcb8be6418c795fa8765aa0f
+    Name: Map_Teste
+    PositionOnMap: {x: 60, y: 10}
+    Doors:
+    - Guid: MapaTeste_G1
+      Name: EntradaDeBaixo
+      LeftSide: 0
+  - Guid: 28ddf4c56b0208c4da0b9f7451d50405
+    Name: Map_Teste2
+    PositionOnMap: {x: 210, y: 10}
+    Doors:
+    - Guid: MapaDeTeste2_G1
+      Name: EntradaDeCima
+      LeftSide: 0
+  - Guid: 73867d920370e55498d419f363dd9f34
+    Name: 3.3_Map_CavernaPicoLendario
+    PositionOnMap: {x: 40, y: 710}
+    Doors:
+    - Guid: Caverna_Gelo_Lendario_1
+      Name: Gateway_Baixo
+      LeftSide: 0
+    - Guid: Caverna_Gelo_Lendario_2
+      Name: Gateway_Cima
+      LeftSide: 0
+  - Guid: 0be13d443fc7d554eb8adabd2a6c0374
+    Name: 1.6.1_Map_Checkpoint
+    PositionOnMap: {x: 490, y: 390}
+    Doors:
+    - Guid: 1.6_ChekPoint
+      Name: 1.6_Chekpoint
+      LeftSide: 0
+  - Guid: e0f08a22d5c23c84189ddd111af1548b
+    Name: 2.2.1_Checkpoint
+    PositionOnMap: {x: 980, y: 860}
+    Doors:
+    - Guid: 2.2.1_Chekpoint
+      Name: Gateway_Checkpoint
+      LeftSide: 0
+  - Guid: c6f02e1312e83c74ebfedaf11f762c91
+    Name: 2.6_HiddenCave_3
+    PositionOnMap: {x: 100, y: 1280}
+    Doors:
+    - Guid: 2.6_HiddenCave3
+      Name: Gateway
+      LeftSide: 0
+  - Guid: 7bd5fb4c0cc798042b2da96a7ff059bf
+    Name: 2.6.1_Checkpoint
+    PositionOnMap: {x: 350, y: 1310}
+    Doors:
+    - Guid: 2.6.1_CheckPoint
+      Name: Gateway
+      LeftSide: 1
+  - Guid: da00f3a41910d3443be4b752d1aee242
+    Name: 2.8.1_Checkpoint
+    PositionOnMap: {x: 570, y: 1430}
+    Doors:
+    - Guid: 2.8.1_CheckPoint
+      Name: Gateway
+      LeftSide: 0
+  - Guid: b3c770c6542b8df43b10c1a67369e42e
+    Name: 3.2.1_Healing_Center
+    PositionOnMap: {x: 260, y: 590}
+    Doors:
+    - Guid: Healing_Center_3.2
+      Name: Gateway HealingCenter
+      LeftSide: 1
   mConnection:
   - LevelGuid1: 28ddf4c56b0208c4da0b9f7451d50405
     LevelGuid2: 3531a573dcb8be6418c795fa8765aa0f
@@ -690,6 +750,36 @@ MonoBehaviour:
     LevelGuid2: 0c2551346cae611478da74c57cc31b65
     DoorGuid1: LostDungeon_Portal
     DoorGuid2: 2.9_Map_Portal_1
+    Points: []
+  - LevelGuid1: c590093e408457c44b2b428e32d5e9b8
+    LevelGuid2: 62d01da87f4922744b34daf44ed20f6e
+    DoorGuid1: TrainStation_DragonCity
+    DoorGuid2: DragonTown_TrainCity
+    Points: []
+  - LevelGuid1: 0be13d443fc7d554eb8adabd2a6c0374
+    LevelGuid2: d1c28c0a222e9b641bc039286b0ab54f
+    DoorGuid1: 1.6_ChekPoint
+    DoorGuid2: CheckPoint
+    Points: []
+  - LevelGuid1: e0f08a22d5c23c84189ddd111af1548b
+    LevelGuid2: 4bb38f64d040da14a81964615a04f871
+    DoorGuid1: 2.2.1_Chekpoint
+    DoorGuid2: 2.2_Chekpoint
+    Points: []
+  - LevelGuid1: f3623c130b3a6fd43b825e32712b0d41
+    LevelGuid2: 7bd5fb4c0cc798042b2da96a7ff059bf
+    DoorGuid1: 2.6.1_CheckPointa
+    DoorGuid2: 2.6.1_CheckPoint
+    Points: []
+  - LevelGuid1: da00f3a41910d3443be4b752d1aee242
+    LevelGuid2: 342556d90cc4e5d4a886f3959e397d62
+    DoorGuid1: 2.8.1_CheckPoint
+    DoorGuid2: 2.8_Checkpoint
+    Points: []
+  - LevelGuid1: e32fc7ce00fed0a49b0978493c7b2e15
+    LevelGuid2: b3c770c6542b8df43b10c1a67369e42e
+    DoorGuid1: 3.2_Chekpoint
+    DoorGuid2: Healing_Center_3.2
     Points: []
   mSerializedConnection:
   - Door1Guid: MapaDeTeste2_G1
@@ -956,3 +1046,39 @@ MonoBehaviour:
     Level2Name: 2.9_Map_Portal
     Door1Name: Gateway_Portal
     Door2Name: Gateway_CIma
+  - Door1Guid: TrainStation_DragonCity
+    Door2Guid: DragonTown_TrainCity
+    Level1Name: 3.1_TrainStation
+    Level2Name: 3.5_DragonTown
+    Door1Name: Gateway_Train_Dragon
+    Door2Name: Gateway_DragonTown_TrainStation
+  - Door1Guid: 1.6_ChekPoint
+    Door2Guid: CheckPoint
+    Level1Name: 1.6.1_Map_Checkpoint
+    Level2Name: 1.6_LemisBeach
+    Door1Name: 1.6_Chekpoint
+    Door2Name: Gateway_ChekPoint
+  - Door1Guid: 2.2.1_Chekpoint
+    Door2Guid: 2.2_Chekpoint
+    Level1Name: 2.2.1_Checkpoint
+    Level2Name: 2.2_Route6
+    Door1Name: Gateway_Checkpoint
+    Door2Name: Gateway_Checkpoint
+  - Door1Guid: 2.6.1_CheckPointa
+    Door2Guid: 2.6.1_CheckPoint
+    Level1Name: 2.6_CaveOfLost_f1
+    Level2Name: 2.6.1_Checkpoint
+    Door1Name: Gateway_Checkpoint
+    Door2Name: Gateway
+  - Door1Guid: 2.8.1_CheckPoint
+    Door2Guid: 2.8_Checkpoint
+    Level1Name: 2.8.1_Checkpoint
+    Level2Name: 2.8_Map_Cave
+    Door1Name: Gateway
+    Door2Name: Gateway_Checkpoint
+  - Door1Guid: 3.2_Chekpoint
+    Door2Guid: Healing_Center_3.2
+    Level1Name: 3.2_Map_PicoLendario
+    Level2Name: 3.2.1_Healing_Center
+    Door1Name: Gateway_Chekpoint
+    Door2Name: Gateway HealingCenter

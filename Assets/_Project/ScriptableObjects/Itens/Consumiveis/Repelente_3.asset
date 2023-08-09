@@ -19,7 +19,7 @@ MonoBehaviour:
   descricao: An even stronger repellent to keep all the weak Elemantors away from
     you! It will last even longer and people will start to wonder why you smell so
     weird.
-  preco: 0
+  preco: 800
   efeitoForaDaBatalha: {fileID: 11400000, guid: e60417299515b9f4390896e547ef4064, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

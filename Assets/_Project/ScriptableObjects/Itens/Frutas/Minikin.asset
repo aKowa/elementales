@@ -18,7 +18,7 @@ MonoBehaviour:
   imagem: {fileID: 21300000, guid: 8a58b689a025d114a996ab0c7bd1879c, type: 3}
   descricao: Plantable fruit that can be consumed during battle to increase SPECIAL
     DEFENSE until the end of the battle.
-  preco: 0
+  preco: 100
   efeitoForaDaBatalha: {fileID: 0}
   efeitoNaBatalha: {fileID: 11400000, guid: ffad3609163eda241b1cf63ca53bedb1, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 7c62f937d676a2f46a88a5eb43ab0ac2, type: 2}

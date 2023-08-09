@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Crustberry
   imagem: {fileID: 21300000, guid: b10305558cf590449bc19c28b50804b6, type: 3}
   descricao: "Plantable fruit that increases mana regeneration for two turns.\r"
-  preco: 0
+  preco: 200
   efeitoForaDaBatalha: {fileID: 0}
   efeitoNaBatalha: {fileID: 11400000, guid: 5e0f6e2eacb523246a183925eb6f0667, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: b4c7eb59f49ca174bb6a74da25f226eb, type: 2}

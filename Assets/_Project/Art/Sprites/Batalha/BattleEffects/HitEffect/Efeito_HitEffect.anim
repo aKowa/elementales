@@ -1010,6 +1010,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.16666667
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: d8931594db6dbfe4dbe61d57db069b84, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.75
     functionName: FinalizarAnimacao
     data: 

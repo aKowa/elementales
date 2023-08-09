@@ -52,3 +52,5 @@ MonoBehaviour:
   velocidadeDoEfeito: 1
   porcentagemRecuperarVida: 15
   porcentagemRecuperarMana: 0
+  somRecuperarVida: {fileID: 8300000, guid: c4bb182de1fec78438426ff7621dd9b7, type: 3}
+  somRecuperarMana: {fileID: 8300000, guid: 5520a2ed386b4e449a74fc14cb4b2bc3, type: 3}

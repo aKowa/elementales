@@ -24,6 +24,8 @@ public class WildArea : Interagivel
 
     private DialogueActivator dialogueActivator;
 
+    private TelaAvaliarJogo telaAvaliarJogo;
+
     //Variaveis
     [Header("Variaveis")]
     [SerializeField] private float tempoPescandoChamarWildAreaMax;
@@ -45,8 +47,14 @@ public class WildArea : Interagivel
     {
         contadorTiles = 0;
         dialogueActivator = GetComponent<DialogueActivator>();
+
+        telaAvaliarJogo = FindObjectOfType<TelaAvaliarJogo>();
     }
 
+    private void OnEnable()
+    {
+        colidindo = false;
+    }
     public override void Interagir(Player player)
     {
         if (VerificarSePossuiItem(player))
@@ -101,17 +109,27 @@ public class WildArea : Interagivel
                 }
             }
         }
+
+        WildAreaNormal();
     }
-    
+
     void WildAreaNormal()
     {
+        if(player != null)
+        {
+            if (player.GetEstadoPlayer == Player.EstadoPlayer.RodandoAnimacao)
+            {
+                return;
+            }
+        }
+
         if (colidindo)
         {
             Vector2 posicaoTemp = AtualizarPosicaoPlayer(player.transform.position);
             if (posicaoTemp != posicaoPlayer)
             {
                 posicaoPlayer = posicaoTemp;
-                if (VerifcarTileSemEncontro() == true)
+                if (VerificarTileSemEncontro() == true)
                 {
                     return;
                 }
@@ -128,33 +146,33 @@ public class WildArea : Interagivel
             }
         }
     }
-
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            GetComponentesPlayer(collision.gameObject);
+            colidindo = true;
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (tipoWildArea != TipoWildArea.Agua)
+        if (weightedMonsterList.Count > 0)
         {
-            if (weightedMonsterList.Count > 0)
+            if (collision.CompareTag("Player"))
             {
-                if (collision.CompareTag("Player"))
-                {
-                    GetComponentesPlayer(collision.gameObject);
-                    colidindo = true;
-                    posicaoPlayer = AtualizarPosicaoPlayer(collision.transform.position);
-                }
+                GetComponentesPlayer(collision.gameObject);
+                colidindo = true;
+                posicaoPlayer = AtualizarPosicaoPlayer(collision.transform.position);
             }
         }
     }
-
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (tipoWildArea != TipoWildArea.Agua)
+        if (weightedMonsterList.Count > 0)
         {
-            if (weightedMonsterList.Count > 0)
+            if (collision.CompareTag("Player"))
             {
-                if (collision.CompareTag("Player"))
-                {
-                    colidindo = false;
-                }
+                colidindo = false;
             }
         }
     }
@@ -173,11 +191,11 @@ public class WildArea : Interagivel
         return new Vector2((int)posicao.x, (int)posicao.y);
     }
 
-    private bool VerificarSePossuiItem(Player player)
+    public bool VerificarSePossuiItem(Player player)
     {
         if (itemNecessarioInteracao == null)
             return true;
-        
+
         foreach (var itemPlayer in player.PlayerData.Inventario.ItensChave)
         {
             if (itemPlayer.Item.ID == itemNecessarioInteracao.ID)
@@ -200,7 +218,7 @@ public class WildArea : Interagivel
         return false;
     }
 
-    private bool VerifcarTileSemEncontro()
+    private bool VerificarTileSemEncontro()
     {
         if (contadorTiles < contadorTilesGarantidoSemEncontro)
         {
@@ -238,10 +256,11 @@ public class WildArea : Interagivel
 
     private void IniciarBatalha(Monster monstro)
     {
-        GameManager.Instance.StartBattle(arenaPadrao, 1, playerData, backgroundDaBatalha, monstro, musicaDeBatalha, true);
+        GameManager.Instance.StartBattle(arenaPadrao, 1, playerData, backgroundDaBatalha, monstro, musicaDeBatalha, true, telaAvaliarJogo.MostrarTelaAposUmaBatalha);
         player.PlayerMovement.ZeroVelocity();
         NPCManager.IniciandoBatalha = true;
     }
+
     void SairEstadoPesca()
     {
         player.SetEstado(Player.EstadoPlayer.Normal);

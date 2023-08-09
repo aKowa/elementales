@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Bronze Ring
   imagem: {fileID: 21300000, guid: 7e5a6415785d7dc41bd9e145c4e9cdc4, type: 3}
   descricao: The most common ring used to tame Elemantors across the Lands.
-  preco: 150
+  preco: 100
   efeitoForaDaBatalha: {fileID: 11400000, guid: 9f4364bc7e314564b8f0ca9a3f8e28c1, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 52e02e0feef13484ba4fe7a027db71a7, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 54c2e3aff2b641a42a144bb08c91ca4d, type: 2}

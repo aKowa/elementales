@@ -23,6 +23,8 @@ public class AumentarModificarAleatorio_Mapa : AcaoNoInventario
             int indiceNovoAtributo = Random.Range(0, (int)Modificador.Atributo.velocidade);
             modificador.atributo = (Modificador.Atributo)indiceNovoAtributo;
             monstro.AtributosAtuais.ReceberModificadorStatus(modificador.atributo, modificador.modificador);
+            monstro.AtributosAtuais.TocarSomModificador(modificador.modificador.ValorModificador, monstro.MonsterData);
+
         }
         if (item.Tipo == Item.TipoItem.Consumivel)
         {

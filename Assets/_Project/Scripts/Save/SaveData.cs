@@ -430,10 +430,24 @@ public class MonsterEntrySave
 [System.Serializable]
 public class ConfiguracoesSave
 {
+    public enum EstadoTelaAvaliarJogo { NaoViuPopup, VerMaisTarde, NuncaMaisVer }
+
     public float volumeMusicas;
     public float volumeEfeitosSonoros;
 
+    public SerializableDateTime dataTelaAvaliarJogo;
+    public EstadoTelaAvaliarJogo estadoTelaAvaliarJogo;
+
     public ConfiguracoesSave()
+    {
+        volumeMusicas = MusicManager.instance.Volume;
+        volumeEfeitosSonoros = SoundManager.instance.Volume;
+
+        dataTelaAvaliarJogo = new SerializableDateTime(DateTime.Now);
+        estadoTelaAvaliarJogo = EstadoTelaAvaliarJogo.NaoViuPopup;
+    }
+
+    public void AtualizarConfiguracoes()
     {
         volumeMusicas = MusicManager.instance.Volume;
         volumeEfeitosSonoros = SoundManager.instance.Volume;

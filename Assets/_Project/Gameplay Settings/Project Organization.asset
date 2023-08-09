@@ -17,7 +17,7 @@ MonoBehaviour:
   itemsParentFolder: Assets/_Project/ScriptableObjects/Itens
   commandsParentFolder: Assets/_Project/ScriptableObjects/Comandos
   attackCommandsParentFolder: Assets/_Project/ScriptableObjects/Comandos/Ataques/Elementales
-  combatLessonsParentFolder: Assets/_Project/ScriptableObjects/Combat Lessons/Readied
+  combatLessonsParentFolder: Assets/_Project/ScriptableObjects/Comandos/Combat Lessons/Readied
     Lessons
   mapsParentFolder: Assets/_Project/ScriptableObjects/MapData
   statusEffectsParentFolder: Assets/_Project/ScriptableObjects/StatusEffects

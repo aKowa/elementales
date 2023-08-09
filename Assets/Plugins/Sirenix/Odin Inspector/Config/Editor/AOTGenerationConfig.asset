@@ -16,7 +16,7 @@ MonoBehaviour:
   deleteDllAfterBuilds: 1
   AutomateForAllAOTPlatforms: 1
   automateForPlatforms: 09000000140000000d00000005000000
-  lastScan: 638079970003002255
+  lastScan: 638080899992431176
   supportSerializedTypes:
   - TypeName: System.Boolean, mscorlib
     IsCustom: 0

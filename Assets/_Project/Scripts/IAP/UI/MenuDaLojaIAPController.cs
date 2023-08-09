@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class MenuDaLojaIAPController : ViewController
@@ -9,18 +10,38 @@ public class MenuDaLojaIAPController : ViewController
 
     //Componentes
     [Header("Componentes")]
+    [SerializeField] private GameObject botaoGuiaBase;
+    [SerializeField] private GameObject guiaIAPBase;
+
+    [Space(10)]
+
+    [SerializeField] private Transform botoesGuiaHolder;
+    [SerializeField] private Transform guiasHolder;
     [SerializeField] private RectTransform fundoBloqueadorDeAcoesDoMenu;
-    [SerializeField] private LojaIAPInfo guiaDaLoja;
+
+    private List<LojaIAPInfo> guias = new List<LojaIAPInfo>();
+
+    [Header("Menus")]
+    [SerializeField] private MenuDeInformacoesDeItemIAP menuDeInformacoesDeItemIAP;
 
     //Variaveis
-    private List<InventarioLojaIAP.ItemLojaIAP> itensDaLoja = new List<InventarioLojaIAP.ItemLojaIAP>();
+    [Header("Guias")]
+    [SerializeField] private GuiaLojaIAP[] guiasLojaIAP;
 
-    private InventarioLojaIAP inventarioLojaAtual;
+    protected List<BotaoGuia> botoesGuia = new List<BotaoGuia>();
+
+    //Getters
+    public GuiaLojaIAP[] GuiasLojaIAP => guiasLojaIAP;
 
     protected override void OnAwake()
     {
         //Componentes
         fundoBloqueadorDeAcoesDoMenu.gameObject.SetActive(false);
+
+        botaoGuiaBase.gameObject.SetActive(false);
+        guiaIAPBase.gameObject.SetActive(false);
+
+        CriarGuias();
     }
 
     public override void OnOpen()
@@ -34,41 +55,122 @@ public class MenuDaLojaIAPController : ViewController
     {
         fundoBloqueadorDeAcoesDoMenu.gameObject.SetActive(false);
 
-        ResetarInformacoes();
-
-        guiaDaLoja.ResetarItemSlots();
-
         BergamotaLibrary.PauseManager.Pausar(false);
+
+        foreach (LojaIAPInfo guia in guias)
+        {
+            guia.ResetarItemSlots();
+        }
     }
 
-    public void IniciarMenu(InventarioLojaIAP inventarioLoja)
+    public void IniciarMenu()
     {
         OpenView();
 
-        inventarioLojaAtual = inventarioLoja;
-
-        CriarItensDaLoja();
-
-        AtualizarInformacoes();
-    }
-
-    private void ResetarInformacoes()
-    {
-        itensDaLoja.Clear();
-    }
-
-    private void CriarItensDaLoja()
-    {
-        itensDaLoja.Clear();
-
-        for (int i = 0; i < inventarioLojaAtual.ItensDaLoja.Length; i++)
+        foreach (LojaIAPInfo guia in guias)
         {
-            itensDaLoja.Add(inventarioLojaAtual.ItensDaLoja[i]);
+            guia.gameObject.SetActive(false);
+        }
+
+        AtualizarBotoesGuia();
+        AtualizarInformacoes();
+
+        int guiaDisponivel = 0;
+
+        for (int i = 0; i < guiasLojaIAP.Length; i++)
+        {
+            if(guiasLojaIAP[i].ExibirGuia == true)
+            {
+                guiaDisponivel = i;
+                break;
+            }
+        }
+
+        TrocarGuia(guiaDisponivel);
+    }
+
+    private void CriarGuias()
+    {
+        int i = 0;
+
+        foreach(GuiaLojaIAP guiaLojaIAP in guiasLojaIAP)
+        {
+            string nomeDaGuia = guiaLojaIAP.NomeDaGuia;
+
+            //Botao
+            BotaoGuia botaoGuia = Instantiate(botaoGuiaBase, botoesGuiaHolder).GetComponent<BotaoGuia>();
+            botaoGuia.Indice = i;
+            botaoGuia.GetComponentInChildren<TMP_Text>().text = nomeDaGuia;
+            botaoGuia.EventoAbrirGuia.AddListener(TrocarGuia);
+
+            botoesGuia.Add(botaoGuia);
+
+            botaoGuia.gameObject.SetActive(true);
+
+            //Guia
+            LojaIAPInfo guia = Instantiate(guiaIAPBase, guiasHolder).GetComponent<LojaIAPInfo>();
+            guia.InventarioLoja = guiaLojaIAP.InventarioLoja;
+            guia.NomeDaGuia.text = nomeDaGuia;
+            guia.EventoItemSelecionado.AddListener(AbrirMenuDeInformacoesDoItemIAP);
+
+            guias.Add(guia);
+
+            i++;
+        }
+    }
+
+    private void AtualizarBotoesGuia()
+    {
+        for(int i = 0; i < guiasLojaIAP.Length; i++)
+        {
+            botoesGuia[i].gameObject.SetActive(guiasLojaIAP[i].ExibirGuia);
         }
     }
 
     private void AtualizarInformacoes()
     {
-        guiaDaLoja.AtualizarInformacoes(itensDaLoja);
+        foreach(LojaIAPInfo guia in guias)
+        {
+            guia.AtualizarInformacoes();
+        }
+    }
+
+    private void TrocarGuia(int indice)
+    {
+        for (int i = 0; i < guias.Count; i++)
+        {
+            if (i == indice)
+            {
+                guias[i].gameObject.SetActive(true);
+                botoesGuia[i].Selecionado(true);
+            }
+            else
+            {
+                guias[i].gameObject.SetActive(false);
+                botoesGuia[i].Selecionado(false);
+            }
+        }
+    }
+
+    private void AbrirMenuDeInformacoesDoItemIAP(ItemSlotLojaIAP itemSlot)
+    {
+        menuDeInformacoesDeItemIAP.IniciarMenu(itemSlot.IAPButton, itemSlot.TituloProduto, itemSlot.DescricaoProduto, itemSlot.PrecoProduto, itemSlot.ImagemProduto);
+    }
+
+    [System.Serializable]
+    public class GuiaLojaIAP
+    {
+        //Variaveis
+        [SerializeField] private bool exibirGuia;
+
+        [Space(10)]
+
+        [SerializeField] private string nomeDaGuia;
+        [SerializeField] private InventarioLojaIAP inventarioLoja;
+
+        //Getters
+        public bool ExibirGuia { get => exibirGuia; set => exibirGuia = value; }
+        public string NomeDaGuia => nomeDaGuia;
+        public InventarioLojaIAP InventarioLoja => inventarioLoja;
     }
 }

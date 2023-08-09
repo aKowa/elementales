@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Acoes/Batalha/Ataques/Struggle")]
 
@@ -38,6 +39,7 @@ public class Struggle : AcaoNaBatalha
                                 monstro.GetMonstro.RecuperarMana(monstro.GetMonstro.AtributosAtuais.CalcManaRegenStruggle());
                             }
                         }
+                        battleManager.TocarSom("Mana");
                     }
                 }
             }

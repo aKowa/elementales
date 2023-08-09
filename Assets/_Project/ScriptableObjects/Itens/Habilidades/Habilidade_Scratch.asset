@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Aerial Stone - Scratch
+  nome: Scratch Skill
   imagem: {fileID: 21300000, guid: 83d12bd1b2e20e54c89e9e4c4607c699, type: 3}
   descricao: An elusive stone that can teach the Air type skill Scratch to one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: d28d7194c113dfd46a22b30da137f9b8, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

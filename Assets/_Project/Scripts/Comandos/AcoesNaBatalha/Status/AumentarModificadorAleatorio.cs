@@ -19,6 +19,8 @@ public class AumentarModificadorAleatorio : AcaoNaBatalha
                 var modificadorInstanciado =  new ModificadorTurno(modificador.modificador.QuantidadeTurnos, modificador.modificador.PassaComTurnos, modificador.modificador.ValorModificador, modificador.modificador.Origem);
 
                 monstro.GetMonstro.AtributosAtuais.ReceberModificadorStatus(modificador.atributo, modificadorInstanciado);
+                monstro.GetMonstro.AtributosAtuais.TocarSomModificador(modificador.modificador.ValorModificador, monstro.GetMonstro.MonsterData);
+
             }
         }
         comando.PodeMeRetirar = true;

@@ -18,7 +18,7 @@ MonoBehaviour:
   imagem: {fileID: 21300000, guid: 96f8596f04752a4498d41ac5b617689e, type: 3}
   descricao: "Plantable fruit that can be consumed to increase all attributes for
     2 turns.\r"
-  preco: 0
+  preco: 500
   efeitoForaDaBatalha: {fileID: 0}
   efeitoNaBatalha: {fileID: 11400000, guid: 10524025fe5179349bff6e4661fcb68c, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: f54aba416339b4e4ea9b0d18277363cc, type: 2}

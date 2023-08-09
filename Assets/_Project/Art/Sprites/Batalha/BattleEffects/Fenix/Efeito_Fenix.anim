@@ -1075,6 +1075,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.083333336
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: f7e22e9d2a4fcd54eb5fcc6ea07146e2, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.6666667
     functionName: SetTintEffectNoAlvo
     data: 

@@ -24,24 +24,24 @@ MonoBehaviour:
     - attack: {fileID: 11400000, guid: 33346e81046f6204792a5db4e1fcb48c, type: 2}
       pp: 0
     _atributosAtuais:
-      _nivel: 14
-      _exp: 2744
-      _vida: 43
-      _vidaMax: 43
-      _mana: 45
-      _manaMax: 45
-      _ataque: 22
-      _defesa: 16
-      _spAtaque: 28
-      _spDefesa: 16
-      _velocidade: 16
-      ivVida: 0
-      ivMana: 0
-      ivAtk: 0
-      ivDef: 0
-      ivSpAtk: 0
-      ivSpDef: 0
-      ivVel: 0
+      _nivel: 17
+      _exp: 0
+      _vida: 50
+      _vidaMax: 50
+      _mana: 48
+      _manaMax: 48
+      _ataque: 26
+      _defesa: 19
+      _spAtaque: 33
+      _spDefesa: 19
+      _velocidade: 19
+      ivVida: 1
+      ivMana: 1
+      ivAtk: 1
+      ivDef: 1
+      ivSpAtk: 2
+      ivSpDef: 2
+      ivVel: 1
       modificadorDebuffAtaque:
         listaBuffsDebuffs: []
       modificadorDebuffDefesa:
@@ -72,24 +72,24 @@ MonoBehaviour:
     - attack: {fileID: 11400000, guid: 2bcea84e72af3964c8b03f4e693c7306, type: 2}
       pp: 0
     _atributosAtuais:
-      _nivel: 15
-      _exp: 3375
-      _vida: 43
-      _vidaMax: 43
-      _mana: 47
-      _manaMax: 47
-      _ataque: 17
-      _defesa: 27
-      _spAtaque: 27
-      _spDefesa: 17
-      _velocidade: 17
-      ivVida: 0
-      ivMana: 0
-      ivAtk: 0
-      ivDef: 0
-      ivSpAtk: 0
-      ivSpDef: 0
-      ivVel: 0
+      _nivel: 18
+      _exp: 0
+      _vida: 50
+      _vidaMax: 50
+      _mana: 50
+      _manaMax: 50
+      _ataque: 20
+      _defesa: 32
+      _spAtaque: 32
+      _spDefesa: 20
+      _velocidade: 19
+      ivVida: 2
+      ivMana: 2
+      ivAtk: 2
+      ivDef: 2
+      ivSpAtk: 2
+      ivSpDef: 2
+      ivVel: 1
       modificadorDebuffAtaque:
         listaBuffsDebuffs: []
       modificadorDebuffDefesa:
@@ -122,24 +122,24 @@ MonoBehaviour:
     - attack: {fileID: 11400000, guid: 2a17f6be865a7464ea28900ba0d5e560, type: 2}
       pp: 0
     _atributosAtuais:
-      _nivel: 16
-      _exp: 4096
-      _vida: 47
-      _vidaMax: 47
-      _mana: 47
-      _manaMax: 47
-      _ataque: 18
-      _defesa: 25
-      _spAtaque: 21
-      _spDefesa: 22
-      _velocidade: 20
-      ivVida: 0
-      ivMana: 0
-      ivAtk: 0
-      ivDef: 0
-      ivSpAtk: 0
-      ivSpDef: 0
-      ivVel: 0
+      _nivel: 20
+      _exp: 0
+      _vida: 57
+      _vidaMax: 57
+      _mana: 51
+      _manaMax: 51
+      _ataque: 22
+      _defesa: 30
+      _spAtaque: 25
+      _spDefesa: 27
+      _velocidade: 24
+      ivVida: 2
+      ivMana: 2
+      ivAtk: 1
+      ivDef: 1
+      ivSpAtk: 1
+      ivSpDef: 2
+      ivVel: 1
       modificadorDebuffAtaque:
         listaBuffsDebuffs: []
       modificadorDebuffDefesa:

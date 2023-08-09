@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,8 @@ using UnityEngine;
 public class StatusEffectRecover : StatusEffectBase
 {
     [SerializeField] private float porcentagemRecuperarVida, porcentagemRecuperarMana;
+    [SerializeField] private AudioClip somRecuperarVida;
+    [SerializeField] private AudioClip somRecuperarMana;
     public override bool ExecutarInBattle(Integrante.MonstroAtual monstroAtual)
     {
         Monster monstro = monstroAtual.GetMonstro;
@@ -13,7 +16,10 @@ public class StatusEffectRecover : StatusEffectBase
         monstro.ReceberCura((int)(monstro.AtributosAtuais.VidaMax * (porcentagemRecuperarVida / 100)));
         monstro.RecuperarManaPorcentagem(porcentagemRecuperarMana);
         statusEffectOpcoesDentroCombate.QuantidadeTurnosAtuais++;
-        
+
+        SoundManager.instance.TocarSomIgnorandoPause(somRecuperarVida);
+        SoundManager.instance.TocarSomIgnorandoPause(somRecuperarMana);
+
 
         if (statusEffectOpcoesDentroCombate.GetEfeitoPassaComTempo)
         {

@@ -35,6 +35,22 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: -504492923077172385, guid: 0b5a0f869d5445449934ae3d85d1b8c3, type: 3}
+    - time: 0.125
+      value: {fileID: -6855000845620875966, guid: 0b5a0f869d5445449934ae3d85d1b8c3, type: 3}
+    - time: 0.25
+      value: {fileID: -7747481824958814848, guid: 0b5a0f869d5445449934ae3d85d1b8c3, type: 3}
+    - time: 0.375
+      value: {fileID: 8384956566094403768, guid: 0b5a0f869d5445449934ae3d85d1b8c3, type: 3}
+    - time: 0.5
+      value: {fileID: 2419608968481291279, guid: 0b5a0f869d5445449934ae3d85d1b8c3, type: 3}
+    - time: 0.625
+      value: {fileID: 3964196009158248681, guid: 0b5a0f869d5445449934ae3d85d1b8c3, type: 3}
+    attribute: m_Sprite
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:

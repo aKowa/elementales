@@ -21,6 +21,8 @@ public class AumentarModificador_Mapa : AcaoNoInventario
         foreach (var modificador in modificadores)
         {
             monstro.AtributosAtuais.ReceberModificadorStatus(modificador.atributo, modificador.modificador);
+            monstro.AtributosAtuais.TocarSomModificador(modificador.modificador.ValorModificador, monstro.MonsterData);
+
         }
         if (item.Tipo == Item.TipoItem.Consumivel)
         {

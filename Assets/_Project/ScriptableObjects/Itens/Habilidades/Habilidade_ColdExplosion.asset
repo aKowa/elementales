@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Ice Stone - Cold Explosion
+  nome: Cold Explosion Skill
   imagem: {fileID: 21300000, guid: 15ab56ade86f0104f9de477fb5944398, type: 3}
   descricao: A freezing stone that can teach the Ice type skill Cold Explosion to
     one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 06f9ce7bb3cbf174eb64c54a544bae19, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

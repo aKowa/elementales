@@ -151,9 +151,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8446642fc6cd1b4478284a6ee58dc210, type: 2}
   - {fileID: 11400000, guid: b3b3679c8c1ecde42b603a0b8837e5bf, type: 2}
   - {fileID: 11400000, guid: f9a4cba6ec0ee774f970ca4a3472aa02, type: 2}
-  - {fileID: 11400000, guid: a927c338cc6d17347bd48039ccd8d694, type: 2}
   - {fileID: 11400000, guid: d31695516f5d89646a76934197ff92d5, type: 2}
-  - {fileID: 11400000, guid: fee87fa08cff71c47aea5f23e803a2b0, type: 2}
   - {fileID: 11400000, guid: e9a91351189b3e848a5b9b0b18c68037, type: 2}
   combatLessonsPorNivel:
   - nivel: 12
@@ -170,5 +168,9 @@ MonoBehaviour:
     combatLesson: {fileID: 11400000, guid: 6b63ccbd8f095d74aa3beb1547407cb3, type: 2}
   numAttacks: 12
   numDiceUpgrades: 5
-  audioEntrada: {fileID: 0}
-  audioMorrendo: {fileID: 0}
+  audioEntrada: {fileID: 8300000, guid: 151a6646a2d5631469820049899bf72b, type: 3}
+  audioMorrendo: {fileID: 8300000, guid: 1cf2920f87674554580219b7fb5dbbe9, type: 3}
+  audioCura: {fileID: 8300000, guid: c4bb182de1fec78438426ff7621dd9b7, type: 3}
+  audioMana: {fileID: 8300000, guid: 5520a2ed386b4e449a74fc14cb4b2bc3, type: 3}
+  audioModificadorPositivo: {fileID: 8300000, guid: 07b74e290c74002479df13620b2b6e1c, type: 3}
+  audioModificadorNegativo: {fileID: 8300000, guid: 680662a400439614984207fc2ad2595a, type: 3}

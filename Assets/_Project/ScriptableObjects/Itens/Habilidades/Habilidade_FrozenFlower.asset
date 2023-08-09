@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Ice Stone - Frozen Flower
+  nome: Frozen Flower Skill
   imagem: {fileID: 21300000, guid: 15ab56ade86f0104f9de477fb5944398, type: 3}
   descricao: A freezing stone that can teach the Ice type skill Frozen Flower to
     one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: df49ced5525c43a40a5298e32ea508a0, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Acoes/Inventario/Status/Curar HP")]
@@ -5,7 +6,7 @@ public class CurarHP_Mapa : AcaoNoInventario
 {
     //Variaveis
     [SerializeField] private int quantidaDeCura;
-
+    [SerializeField] private AudioClip somRecuperarVida;
     public override void UsarItem(MenuBagController menuBagController, Item item)
     {
         menuBagController.AbrirEscolhaDeMonstros();
@@ -24,6 +25,8 @@ public class CurarHP_Mapa : AcaoNoInventario
         {
             menuBagController.RemoveItem(item);
         }
+        SoundManager.instance.TocarSomIgnorandoPause(somRecuperarVida);
+
     }
 
     public override void EfeitoMonstroSlot(MenuBagController menuBagController)

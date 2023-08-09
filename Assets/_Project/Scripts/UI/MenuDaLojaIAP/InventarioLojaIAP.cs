@@ -15,7 +15,9 @@ public class InventarioLojaIAP : ScriptableObject
     public struct ItemLojaIAP
     {
         [SerializeField] private string productID;
+        [SerializeField] private Sprite productImage;
 
         public string ProductID => productID;
+        public Sprite ProductImage => productImage;
     }
 }

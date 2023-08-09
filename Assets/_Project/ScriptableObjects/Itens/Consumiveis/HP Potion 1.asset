@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: HP Potion
   imagem: {fileID: 21300000, guid: 58ab1d7d54bff2b45915f1f2d8697517, type: 3}
   descricao: Restores a small amount of health to an Elemantor.
-  preco: 200
+  preco: 100
   efeitoForaDaBatalha: {fileID: 11400000, guid: 3e64c1e4d3ce9f9408c1771ed50a8570, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 3e64c1e4d3ce9f9408c1771ed50a8570, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 327e07603b8c8604f88b551cc212ac95, type: 2}

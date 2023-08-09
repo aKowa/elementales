@@ -7,9 +7,6 @@ public class NPC_LojaIAP : MonoBehaviour
     //Componentes
     private MenuDaLojaIAPController menuDaLojaIAPController;
 
-    //Variaveis
-    [SerializeField] private InventarioLojaIAP inventarioLoja;
-
     private void Awake()
     {
         menuDaLojaIAPController = FindObjectOfType<MenuDaLojaIAPController>();
@@ -17,6 +14,6 @@ public class NPC_LojaIAP : MonoBehaviour
 
     public void AbrirLoja()
     {
-        menuDaLojaIAPController.IniciarMenu(inventarioLoja);
+        menuDaLojaIAPController.IniciarMenu();
     }
 }

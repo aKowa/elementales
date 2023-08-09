@@ -10,12 +10,17 @@ public static class SaveManager
     private static readonly string pastaDosSaves = Path.Combine(Application.persistentDataPath, "Saves");
     private static readonly string nomeDoArquivo = "monsterProject";
 
+    private static ConfiguracoesSave configuracoesSaveAtual = new ConfiguracoesSave();
+
+    //Getters
+    public static ConfiguracoesSave ConfiguracoesSaveAtual => configuracoesSaveAtual;
+
     private static string CaminhoDoArquivoDoSaveDasConfiguracoes()
     {
         return Path.Combine(pastaDosSaves, "configuracoes" + ".txt");
     }
 
-    private static string CaminhoDoArquivoDoSave(int slot)
+    public static string CaminhoDoArquivoDoSave(int slot)
     {
         return Path.Combine(pastaDosSaves, nomeDoArquivo + slot.ToString() + ".txt");
     }
@@ -78,9 +83,14 @@ public static class SaveManager
 
     public static SaveData Carregar(int slot)
     {
-        IniciarPasta();
-
         string caminhoDoArquivo = CaminhoDoArquivoDoSave(slot);
+
+        return Carregar(caminhoDoArquivo);
+    }
+
+    public static SaveData Carregar(string caminhoDoArquivo)
+    {
+        IniciarPasta();
 
         string texto;
 
@@ -126,7 +136,9 @@ public static class SaveManager
 
         string caminhoDoArquivo = CaminhoDoArquivoDoSaveDasConfiguracoes();
 
-        string texto = JsonUtility.ToJson(new ConfiguracoesSave());
+        configuracoesSaveAtual.AtualizarConfiguracoes();
+
+        string texto = JsonUtility.ToJson(configuracoesSaveAtual);
 
         if (texto != null)
         {
@@ -174,10 +186,10 @@ public static class SaveManager
 
         if (texto != null)
         {
-            ConfiguracoesSave configuracoesSave = JsonUtility.FromJson<ConfiguracoesSave>(texto);
+            configuracoesSaveAtual = JsonUtility.FromJson<ConfiguracoesSave>(texto);
 
-            BergamotaLibrary.MusicManager.instance.SetVolume(configuracoesSave.volumeMusicas);
-            BergamotaLibrary.SoundManager.instance.SetVolume(configuracoesSave.volumeEfeitosSonoros);
+            BergamotaLibrary.MusicManager.instance.SetVolume(configuracoesSaveAtual.volumeMusicas);
+            BergamotaLibrary.SoundManager.instance.SetVolume(configuracoesSaveAtual.volumeEfeitosSonoros);
 
             return true;
         }

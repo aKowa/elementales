@@ -47,6 +47,7 @@ public class GolpeUnicoCloneModificador : AcaoNaBatalha
                     {
                         (ModificadorTurno modificadorAleatorio, Modificador.Atributo atributo) = EscolherModificadorAleatorio(ref modifcadoresGerais, modificadoresAtaques, modificadoresDefesa, modificadoresSpAtaques, modificadoresSpDefesa, modificadoresVelocidade);
                         comandoDeAtaque.GetMonstro.AtributosAtuais.ReceberModificadorStatus(atributo, modificadorAleatorio.ValorModificador, modificadorAleatorio.PassaComTurnos, modificadorAleatorio.QuantidadeTurnos);
+                        comandoDeAtaque.GetMonstro.AtributosAtuais.TocarSomModificador(modificadorAleatorio.ValorModificador, comandoDeAtaque.GetMonstro.MonsterData);
 
                     }
                 }

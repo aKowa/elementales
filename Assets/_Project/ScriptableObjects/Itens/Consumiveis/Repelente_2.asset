@@ -18,7 +18,7 @@ MonoBehaviour:
   imagem: {fileID: 21300000, guid: 8df6bcef74041a945a453d178c191e8d, type: 3}
   descricao: A stronger repellent to keep all the weak Elemantors away from you!
     It will last longer, and smells weirder too!
-  preco: 0
+  preco: 400
   efeitoForaDaBatalha: {fileID: 11400000, guid: 5ccf3d00968dfe3459cd6e917dde8ad8, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

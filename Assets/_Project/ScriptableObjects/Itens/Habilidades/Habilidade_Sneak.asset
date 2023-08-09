@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Neutral Stone - Sneak
+  nome: Sneak Skill
   imagem: {fileID: 21300000, guid: 760f51ec2eaf3ef4b966c7c1040c3b13, type: 3}
   descricao: A golden stone that can teach the Neutral type skill Sneak to one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 0b95ce2a2ad3aa74b81ad8d36407bfbe, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

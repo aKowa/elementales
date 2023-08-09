@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Anti-Confusion
   imagem: {fileID: 21300000, guid: 471f8fc64ab044c40b021e2891b1891f, type: 3}
   descricao: Cures the Confusion status from an Elemantor.
-  preco: 0
+  preco: 250
   efeitoForaDaBatalha: {fileID: 11400000, guid: ca7b116c4884fa4498bd6b187be3365d, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: ca7b116c4884fa4498bd6b187be3365d, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: ccb316de2aae81142bfc554b5a45a589, type: 2}

@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Mega Revive
   imagem: {fileID: 21300000, guid: 9ccf5474356eb2043bbce07a7a2bfb8a, type: 3}
   descricao: Revive a Elemantor with full HP.
-  preco: 0
+  preco: 800
   efeitoForaDaBatalha: {fileID: 11400000, guid: 8dca24eadd0b61241918828ff62ee4b2, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 8dca24eadd0b61241918828ff62ee4b2, type: 2}
   comandoNaBatalha: {fileID: 0}

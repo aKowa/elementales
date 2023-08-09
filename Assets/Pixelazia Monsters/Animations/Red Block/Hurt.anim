@@ -35,6 +35,54 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 5877642234377256693, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.1
+      value: {fileID: -3608862055406004568, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.2
+      value: {fileID: -333393020523558894, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.3
+      value: {fileID: 5772160357321961992, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.4
+      value: {fileID: 6175459078211288120, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.5
+      value: {fileID: -3390225923586737883, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    attribute: m_Sprite
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 5877642234377256693, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.1
+      value: {fileID: -3608862055406004568, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.2
+      value: {fileID: -333393020523558894, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.3
+      value: {fileID: 5772160357321961992, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.4
+      value: {fileID: 6175459078211288120, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.5
+      value: {fileID: -3390225923586737883, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    attribute: m_Sprite
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 5877642234377256693, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.1
+      value: {fileID: -3608862055406004568, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.2
+      value: {fileID: -333393020523558894, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.3
+      value: {fileID: 5772160357321961992, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.4
+      value: {fileID: 6175459078211288120, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.5
+      value: {fileID: -3390225923586737883, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    attribute: m_Sprite
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_SampleRate: 10
   m_WrapMode: 0
   m_Bounds:

@@ -17,7 +17,7 @@ MonoBehaviour:
     _monsterData: {fileID: 11400000, guid: 14b0994114a0b784aa846661a4743a8f, type: 2}
     status: []
     attacks:
-    - attack: {fileID: 11400000, guid: ab58927ea1f802b4da3d353be847b365, type: 2}
+    - attack: {fileID: 11400000, guid: bb47f3349b6349546ac3619f0f119a27, type: 2}
       pp: 0
     - attack: {fileID: 11400000, guid: 984148b4ed0ec1b4089da45fe8c09230, type: 2}
       pp: 0

@@ -1280,6 +1280,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.05
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: c48d4c9d71d84174090280f68ea2e51f, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.083333336
     functionName: FazerUmTweenParaPosicaoDaOrigem
     data: 

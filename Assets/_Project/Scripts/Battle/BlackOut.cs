@@ -11,7 +11,11 @@ public class BlackOut : MonoBehaviour
     //Variaveis
     [SerializeField] private DialogueObject dialogoBlackOut;
     [SerializeField] private DialogueObject dialogoBlackOutComNPC;
+
+    [Space(10)]
+
     [SerializeField] private DialogueObject dialogoMonstrosCurados;
+    [SerializeField] private DialogueObject dialogoMonstrosCuradosPelaMetade;
 
     private DialogueActivator dialogueActivator;
 
@@ -116,9 +120,18 @@ public class BlackOut : MonoBehaviour
     
     private IEnumerator DialogoMonstrosCurados()
     {
-        PlayerData.Instance.Inventario.RestaurarTodosOsMonstros();
+        bool hiddenCheckpoint = SceneSpawnManager.HiddenCheckpoint;
 
-        dialogueActivator.ShowDialogue(dialogoMonstrosCurados, DialogueUI.Instance);
+        PlayerData.Instance.Inventario.RestaurarTodosOsMonstros(hiddenCheckpoint);
+
+        if(hiddenCheckpoint == false)
+        {
+            dialogueActivator.ShowDialogue(dialogoMonstrosCurados, DialogueUI.Instance);
+        }
+        else
+        {
+            dialogueActivator.ShowDialogue(dialogoMonstrosCuradosPelaMetade, DialogueUI.Instance);
+        }
 
         yield return new WaitUntil(() => DialogueUI.Instance.IsOpen == false);
 

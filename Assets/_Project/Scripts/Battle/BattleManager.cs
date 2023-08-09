@@ -287,6 +287,8 @@ public class BattleManager : MonoBehaviour
             monsterBattleTemp.GetMonstro.AtributosAtuais.LimparModificadores();
             monsterBattleTemp.GetMonstro.LimparStatusSecundario();
             listMonsterBattleTemp.Add(monsterBattleTemp);
+
+            PlayerData.MonsterBook.MonsterEntries[novoMonstro.MonsterData.ID].WasFound = true;
         }
 
         integranteNpc.ReceberLista(listMonsterBattleTemp);
@@ -304,6 +306,8 @@ public class BattleManager : MonoBehaviour
         listMonsterBattleTemp.Add(monsterBattle);
         integrante.ReceberLista(listMonsterBattleTemp); // Adiciona mosntro ao "inventario" e adiciona integrante a lita
         integrantes.Add(integrante);
+
+        PlayerData.MonsterBook.MonsterEntries[monstroSelvagem.MonsterData.ID].WasFound = true;
     }
     public void CreatePlayer(PlayerData playerData, int idTime)
     {
@@ -959,8 +963,8 @@ public class BattleManager : MonoBehaviour
 
         if (playedDuplicateDices || playedDuplicateDicesOnTwoTurns)
         {
-            Debug.Log($"Distincts? {playedDuplicateDices} // Intersecting? {playedDuplicateDicesOnTwoTurns}");
-            Debug.Log($"Um monstro tem critico garantido");
+            //Debug.Log($"Distincts? {playedDuplicateDices} // Intersecting? {playedDuplicateDicesOnTwoTurns}");
+            //Debug.Log($"Um monstro tem critico garantido");
             
             return true;
         }
@@ -993,7 +997,8 @@ public class BattleManager : MonoBehaviour
                 List<CombatLesson> instantiatedCombatLessons = new List<CombatLesson>();
                 foreach (CombatLesson cL in monster.CombatLessonsAtivos)
                 {
-                    Debug.Log($"Combat Lessons Ativos: {monster.CombatLessonsAtivos.Count}, adicionando {cL.Nome}");
+                    //Debug.Log($"Combat Lessons Ativos: {monster.CombatLessonsAtivos.Count}, adicionando {cL.Nome}");
+
                     instantiatedCombatLessons.Add(Instantiate(cL));
                 }
 
@@ -2193,7 +2198,10 @@ public class BattleManager : MonoBehaviour
     {
         dialogoAberto = false;
     }
-
+    public void TocarSom(string nomeSom)
+    {
+        SoundManager.instance.TocarSomIgnorandoPause(sonsGenericos.GetSom(nomeSom));
+    }
     private IEnumerator DialogoAberto(DialogueUI dialogueUI)
     {
         while (dialogueUI.IsOpen == true)
@@ -3082,7 +3090,7 @@ public class MonsterInBattle
     public void TomarAtaqueAtributo(Integrante.MonstroAtual monstroAtual, StatusEffectDebufAtributo statusEffectDebufAtributo, bool passaComTempo, int numeroRounds)
     {
         monstro.AtributosAtuais.ReceberModificadorStatus(statusEffectDebufAtributo.GetAtributo, statusEffectDebufAtributo.GetvalorDebuff, passaComTempo, numeroRounds);
-
+        monstro.AtributosAtuais.TocarSomModificador(statusEffectDebufAtributo.GetvalorDebuff, monstro.MonsterData);
         BattleManager.Instance.RodarEfeitoAtributo(monstroAtual, statusEffectDebufAtributo, false);
     }
 
@@ -3095,17 +3103,20 @@ public class MonsterInBattle
             int valorCritico = CalcValorCritico(comando.GetMonstroInBattle.CriticoGarantido? 100 : 10);
             comando.GetMonstroInBattle.CriticoGarantido = false;
 
-            int atributoDefesa = 1;
-            if (usarAtributoDefesa)
+            int atributoDefesa;
+
+            if (comando.AttackData.Categoria == AttackData.CategoriaEnum.Fisico)
             {
-                if (comando.AttackData.Categoria == AttackData.CategoriaEnum.Fisico)
-                {
-                    atributoDefesa = comando.GetMonstro.AtributosAtuais.DefesaComModificador;
-                }
-                else
-                {
-                    atributoDefesa = comando.GetMonstro.AtributosAtuais.SpDefesaComModificador;
-                }
+                atributoDefesa = comando.GetMonstro.AtributosAtuais.DefesaComModificador;
+            }
+            else
+            {
+                atributoDefesa = comando.GetMonstro.AtributosAtuais.SpDefesaComModificador;
+            }
+
+            if (!usarAtributoDefesa)
+            {
+                atributoDefesa /=2;
             }
 
             int multiplicadorDanoAtaqueEspecifico = 1;
@@ -3134,14 +3145,10 @@ public class MonsterInBattle
             dano2 *= 1.5f;
 
             float danobuff = 1;
+
             if (comando.GetMonstro.BuffDano)
             {
                 danobuff = 1.2f;
-                Debug.Log(comando.GetMonstro.NickName+" : VOu usar o buff para dar dano extra");
-            }
-            else
-            {
-                Debug.Log(comando.GetMonstro.NickName + " : Vou causar o dano normal");
             }
 
             (float valorDano, float modificadorTipoMonstro) = monstro.TomarAtaque(Mathf.CeilToInt((multiplicadorDanoAtaqueEspecifico * dano1) * dano2 * dano3), comando);

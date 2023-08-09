@@ -18,7 +18,7 @@ MonoBehaviour:
   imagem: {fileID: 21300000, guid: 3c0a5d591d862524a9a9d53865ca1db5, type: 3}
   descricao: An arcane stone that can teach the Magic type skill ___________ to one
     Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 9ba166f52f233c0408ee38ee1d17e152, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

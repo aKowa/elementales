@@ -19,10 +19,4 @@ MonoBehaviour:
   - portrait: {fileID: 0}
     typingSound: {fileID: 0}
     text: ...
-  - portrait: {fileID: 0}
-    typingSound: {fileID: 0}
-    text: 'Okay, Done! Now your Elemantor are top notch again!
-
-      Thank you for
-      visiting the Healing Center. Good luck out there!'
   responses: []

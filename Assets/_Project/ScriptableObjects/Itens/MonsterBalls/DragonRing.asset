@@ -18,7 +18,7 @@ MonoBehaviour:
   imagem: {fileID: 21300000, guid: 65d54106e57463b4090e534ec86848fc, type: 3}
   descricao: 'The knowledge of how to create the Dragon Ring was lost long ago, and
     so only a couple of them are left scattered across the Lands today. '
-  preco: 12000
+  preco: 4501
   efeitoForaDaBatalha: {fileID: 11400000, guid: 9f4364bc7e314564b8f0ca9a3f8e28c1, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 52e02e0feef13484ba4fe7a027db71a7, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: a51a6f04650f819488748779f324cd0e, type: 2}

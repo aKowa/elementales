@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 77949074ab8e3cb4187e1fd8d26412a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7239396846095672437
+    second: Deer_Idle_0
+  - first:
+      213: -6049291236591060973
+    second: Deer_Idle_1
+  - first:
+      213: 7740442124106627257
+    second: Deer_Idle_2
+  - first:
+      213: 7151304888011155939
+    second: Deer_Idle_3
+  - first:
+      213: -5057373644367713598
+    second: Deer_Idle_4
+  - first:
+      213: -899850011772853970
+    second: Deer_Idle_5
+  - first:
+      213: -2584223015399308535
+    second: Deer_TomandoDano_0
+  - first:
+      213: 7324706889590333244
+    second: Deer_TomandoDano_1
+  - first:
+      213: 2101829288479534537
+    second: Deer_TomandoDano_2
+  - first:
+      213: -6346760206177713464
+    second: Deer_TomandoDano_3
+  - first:
+      213: -6227650800251983297
+    second: Deer_TomandoDano_4
+  - first:
+      213: 6646261769975813609
+    second: Deer_TomandoDano_5
+  - first:
+      213: 3215778141067026025
+    second: Deer_TomandoDano_6
+  - first:
+      213: -3705864826508145653
+    second: Deer_Atk_0
+  - first:
+      213: 1070232921937356607
+    second: Deer_Atk_1
+  - first:
+      213: 9091331333978095450
+    second: Deer_Atk_2
+  - first:
+      213: 8280592843224449333
+    second: Deer_Atk_3
+  - first:
+      213: 8464296793811054750
+    second: Deer_Atk_4
+  - first:
+      213: 1346953216474527661
+    second: Deer_Atk_5
+  - first:
+      213: -119255420644927918
+    second: Deer_Atk_6
+  - first:
+      213: -179763090895689009
+    second: Deer_Morto_0
+  - first:
+      213: -3673352578024855266
+    second: Deer_Morto_1
+  - first:
+      213: 6445537341262222945
+    second: Deer_Morto_2
+  - first:
+      213: -8501927388287682258
+    second: Deer_Morto_3
+  - first:
+      213: 6093899776716637008
+    second: Deer_Morto_4
+  - first:
+      213: 2327517689320338801
+    second: Deer_Morto_5
+  - first:
+      213: 3963442689206572932
+    second: Deer_Morto_6
+  - first:
+      213: -67273599476719394
+    second: Deer_Morto_7
+  - first:
+      213: 4754613490541859595
+    second: Deer_Morto_8
+  - first:
+      213: -5472012134975739622
+    second: Deer_Morto_9
+  - first:
+      213: 3996014565425034709
+    second: Deer_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deer_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574ad975311877460800000000000000
+      internalID: 7239396846095672437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3183b1cbba99c0ca0800000000000000
+      internalID: -6049291236591060973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b878dbe9139b6b60800000000000000
+      internalID: 7740442124106627257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e96b6a08e98e3360800000000000000
+      internalID: 7151304888011155939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca2a0f277990d9b0800000000000000
+      internalID: -5057373644367713598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21e5219e271383f0800000000000000
+      internalID: -899850011772853970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9034cbafbdef22cd0800000000000000
+      internalID: -2584223015399308535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f53edab1696a560800000000000000
+      internalID: 7324706889590333244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cda5561a923b2d10800000000000000
+      internalID: 2101829288479534537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c241341837cbe7a0800000000000000
+      internalID: -6346760206177713464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aadc9b790f299a0800000000000000
+      internalID: -6227650800251983297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5daabcdd34c3c50800000000000000
+      internalID: 6646261769975813609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e14ce6e2db0ac20800000000000000
+      internalID: 3215778141067026025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c0e56239f129cc0800000000000000
+      internalID: -3705864826508145653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3721031c2b3ade00800000000000000
+      internalID: 1070232921937356607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f74292ea5ea2e70800000000000000
+      internalID: 9091331333978095450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531090681539ae270800000000000000
+      internalID: 8280592843224449333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90f5949619377570800000000000000
+      internalID: 8464296793811054750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7b80d50d651b210800000000000000
+      internalID: 1346953216474527661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2565be6a3d1585ef0800000000000000
+      internalID: -119255420644927918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaaf67db6a518df0800000000000000
+      internalID: -179763090895689009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e192014ea41a50dc0800000000000000
+      internalID: -3673352578024855266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166537cdf06237950800000000000000
+      internalID: 6445537341262222945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29b2f2e516130a80800000000000000
+      internalID: -8501927388287682258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05307006f81e19450800000000000000
+      internalID: 6093899776716637008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1757068b1010d4020800000000000000
+      internalID: 2327517689320338801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487d6c9602af00730800000000000000
+      internalID: 3963442689206572932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0ad68840ff01ff0800000000000000
+      internalID: -67273599476719394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03170457c7cbf140800000000000000
+      internalID: 4754613490541859595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19e42884f18f04b0800000000000000
+      internalID: -5472012134975739622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deer_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d532715312b47730800000000000000
+      internalID: 3996014565425034709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Deer_TomandoDano_1: 7324706889590333244
+      Deer_TomandoDano_6: 3215778141067026025
+      Deer_Morto_2: 6445537341262222945
+      Deer_Morto_1: -3673352578024855266
+      Deer_Morto_3: -8501927388287682258
+      Deer_Idle_3: 7151304888011155939
+      Deer_Atk_1: 1070232921937356607
+      Deer_Morto_6: 3963442689206572932
+      Deer_Atk_4: 8464296793811054750
+      Deer_TomandoDano_4: -6227650800251983297
+      Deer_Atk_2: 9091331333978095450
+      Deer_Morto_4: 6093899776716637008
+      Deer_Idle_1: -6049291236591060973
+      Deer_TomandoDano_3: -6346760206177713464
+      Deer_Atk_0: -3705864826508145653
+      Deer_Morto_10: 3996014565425034709
+      Deer_Atk_5: 1346953216474527661
+      Deer_Morto_8: 4754613490541859595
+      Deer_Morto_0: -179763090895689009
+      Deer_Idle_2: 7740442124106627257
+      Deer_Morto_5: 2327517689320338801
+      Deer_Idle_5: -899850011772853970
+      Deer_Atk_6: -119255420644927918
+      Deer_Morto_9: -5472012134975739622
+      Deer_Morto_7: -67273599476719394
+      Deer_Idle_4: -5057373644367713598
+      Deer_TomandoDano_2: 2101829288479534537
+      Deer_Idle_0: 7239396846095672437
+      Deer_TomandoDano_0: -2584223015399308535
+      Deer_TomandoDano_5: 6646261769975813609
+      Deer_Atk_3: 8280592843224449333
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

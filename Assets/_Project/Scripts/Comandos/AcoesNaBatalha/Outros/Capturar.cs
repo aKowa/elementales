@@ -5,19 +5,25 @@ using UnityEngine;
 public class Capturar : AcaoNaBatalha
 {
     [SerializeField] private float monsterBallLevel;
-
     public override void Executar(BattleManager battleManager, Comando comando)
     {
         ComandoDeItem comandoDeItem = (ComandoDeItem)comando;
         Monster monstro = comandoDeItem.AlvoAcao[0].GetMonstro;
         Monster monstroOrigem = comandoDeItem.GetMonstro;
 
+        if(monsterBallLevel >= 999)
+        {
+            battleManager.CapturarMonstro(true, monstro);
+            comandoDeItem.PodeMeRetirar = true;
+            return;
+        }
+
         float bonusStatus = 1f;
         float rate = 0f;
         switch (monstro.MonsterData.MonsterRarity)
         {
             case MonsterRarityEnum.basico:
-                rate = 50;
+                rate = 60;
                 break;
             case MonsterRarityEnum.raro:
                 rate = 20;
@@ -44,12 +50,13 @@ public class Capturar : AcaoNaBatalha
         float vida = (monstro.AtributosAtuais.VidaMax - monstro.AtributosAtuais.Vida) * 6 + 20;
         float diferencaNivel = monstro.Nivel > monstroOrigem.Nivel ? 0.8f : 1.1f;
         float somaGeral = (vida * rate * diferencaNivel * bonusStatus * (monsterBallLevel / 80))/20;
-        Debug.Log($"Chance captura: vida {vida} * rate {rate} * monsterBallLevel {monsterBallLevel} / 100");
-        Debug.Log("Chance captura: " + (int)somaGeral + "% Em " + (100 - monsterBallLevel * 0.5f) + "%");
+        float chanceMonstro = (100 - monsterBallLevel * 0.5f);
 
-        int rnd = Random.Range(0, 100);
-        if(rnd <= (int)somaGeral)
-            Debug.Log($"Sucesso Captura, rnd: {rnd} <= {somaGeral}");
+        Debug.Log($"Chance captura: vida {vida} * rate {rate} * monsterBallLevel {monsterBallLevel} / 100");
+        Debug.Log("Chance captura: " + (int)somaGeral + "% Em " + chanceMonstro + "%");
+
+        int rnd = Random.Range(0, (int)chanceMonstro);
+        Debug.Log($"Sucesso Captura, rnd: {rnd} <= {somaGeral}");
         
         battleManager.CapturarMonstro(rnd <= (int)somaGeral,monstro);
 

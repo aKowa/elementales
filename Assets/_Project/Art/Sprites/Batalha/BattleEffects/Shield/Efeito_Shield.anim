@@ -1084,6 +1084,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.28333333
+    functionName: TocarSom
+    data: 
+    objectReferenceParameter: {fileID: 8300000, guid: 7ceab0b3366d96a4ea524305f025643e, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.5833333
     functionName: ExecutarAcao
     data: 

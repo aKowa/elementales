@@ -868,7 +868,7 @@ TextureImporter:
         width: 13
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -876,6 +876,48 @@ TextureImporter:
       bones: []
       spriteID: 5be36375236c47c408d0ec82cf1d0d62
       internalID: 595675399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gui_gradient_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 36
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b6e493d72c3be45ad402846241b6ee
+      internalID: 1515997337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gui_gradient_38
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 65
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acc3c0fab05c404f9ef0b5e59c33c25
+      internalID: 181968433
       vertices: []
       indices: 
       edges: []
@@ -907,7 +949,9 @@ TextureImporter:
       gui_gradient_22: 1067263076
       gui_gradient_26: -1762057183
       gui_gradient_35: 1119697715
+      gui_gradient_37: 1515997337
       gui_gradient_27: 249453829
+      gui_gradient_38: 181968433
       gui_gradient_5: 1208503661
       gui_gradient_11: 592884381
       gui_gradient_30: 40923216

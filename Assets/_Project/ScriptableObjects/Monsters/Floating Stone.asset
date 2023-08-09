@@ -184,5 +184,9 @@ MonoBehaviour:
     combatLesson: {fileID: 11400000, guid: 3700a3862672e4e458b5b6aa7dd15754, type: 2}
   numAttacks: 14
   numDiceUpgrades: 7
-  audioEntrada: {fileID: 8300000, guid: 9666834cfff0d9348a6f0436827fe1c7, type: 3}
-  audioMorrendo: {fileID: 0}
+  audioEntrada: {fileID: 8300000, guid: 8ee04ec33d8ae3e47b31480b5aeab5a4, type: 3}
+  audioMorrendo: {fileID: 8300000, guid: 044981d0446b99b488bccfa22a9d89df, type: 3}
+  audioCura: {fileID: 8300000, guid: c4bb182de1fec78438426ff7621dd9b7, type: 3}
+  audioMana: {fileID: 8300000, guid: 5520a2ed386b4e449a74fc14cb4b2bc3, type: 3}
+  audioModificadorPositivo: {fileID: 8300000, guid: 07b74e290c74002479df13620b2b6e1c, type: 3}
+  audioModificadorNegativo: {fileID: 8300000, guid: 680662a400439614984207fc2ad2595a, type: 3}

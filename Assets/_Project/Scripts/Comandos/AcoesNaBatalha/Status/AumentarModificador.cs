@@ -14,6 +14,7 @@ public class AumentarModificador : AcaoNaBatalha
             foreach (var modificador in modificadores)
             {
                 monstro.GetMonstro.AtributosAtuais.ReceberModificadorStatus(modificador.atributo, modificador.modificador);
+                monstro.GetMonstro.AtributosAtuais.TocarSomModificador(modificador.modificador.ValorModificador, monstro.GetMonstro.MonsterData);
             }
         }
         comando.PodeMeRetirar = true;

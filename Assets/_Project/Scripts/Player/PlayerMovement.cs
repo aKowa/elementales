@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,14 +18,25 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float velAnimWalk;
     [SerializeField] private float velAnimRun;
 
+    [Header("Traveled Tiles")]
+    [SerializeField] private int maxTraveledTiles;
+
+    private List<Vector2> traveledTiles = new List<Vector2>();
+
     private Vector2 movementDirection;
 
     private Vector3 lastPos;
 
+    private Vector2 posicaoPlayer;
+
     private bool running;
+
 
     //Getters
     public Rigidbody2D Rb => rb;
+
+    public List<Vector2> TraveledTiles { get => traveledTiles; set => traveledTiles = value; }
+
     public Vector3 LastPos => lastPos;
 
     public Vector2 MovementDirection
@@ -67,7 +79,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Vector2 posicaoTemp = GetPosicaoPlayer(player.transform.position);
+
+        if (posicaoTemp != posicaoPlayer)
+        {
+            AtualizarListaDeUltimasPosicoes();
+        }
+
         lastPos = transform.position;
+
     }
 
     public void Move()
@@ -103,5 +123,25 @@ public class PlayerMovement : MonoBehaviour
     {
         rb.velocity = Vector2.zero;
         movementDirection = Vector2.zero;
+    }
+
+    public void AtualizarListaDeUltimasPosicoes()
+    {
+        Vector2 posicao = new Vector2(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y));
+
+        traveledTiles.Insert(0, posicao);
+
+        if (traveledTiles.Count >= maxTraveledTiles)
+        {
+            traveledTiles.RemoveAt(traveledTiles.Count - 1);
+        }
+
+        posicaoPlayer = GetPosicaoPlayer(transform.position);
+
+    }
+
+    private Vector2 GetPosicaoPlayer(Vector2 posicao)
+    {
+        return new Vector2(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y));
     }
 }

@@ -18,13 +18,19 @@ public class PlayerAnimation : MonoBehaviour
 
     public void Animate()
     {
-        if ((player.PlayerMovement.Rb.velocity.x == 0 && player.PlayerMovement.Rb.velocity.y == 0) || !(LiBergamota.VetorDiferente(player.PlayerMovement.LastPos, player.transform.position)))
+        switch(player.GetEstadoPlayer)
         {
-            ChangeAnimation("Idle");
-        }
-        else if ((player.PlayerMovement.Rb.velocity.x != 0 || player.PlayerMovement.Rb.velocity.y != 0) && LiBergamota.VetorDiferente(player.PlayerMovement.LastPos, player.transform.position))
-        {
-            ChangeAnimation("Walk");
+            case Player.EstadoPlayer.Normal:
+
+                AnimacaoNormal();
+
+                break;
+
+            case Player.EstadoPlayer.Nadando:
+
+                AnimacaoNadando();
+
+                break;
         }
 
         if(player.GetEstadoPlayer == Player.EstadoPlayer.Pescando)
@@ -43,7 +49,31 @@ public class PlayerAnimation : MonoBehaviour
         }
     }
 
-    private void ChangeAnimation(string animation)
+    private void AnimacaoNormal()
+    {
+        if ((player.PlayerMovement.Rb.velocity.x == 0 && player.PlayerMovement.Rb.velocity.y == 0) || !(LiBergamota.VetorDiferente(player.PlayerMovement.LastPos, player.transform.position)))
+        {
+            ChangeAnimation("Idle");
+        }
+        else if ((player.PlayerMovement.Rb.velocity.x != 0 || player.PlayerMovement.Rb.velocity.y != 0) && LiBergamota.VetorDiferente(player.PlayerMovement.LastPos, player.transform.position))
+        {
+            ChangeAnimation("Walk");
+        }
+    }
+
+    private void AnimacaoNadando()
+    {
+        if ((player.PlayerMovement.Rb.velocity.x == 0 && player.PlayerMovement.Rb.velocity.y == 0) || !(LiBergamota.VetorDiferente(player.PlayerMovement.LastPos, player.transform.position)))
+        {
+            ChangeAnimation("Idle");
+        }
+        else if ((player.PlayerMovement.Rb.velocity.x != 0 || player.PlayerMovement.Rb.velocity.y != 0) && LiBergamota.VetorDiferente(player.PlayerMovement.LastPos, player.transform.position))
+        {
+            ChangeAnimation("Walk");
+        }
+    }
+
+    public void ChangeAnimation(string animation)
     {
         if (animacao.AnimatorEstaRodandoAAnimacao(animation) == false)
         {

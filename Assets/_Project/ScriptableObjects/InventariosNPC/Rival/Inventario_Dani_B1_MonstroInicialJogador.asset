@@ -62,8 +62,6 @@ MonoBehaviour:
     dices: 08000000
     combatLessonsAtivos:
     - {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
-    - {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
-    - {fileID: 11400000, guid: aa4617a9993148a4fa316657e2482d71, type: 2}
     combatLessons: []
   - nickName: 
     _monsterData: {fileID: 11400000, guid: 9be5b74c810e0d34d91773549bd6ffbb, type: 2}
@@ -114,8 +112,6 @@ MonoBehaviour:
     dices: 08000000
     combatLessonsAtivos:
     - {fileID: 11400000, guid: a2fd09bfb535178479b0b5cfecdcecec, type: 2}
-    - {fileID: 11400000, guid: a2fd09bfb535178479b0b5cfecdcecec, type: 2}
-    - {fileID: 11400000, guid: a2fd09bfb535178479b0b5cfecdcecec, type: 2}
     combatLessons: []
   - nickName: 
     _monsterData: {fileID: 11400000, guid: e96fb3070cf45eb4c8240deb8669de4b, type: 2}
@@ -165,8 +161,6 @@ MonoBehaviour:
     diceMaterial: 
     dices: 08000000
     combatLessonsAtivos:
-    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
-    - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
     - {fileID: 11400000, guid: 8ed2743defc52c94f9c54d8604f1219e, type: 2}
     combatLessons: []
   itens: []

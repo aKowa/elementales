@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 788a495b9758dff4cabaccdd9fdf944e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8298550662370423734
+    second: BlueTurtle_Idle_0
+  - first:
+      213: -6053714364234889503
+    second: BlueTurtle_Idle_1
+  - first:
+      213: -2972420072168243636
+    second: BlueTurtle_Idle_2
+  - first:
+      213: 4960390695210881313
+    second: BlueTurtle_Idle_3
+  - first:
+      213: -4936923374676532048
+    second: BlueTurtle_Idle_4
+  - first:
+      213: 5595652329630230425
+    second: BlueTurtle_Idle_5
+  - first:
+      213: -2193204784481964718
+    second: BlueTurtle_TomandoDano_0
+  - first:
+      213: -461901236851287748
+    second: BlueTurtle_TomandoDano_1
+  - first:
+      213: -4730223700592504149
+    second: BlueTurtle_TomandoDano_2
+  - first:
+      213: 8872154101849368592
+    second: BlueTurtle_TomandoDano_3
+  - first:
+      213: -2507545393894472227
+    second: BlueTurtle_TomandoDano_4
+  - first:
+      213: -2996625279858460632
+    second: BlueTurtle_TomandoDano_5
+  - first:
+      213: -3217364610937702177
+    second: BlueTurtle_TomandoDano_6
+  - first:
+      213: -1491276547753477820
+    second: BlueTurtle_Atk_0
+  - first:
+      213: 422190316380705513
+    second: BlueTurtle_Atk_1
+  - first:
+      213: -6823811504098070100
+    second: BlueTurtle_Atk_2
+  - first:
+      213: 523692353751009385
+    second: BlueTurtle_Atk_3
+  - first:
+      213: -7136096245030029942
+    second: BlueTurtle_Atk_4
+  - first:
+      213: -5518192425435526353
+    second: BlueTurtle_Atk_5
+  - first:
+      213: -1160329896772997443
+    second: BlueTurtle_Atk_6
+  - first:
+      213: 8515035360377058083
+    second: BlueTurtle_Morto_0
+  - first:
+      213: -7841905940324392011
+    second: BlueTurtle_Morto_1
+  - first:
+      213: 4715789825344142611
+    second: BlueTurtle_Morto_2
+  - first:
+      213: 869575441709311871
+    second: BlueTurtle_Morto_3
+  - first:
+      213: 649016919795666928
+    second: BlueTurtle_Morto_4
+  - first:
+      213: -4891191862003264786
+    second: BlueTurtle_Morto_5
+  - first:
+      213: -4360687614651198301
+    second: BlueTurtle_Morto_6
+  - first:
+      213: 4858045480318928463
+    second: BlueTurtle_Morto_7
+  - first:
+      213: 3845928229128187982
+    second: BlueTurtle_Morto_8
+  - first:
+      213: 3085293799128056035
+    second: BlueTurtle_Morto_9
+  - first:
+      213: -7123243477364408915
+    second: BlueTurtle_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1020
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueTurtle_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c04d2e320a5dc80800000000000000
+      internalID: -8298550662370423734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e689141cd2ecfba0800000000000000
+      internalID: -6053714364234889503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ebb2361b7dfb6d0800000000000000
+      internalID: -2972420072168243636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12192375e09d6d440800000000000000
+      internalID: 4960390695210881313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4251109568c7bb0800000000000000
+      internalID: -4936923374676532048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99762329520c7ad40800000000000000
+      internalID: 5595652329630230425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25de34d5edb2091e0800000000000000
+      internalID: -2193204784481964718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c395a28b54ff699f0800000000000000
+      internalID: -461901236851287748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2dc0a2b9eda5eb0800000000000000
+      internalID: -4730223700592504149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018a1412629302b70800000000000000
+      internalID: 8872154101849368592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5c0c2ffb8633dd0800000000000000
+      internalID: -2507545393894472227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828b41d4f29d966d0800000000000000
+      internalID: -2996625279858460632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd83524ceef9953d0800000000000000
+      internalID: -3217364610937702177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449784581ebed4be0800000000000000
+      internalID: -1491276547753477820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e25b7b1bdbebd500800000000000000
+      internalID: 422190316380705513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1b2045793fc41a0800000000000000
+      internalID: -6823811504098070100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968caeccb67844700800000000000000
+      internalID: 523692353751009385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a857cf7164e77fc90800000000000000
+      internalID: -7136096245030029942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b0aa7c9317b63b0800000000000000
+      internalID: -5518192425435526353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe64984b1ea5efe0800000000000000
+      internalID: -1160329896772997443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3233a21bb8b7b2670800000000000000
+      internalID: 8515035360377058083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b360f07814fb2390800000000000000
+      internalID: -7841905940324392011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31df90f5cd9d17140800000000000000
+      internalID: 4715789825344142611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77ac7cc14a511c00800000000000000
+      internalID: 869575441709311871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff83ad2375c10900800000000000000
+      internalID: 649016919795666928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee293098aeefe1cb0800000000000000
+      internalID: -4891191862003264786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a41548e7b9bb73c0800000000000000
+      internalID: -4360687614651198301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f460a1510ae3b6340800000000000000
+      internalID: 4858045480318928463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4035d8095b7f5530800000000000000
+      internalID: 3845928229128187982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e04ebc1d5a21da20800000000000000
+      internalID: 3085293799128056035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTurtle_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad73134cc7252d90800000000000000
+      internalID: -7123243477364408915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueTurtle_TomandoDano_4: -2507545393894472227
+      BlueTurtle_Atk_3: 523692353751009385
+      BlueTurtle_TomandoDano_0: -2193204784481964718
+      BlueTurtle_Morto_0: 8515035360377058083
+      BlueTurtle_Morto_7: 4858045480318928463
+      BlueTurtle_TomandoDano_2: -4730223700592504149
+      BlueTurtle_Idle_1: -6053714364234889503
+      BlueTurtle_Morto_10: -7123243477364408915
+      BlueTurtle_Morto_1: -7841905940324392011
+      BlueTurtle_Morto_2: 4715789825344142611
+      BlueTurtle_Idle_4: -4936923374676532048
+      BlueTurtle_TomandoDano_3: 8872154101849368592
+      BlueTurtle_Morto_6: -4360687614651198301
+      BlueTurtle_Morto_5: -4891191862003264786
+      BlueTurtle_Atk_5: -5518192425435526353
+      BlueTurtle_Atk_2: -6823811504098070100
+      BlueTurtle_Morto_9: 3085293799128056035
+      BlueTurtle_Atk_0: -1491276547753477820
+      BlueTurtle_Atk_4: -7136096245030029942
+      BlueTurtle_TomandoDano_1: -461901236851287748
+      BlueTurtle_Morto_4: 649016919795666928
+      BlueTurtle_TomandoDano_6: -3217364610937702177
+      BlueTurtle_Idle_3: 4960390695210881313
+      BlueTurtle_Idle_0: -8298550662370423734
+      BlueTurtle_Morto_3: 869575441709311871
+      BlueTurtle_TomandoDano_5: -2996625279858460632
+      BlueTurtle_Idle_5: 5595652329630230425
+      BlueTurtle_Idle_2: -2972420072168243636
+      BlueTurtle_Atk_1: 422190316380705513
+      BlueTurtle_Morto_8: 3845928229128187982
+      BlueTurtle_Atk_6: -1160329896772997443
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

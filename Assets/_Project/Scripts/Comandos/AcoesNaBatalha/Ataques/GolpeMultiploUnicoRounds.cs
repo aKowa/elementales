@@ -60,7 +60,7 @@ public class GolpeMultiploUnicoRounds : AcaoNaBatalha
             }
         }
 
-        Debug.Log("Quantidade de Ataques " + quantidadeAtaques);
+        //Debug.Log("Quantidade de Ataques " + quantidadeAtaques);
 
         battleManager.SetarAnimacao(quantidadeAtaques);
     }

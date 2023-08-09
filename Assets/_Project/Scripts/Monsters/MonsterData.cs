@@ -8,6 +8,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
+using BergamotaLibrary;
 
 [CreateAssetMenu(fileName = "Monster", menuName = "Monster/Monster Data", order = 1)]
 public class MonsterData : ScriptableObject
@@ -697,7 +698,14 @@ public class MonsterAttributes
     {
         return ((2 * atributo + iv) * level) / 100 + 5;
     }
+    public void TocarSomModificador(int valor,MonsterData monsterData)
+    {
+        if (valor > 0)
+            BattleManager.Instance.TocarSom("ModificadorIncrease");
 
+        else
+            BattleManager.Instance.TocarSom("ModificadorDecrease");
+    }
     public int ReceberModificadorStatus(Modificador.Atributo atributo, int valorDebuff, bool passaComTempo, int numeroRounds)
     {
         switch (atributo)

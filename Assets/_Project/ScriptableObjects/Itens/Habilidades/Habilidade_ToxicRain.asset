@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Toxic Stone - Toxic Rain
+  nome: Toxic Rain Skill
   imagem: {fileID: 21300000, guid: e3a0aa3da5e18c94ebc124ff3a9fac83, type: 3}
   descricao: A slippery stone that can teach the Toxic type skill Toxic Rain to one
     Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: b65ebe419bd6e1f4c8651cd28a76b7d1, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

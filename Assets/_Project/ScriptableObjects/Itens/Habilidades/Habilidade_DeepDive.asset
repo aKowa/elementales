@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Water Stone - Deep Dive
+  nome: Deep Dive Skill
   imagem: {fileID: 21300000, guid: 66322fba2bcb25f4b993d0c7871fcf07, type: 3}
   descricao: A delicate stone that can teach the Water type skill Deep Dive to one
     Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 20b055add629f8d42a4288ff93021b39, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

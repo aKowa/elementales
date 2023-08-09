@@ -186,6 +186,8 @@ public class StatusEffectBase : ScriptableObject
             {
                 Modificador.Atributo atributo = statusEffectOpcoesDentroCombate.GetstatusEffectDebufAtributo[i].GetAtributo;
                 statusEffectOpcoesDentroCombate.ID = monstro.AtributosAtuais.ReceberModificadorStatus(atributo, statusEffectOpcoesDentroCombate.GetstatusEffectDebufAtributo[i].GetvalorDebuff, false, 0);
+                monstro.AtributosAtuais.TocarSomModificador(statusEffectOpcoesDentroCombate.GetstatusEffectDebufAtributo[i].GetvalorDebuff, monstro.MonsterData);
+
                 Debug.Log(monstro);
             }
             statusEffectOpcoesDentroCombate.Aplicado = true;
@@ -199,6 +201,8 @@ public class StatusEffectBase : ScriptableObject
             {
                 Modificador.Atributo atributo = statusEffectOpcoesDentroCombate.GetstatusEffectDebufAtributo[i].GetAtributo;
                 statusEffectOpcoesDentroCombate.ID = monstro.AtributosAtuais.ReceberModificadorStatus(atributo, statusEffectOpcoesDentroCombate.GetstatusEffectDebufAtributo[i].GetvalorDebuff, false, 0);
+                monstro.AtributosAtuais.TocarSomModificador(statusEffectOpcoesDentroCombate.GetstatusEffectDebufAtributo[i].GetvalorDebuff, monstro.MonsterData);
+
                 Debug.Log(monstro);
             }
         }

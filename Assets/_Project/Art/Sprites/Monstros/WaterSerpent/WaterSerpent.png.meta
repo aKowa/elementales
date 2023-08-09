@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: a44c77cc32e4f764ea931379cfe4d1b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2790922236729708144
+    second: WaterSerpent_Idle_0
+  - first:
+      213: -2337384770711533732
+    second: WaterSerpent_Idle_1
+  - first:
+      213: -6946335670389618359
+    second: WaterSerpent_Idle_2
+  - first:
+      213: 1063738107572228561
+    second: WaterSerpent_Idle_3
+  - first:
+      213: -8480062062526521492
+    second: WaterSerpent_Idle_4
+  - first:
+      213: 4242862756009590547
+    second: WaterSerpent_Idle_5
+  - first:
+      213: -4388669912580898448
+    second: WaterSerpent_Idle_6
+  - first:
+      213: -2337067541828827798
+    second: WaterSerpent_Idle_7
+  - first:
+      213: 2607610596041302550
+    second: WaterSerpent_Idle_8
+  - first:
+      213: -3866235843834259335
+    second: WaterSerpent_TomandoDano_0
+  - first:
+      213: -7217218212944623965
+    second: WaterSerpent_TomandoDano_1
+  - first:
+      213: 2484973016579892874
+    second: WaterSerpent_TomandoDano_2
+  - first:
+      213: 8545131753583607403
+    second: WaterSerpent_TomandoDano_3
+  - first:
+      213: -5938465248143391880
+    second: WaterSerpent_TomandoDano_4
+  - first:
+      213: -7718489875304861486
+    second: WaterSerpent_TomandoDano_5
+  - first:
+      213: 7106333190888594760
+    second: WaterSerpent_TomandoDano_6
+  - first:
+      213: -1733623113634439475
+    second: WaterSerpent_Atk_0
+  - first:
+      213: 6780093090567489667
+    second: WaterSerpent_Atk_1
+  - first:
+      213: -8480253484263459910
+    second: WaterSerpent_Atk_2
+  - first:
+      213: 4943336509810116852
+    second: WaterSerpent_Atk_3
+  - first:
+      213: 8140315358987419116
+    second: WaterSerpent_Atk_4
+  - first:
+      213: 8152962353006149783
+    second: WaterSerpent_Atk_5
+  - first:
+      213: 1637756504097658725
+    second: WaterSerpent_Atk_6
+  - first:
+      213: 813905130433575719
+    second: WaterSerpent_Morto_0
+  - first:
+      213: 7370570993142957712
+    second: WaterSerpent_Morto_1
+  - first:
+      213: 5878754725876872455
+    second: WaterSerpent_Morto_2
+  - first:
+      213: 4494362001294217212
+    second: WaterSerpent_Morto_3
+  - first:
+      213: -6475720512923676785
+    second: WaterSerpent_Morto_4
+  - first:
+      213: -8206986802616734219
+    second: WaterSerpent_Morto_5
+  - first:
+      213: -6843145567273407828
+    second: WaterSerpent_Morto_6
+  - first:
+      213: 7307983878894194214
+    second: WaterSerpent_Morto_7
+  - first:
+      213: -1587128619720116288
+    second: WaterSerpent_Morto_8
+  - first:
+      213: -8567698422690946578
+    second: WaterSerpent_Morto_9
+  - first:
+      213: -770618159916385804
+    second: WaterSerpent_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e4304ccf85bb620800000000000000
+      internalID: 2790922236729708144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57c45e5fe0ff8fd0800000000000000
+      internalID: -2337384770711533732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9494dc3d288a99f90800000000000000
+      internalID: -6946335670389618359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d193e34c2823ce00800000000000000
+      internalID: 1063738107572228561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f17d1cb74c05a80800000000000000
+      internalID: -8480062062526521492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fbfaa623da1ea30800000000000000
+      internalID: 4242862756009590547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071cb2877ff4813c0800000000000000
+      internalID: -4388669912580898448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a658239f371119fd0800000000000000
+      internalID: -2337067541828827798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61226997508103420800000000000000
+      internalID: 2607610596041302550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9785066fbfe585ac0800000000000000
+      internalID: -3866235843834259335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6c4f6164a47db90800000000000000
+      internalID: -7217218212944623965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86eca9eac56c7220800000000000000
+      internalID: 2484973016579892874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ef24b4e08669670800000000000000
+      internalID: 8545131753583607403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8734965f155569da0800000000000000
+      internalID: -5938465248143391880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0310c4a5a62e490800000000000000
+      internalID: -7718489875304861486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d9b7ad264ce9260800000000000000
+      internalID: 7106333190888594760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce996996fee0f7e0800000000000000
+      internalID: -1733623113634439475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3880b5f4ebab71e50800000000000000
+      internalID: 6780093090567489667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab33539e266105a80800000000000000
+      internalID: -8480253484263459910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f883706d524a9440800000000000000
+      internalID: 4943336509810116852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedf91490b538f070800000000000000
+      internalID: 8140315358987419116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79080165014252170800000000000000
+      internalID: 8152962353006149783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567935ffcda7ab610800000000000000
+      internalID: 1637756504097658725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b7c5467629b4b00800000000000000
+      internalID: 813905130433575719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096851e6447894660800000000000000
+      internalID: 7370570993142957712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7053a85b648859150800000000000000
+      internalID: 5878754725876872455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cffc7239d6e2f5e30800000000000000
+      internalID: 4494362001294217212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f497ad08e9126a0800000000000000
+      internalID: -6475720512923676785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fde5b94cfcea1e80800000000000000
+      internalID: -8206986802616734219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa2164fc534801a0800000000000000
+      internalID: -6843145567273407828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e05c55e9c2b6560800000000000000
+      internalID: 7307983878894194214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7f9b8ede269f9e0800000000000000
+      internalID: -1587128619720116288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1e4dc9dab691980800000000000000
+      internalID: -8567698422690946578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSerpent_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f9f7b0ddd63e45f0800000000000000
+      internalID: -770618159916385804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      WaterSerpent_Morto_6: -6843145567273407828
+      WaterSerpent_TomandoDano_6: 7106333190888594760
+      WaterSerpent_Morto_1: 7370570993142957712
+      WaterSerpent_TomandoDano_5: -7718489875304861486
+      WaterSerpent_TomandoDano_4: -5938465248143391880
+      WaterSerpent_Morto_5: -8206986802616734219
+      WaterSerpent_Idle_6: -4388669912580898448
+      WaterSerpent_Idle_1: -2337384770711533732
+      WaterSerpent_Morto_3: 4494362001294217212
+      WaterSerpent_Idle_7: -2337067541828827798
+      WaterSerpent_Morto_4: -6475720512923676785
+      WaterSerpent_Atk_5: 8152962353006149783
+      WaterSerpent_TomandoDano_0: -3866235843834259335
+      WaterSerpent_TomandoDano_2: 2484973016579892874
+      WaterSerpent_Idle_2: -6946335670389618359
+      WaterSerpent_Morto_2: 5878754725876872455
+      WaterSerpent_Atk_0: -1733623113634439475
+      WaterSerpent_Idle_5: 4242862756009590547
+      WaterSerpent_Morto_10: -770618159916385804
+      WaterSerpent_TomandoDano_3: 8545131753583607403
+      WaterSerpent_TomandoDano_1: -7217218212944623965
+      WaterSerpent_Atk_2: -8480253484263459910
+      WaterSerpent_Atk_1: 6780093090567489667
+      WaterSerpent_Idle_3: 1063738107572228561
+      WaterSerpent_Idle_8: 2607610596041302550
+      WaterSerpent_Idle_4: -8480062062526521492
+      WaterSerpent_Morto_8: -1587128619720116288
+      WaterSerpent_Atk_4: 8140315358987419116
+      WaterSerpent_Atk_3: 4943336509810116852
+      WaterSerpent_Atk_6: 1637756504097658725
+      WaterSerpent_Morto_9: -8567698422690946578
+      WaterSerpent_Idle_0: 2790922236729708144
+      WaterSerpent_Morto_7: 7307983878894194214
+      WaterSerpent_Morto_0: 813905130433575719
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

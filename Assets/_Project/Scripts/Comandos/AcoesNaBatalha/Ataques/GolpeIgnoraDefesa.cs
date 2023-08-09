@@ -24,7 +24,7 @@ public class GolpeIgnoraDefesa : AcaoNaBatalha
             }
             else
             {
-                (float dano, bool acertou) = comandoDeAtaque.AlvoAcao[i].Monstro.TomarAtaque(atributoAtaque, comandoDeAtaque, comandoDeAtaque.AlvoAcao[i], true, true, true);
+                (float dano, bool acertou) = comandoDeAtaque.AlvoAcao[i].Monstro.TomarAtaque(atributoAtaque, comandoDeAtaque, comandoDeAtaque.AlvoAcao[i], true, true, false);
             }
         }
         if (comandoDeAtaque.NumeroRoundsComandoVivo <= 0)

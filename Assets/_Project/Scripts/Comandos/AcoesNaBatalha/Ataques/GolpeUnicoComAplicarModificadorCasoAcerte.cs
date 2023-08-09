@@ -30,7 +30,7 @@ public class GolpeUnicoComAplicarModificadorCasoAcerte : AcaoNaBatalha
             }
             else
             {
-                (float dano, bool acertou) = comandoDeAtaque.AlvoAcao[i].Monstro.TomarAtaque(atributoAtaque, comandoDeAtaque, comandoDeAtaque.AlvoAcao[i], true, true, false);
+                (float dano, bool acertou) = comandoDeAtaque.AlvoAcao[i].Monstro.TomarAtaque(atributoAtaque, comandoDeAtaque, comandoDeAtaque.AlvoAcao[i], true, true, true);
                 if (aplicarDebuffSomenteAcertandoAtaque)
                 {
                     if (acertou)

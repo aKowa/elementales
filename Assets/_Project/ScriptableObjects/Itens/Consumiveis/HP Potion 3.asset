@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Mega HP Potion
   imagem: {fileID: 21300000, guid: eb0bba404cc8fbc4597d2836af539852, type: 3}
   descricao: Greatly restores an Elemantor's health.
-  preco: 800
+  preco: 500
   efeitoForaDaBatalha: {fileID: 11400000, guid: f7470606c83a74a4d933bc7d1aa6a23b, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: f7470606c83a74a4d933bc7d1aa6a23b, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 3c9772f1b3b169a4a8062009ecf48779, type: 2}

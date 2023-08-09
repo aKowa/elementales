@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -602,6 +603,7 @@ public class Monster
             _atributosAtuais.Mana = _atributosAtuais.ManaMax;
         }
     }
+
     public void RecuperarManaPorcentagem(float porcentagemMana)
     {
         int quantidadeMana =(int)(_atributosAtuais.ManaMax* (porcentagemMana/100));

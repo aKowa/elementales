@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogue:
   - portrait: {fileID: 0}
     typingSound: {fileID: 0}
-    text: Ho, ho, ho, traveller! Looking for cool stuff? You came to the right place!
+    text: Howdy traveller! Welcome to the special Healing Center Store!
   responses:
   - responseText: Buy
     dialogueObject: {fileID: 0}

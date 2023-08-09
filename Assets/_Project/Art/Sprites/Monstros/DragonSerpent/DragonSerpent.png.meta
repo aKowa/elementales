@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 9abbe49d818370e4793af3bc28e038e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4245636028883844842
+    second: DragonSerpent_Idle_0
+  - first:
+      213: -6567988474790526496
+    second: DragonSerpent_Idle_1
+  - first:
+      213: -6743115336355658478
+    second: DragonSerpent_Idle_2
+  - first:
+      213: 3626078209900368170
+    second: DragonSerpent_Idle_3
+  - first:
+      213: -4148805505438867461
+    second: DragonSerpent_Idle_4
+  - first:
+      213: -8391587811022489236
+    second: DragonSerpent_Idle_5
+  - first:
+      213: 1151197362272320363
+    second: DragonSerpent_TomandoDano_0
+  - first:
+      213: -2266943617151332868
+    second: DragonSerpent_TomandoDano_1
+  - first:
+      213: -8714718310161820995
+    second: DragonSerpent_TomandoDano_2
+  - first:
+      213: -7187685280856630652
+    second: DragonSerpent_TomandoDano_3
+  - first:
+      213: -6377950347205698964
+    second: DragonSerpent_TomandoDano_4
+  - first:
+      213: -2603419302305967302
+    second: DragonSerpent_TomandoDano_5
+  - first:
+      213: -2786336055261344324
+    second: DragonSerpent_TomandoDano_6
+  - first:
+      213: -2648847700417191929
+    second: DragonSerpent_Atk_0
+  - first:
+      213: 8355488057903283911
+    second: DragonSerpent_Atk_1
+  - first:
+      213: -8808478823940685151
+    second: DragonSerpent_Atk_2
+  - first:
+      213: 6405955632331408325
+    second: DragonSerpent_Atk_3
+  - first:
+      213: 7161457738119681251
+    second: DragonSerpent_Atk_4
+  - first:
+      213: -5682901572432986904
+    second: DragonSerpent_Atk_5
+  - first:
+      213: -751273063890219520
+    second: DragonSerpent_Atk_6
+  - first:
+      213: -6791202204823578864
+    second: DragonSerpent_Morto_0
+  - first:
+      213: -8768368537915144457
+    second: DragonSerpent_Morto_1
+  - first:
+      213: 879357546902556743
+    second: DragonSerpent_Morto_2
+  - first:
+      213: 8997095813535879906
+    second: DragonSerpent_Morto_3
+  - first:
+      213: -5848571617203954681
+    second: DragonSerpent_Morto_4
+  - first:
+      213: -7806648098980722261
+    second: DragonSerpent_Morto_5
+  - first:
+      213: -929669424291096091
+    second: DragonSerpent_Morto_6
+  - first:
+      213: -2708538618402892296
+    second: DragonSerpent_Morto_7
+  - first:
+      213: 1838662154977455485
+    second: DragonSerpent_Morto_8
+  - first:
+      213: 812768617333385889
+    second: DragonSerpent_Morto_9
+  - first:
+      213: 4715447290858300322
+    second: DragonSerpent_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DragonSerpent_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61147cca6887415c0800000000000000
+      internalID: -4245636028883844842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e14047e741d9d4a0800000000000000
+      internalID: -6567988474790526496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21548010454ab62a0800000000000000
+      internalID: -6743115336355658478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2155ec8bea625230800000000000000
+      internalID: 3626078209900368170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff9126cf5b7c66c0800000000000000
+      internalID: -4148805505438867461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69b18ea8571b8b80800000000000000
+      internalID: -8391587811022489236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bbb94d6efd9ff00800000000000000
+      internalID: 1151197362272320363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd0bdd7ac23a80e0800000000000000
+      internalID: -2266943617151332868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db256359ed91f0780800000000000000
+      internalID: -8714718310161820995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a9c3da156304c90800000000000000
+      internalID: -7187685280856630652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a99b773f7fc77a0800000000000000
+      internalID: -6377950347205698964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3358a420fbcedbd0800000000000000
+      internalID: -2603419302305967302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdc841de12f459d0800000000000000
+      internalID: -2786336055261344324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700e588fc076d3bd0800000000000000
+      internalID: -2648847700417191929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cef7509e18a4f370800000000000000
+      internalID: 8355488057903283911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2077fcd2ff1c580800000000000000
+      internalID: -8808478823940685151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3c60815b686e850800000000000000
+      internalID: 6405955632331408325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4989aaedb926360800000000000000
+      internalID: 7161457738119681251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec7f9111274221b0800000000000000
+      internalID: -5682901572432986904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e0189f021f295f0800000000000000
+      internalID: -751273063890219520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01714a7739dc0c1a0800000000000000
+      internalID: -6791202204823578864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f64bd5854f705680800000000000000
+      internalID: -8768368537915144457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7409fa5a70b143c00800000000000000
+      internalID: 879357546902556743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2d5f749fa1cdc70800000000000000
+      internalID: 8997095813535879906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c5029e913b5dea0800000000000000
+      internalID: -5848571617203954681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba986c55ae639a390800000000000000
+      internalID: -7806648098980722261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9569e85962913f0800000000000000
+      internalID: -929669424291096091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f51bad1a76596ad0800000000000000
+      internalID: -2708538618402892296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7da2610d7d348910800000000000000
+      internalID: 1838662154977455485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaedb050c8874b00800000000000000
+      internalID: 812768617333385889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonSerpent_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3efa8d352a07140800000000000000
+      internalID: 4715447290858300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DragonSerpent_Atk_6: -751273063890219520
+      DragonSerpent_TomandoDano_4: -6377950347205698964
+      DragonSerpent_Atk_1: 8355488057903283911
+      DragonSerpent_Morto_7: -2708538618402892296
+      DragonSerpent_Idle_3: 3626078209900368170
+      DragonSerpent_Idle_4: -4148805505438867461
+      DragonSerpent_Morto_1: -8768368537915144457
+      DragonSerpent_TomandoDano_1: -2266943617151332868
+      DragonSerpent_TomandoDano_5: -2603419302305967302
+      DragonSerpent_Atk_4: 7161457738119681251
+      DragonSerpent_TomandoDano_0: 1151197362272320363
+      DragonSerpent_Morto_9: 812768617333385889
+      DragonSerpent_TomandoDano_3: -7187685280856630652
+      DragonSerpent_Atk_3: 6405955632331408325
+      DragonSerpent_TomandoDano_6: -2786336055261344324
+      DragonSerpent_TomandoDano_2: -8714718310161820995
+      DragonSerpent_Idle_0: -4245636028883844842
+      DragonSerpent_Atk_0: -2648847700417191929
+      DragonSerpent_Morto_6: -929669424291096091
+      DragonSerpent_Idle_2: -6743115336355658478
+      DragonSerpent_Morto_8: 1838662154977455485
+      DragonSerpent_Idle_1: -6567988474790526496
+      DragonSerpent_Atk_5: -5682901572432986904
+      DragonSerpent_Morto_0: -6791202204823578864
+      DragonSerpent_Atk_2: -8808478823940685151
+      DragonSerpent_Morto_2: 879357546902556743
+      DragonSerpent_Morto_3: 8997095813535879906
+      DragonSerpent_Idle_5: -8391587811022489236
+      DragonSerpent_Morto_5: -7806648098980722261
+      DragonSerpent_Morto_10: 4715447290858300322
+      DragonSerpent_Morto_4: -5848571617203954681
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

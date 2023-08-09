@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Earth Stone - Log Throw
+  nome: Log Throw Skill
   imagem: {fileID: 21300000, guid: 9e9941234d0de044e807ea7b42c673e7, type: 3}
   descricao: A pulsing stone that can teach the Earth type skill Log Throw to one
     Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 9ba166f52f233c0408ee38ee1d17e152, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

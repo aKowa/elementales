@@ -12,26 +12,26 @@ public class LojaInfo : MonoBehaviour
     [SerializeField] protected RectTransform itemSlotsHolder;
 
     //Enums
-    public enum ListaDeItens { ListaDaLoja, Itens, MonsterBalls }
+    public enum ListaDeItens { ListaDaLoja, Itens, MonsterBalls, Skills }
 
     //Variaveis
+
     [Header("Variaveis")]
     [SerializeField] private ListaDeItens listaDeItensDaGuia;
+
+    [SerializeField] private bool itensParaVender;
 
     private UnityEvent<ItemSlotLoja> eventoItemSelecionado = new UnityEvent<ItemSlotLoja>();
 
     protected List<ItemSlotLoja> itemSlots = new List<ItemSlotLoja>();
 
-    private bool itensParaVender;
 
     //Getters
     public UnityEvent<ItemSlotLoja> EventoItemSelecionado => eventoItemSelecionado;
 
 
-    public void AtualizarInformacoes(List<ItemHolder> itensDaLoja, Inventario inventario, bool itensParaVender)
+    public void AtualizarInformacoes(List<ItemHolder> itensDaLoja, Inventario inventario)
     {
-        this.itensParaVender = itensParaVender;
-
         switch(listaDeItensDaGuia)
         {
             case ListaDeItens.ListaDaLoja:
@@ -44,6 +44,10 @@ public class LojaInfo : MonoBehaviour
 
             case ListaDeItens.MonsterBalls:
                 AtualizarItens(inventario.MonsterBalls);
+                break;
+            
+            case ListaDeItens.Skills:
+                AtualizarItens(inventario.Habilidades);
                 break;
         }
     }

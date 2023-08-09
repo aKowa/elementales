@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Dark Stone - Shade Spear
+  nome: Shade Spear Skill
   imagem: {fileID: 21300000, guid: d6fb687f1f21c8746be61a04be742b07, type: 3}
   descricao: A shadowy stone that can teach the Dark type skill Shade Spear to one
     Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 6e972a30f80677048b638e8e115f352a, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

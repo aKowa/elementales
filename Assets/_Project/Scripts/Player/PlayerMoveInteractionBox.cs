@@ -3,11 +3,13 @@ using UnityEngine;
 public class PlayerMoveInteractionBox : MonoBehaviour
 {
     private BoxCollider2D boxCollider;
-    [SerializeField]EntityModel.Direction dir;
-    private void Start()
+    [SerializeField] EntityModel.Direction dir;
+
+    private void Awake()
     {
         boxCollider = GetComponent<BoxCollider2D>();
     }
+
     public void ReceiveDirection(EntityModel.Direction direction)
     {
         if (direction != dir)

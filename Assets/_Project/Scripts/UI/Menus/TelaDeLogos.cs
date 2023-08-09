@@ -8,6 +8,11 @@ public class TelaDeLogos : MonoBehaviour
     [Header("Variaveis Iniciais")]
     [SerializeField] private SceneReference telaInicial;
 
+    private void Awake()
+    {
+        Transition.GetInstance().DoTransition("FadeOutWhite", 0);
+    }
+
     public void IrParaATelaInicial()
     {
         FazerTransicaoPraTelaInicial();

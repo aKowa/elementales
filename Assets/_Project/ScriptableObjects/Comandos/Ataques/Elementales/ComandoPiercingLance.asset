@@ -32,8 +32,8 @@ MonoBehaviour:
   custoMana: 14
   numeroRoundsComandoVivo: 0
   consomePP: 0
-  descricao: The Elemantor uses a concentrated thrust and pierces through an opponent's
-    defense.
+  descricao: The Elemantor uses a concentrated thrust and pierces through half an
+    opponent's defense.
   statusAplicarSelf: {fileID: 0}
   statusSecundarios: []
   powerMargin: 90

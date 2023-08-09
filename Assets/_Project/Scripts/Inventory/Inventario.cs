@@ -344,12 +344,26 @@ public class Inventario : MonoBehaviour
     }
 
     [Button]
-    public void RestaurarTodosOsMonstros()
+    public void RestaurarTodosOsMonstros(bool recuperarMetadeDoHP = false)
     {
         foreach(Monster monstro in monsterBag)
         {
-            monstro.AtributosAtuais.Vida = monstro.AtributosAtuais.VidaMax;
+            if(recuperarMetadeDoHP == false)
+            {
+                monstro.AtributosAtuais.Vida = monstro.AtributosAtuais.VidaMax;
+            }
+            else
+            {
+                int quantidadeDeHP = monstro.AtributosAtuais.VidaMax / 2;
+
+                if(monstro.AtributosAtuais.Vida < quantidadeDeHP)
+                {
+                    monstro.AtributosAtuais.Vida = quantidadeDeHP;
+                }
+            }
+
             monstro.AtributosAtuais.Mana = monstro.AtributosAtuais.ManaMax;
+
             monstro.Status.Clear();
             monstro.StatusSecundario.Clear();
         }

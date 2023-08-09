@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,7 @@ public class RecuperarMana : AcaoNaBatalha
         {
             item.GetMonstro.RecuperarMana(quantidadeDeMana);
         }
+        battleManager.TocarSom("Mana");
 
         comando.PodeMeRetirar = true;
     }

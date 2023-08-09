@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,7 +8,7 @@ public class RecuperarMana_Mapa : AcaoNoInventario
 {
     //Variaveis
     [SerializeField] private int quantidaDeMana;
-
+    [SerializeField] private AudioClip somRecuperarMana;
     public override void UsarItem(MenuBagController menuBagController, Item item)
     {
         menuBagController.AbrirEscolhaDeMonstros();
@@ -26,6 +27,7 @@ public class RecuperarMana_Mapa : AcaoNoInventario
         {
             menuBagController.RemoveItem(item);
         }
+        SoundManager.instance.TocarSomIgnorandoPause(somRecuperarMana);
     }
 
     public override void EfeitoMonstroSlot(MenuBagController menuBagController)

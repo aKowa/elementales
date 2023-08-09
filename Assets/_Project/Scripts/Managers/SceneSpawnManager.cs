@@ -8,7 +8,11 @@ public class SceneSpawnManager : MonoBehaviour
 {
     //Variaveis
     [SerializeField] private string nomeDoMapa;
+
+    [Space(10)]
+
     [SerializeField] private bool monsterCenter;
+    [SerializeField] private bool hiddenCheckpoint;
 
     private static string nomeDoMapaAtual;
     private static string lastGatewayID;
@@ -21,6 +25,7 @@ public class SceneSpawnManager : MonoBehaviour
     public static string NomeDoMapaAtual => nomeDoMapaAtual;
     public static string LastGatewayID => lastGatewayID;
     public static string LastMonsterCenterGatewayID => lastMonsterCenterGatewayID;
+    public static bool HiddenCheckpoint;
 
     public EntityModel.Direction DirecaoPlayerInicial
     {
@@ -37,6 +42,7 @@ public class SceneSpawnManager : MonoBehaviour
     private void Awake()
     {
         nomeDoMapaAtual = nomeDoMapa;
+        HiddenCheckpoint = hiddenCheckpoint;
 
         if(lastGatewayID == null)
         {

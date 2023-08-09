@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 376dc1ec4e2a0a346a071aeadecf61eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3865008488417187211
+    second: PurpleSerpent_Idle_0
+  - first:
+      213: -3021248385829276441
+    second: PurpleSerpent_Idle_1
+  - first:
+      213: 5121403212841675792
+    second: PurpleSerpent_Idle_2
+  - first:
+      213: -6770309880365642891
+    second: PurpleSerpent_Idle_3
+  - first:
+      213: -4073883424138681930
+    second: PurpleSerpent_Idle_4
+  - first:
+      213: 5019235454627897757
+    second: PurpleSerpent_Idle_5
+  - first:
+      213: -246823392511360287
+    second: PurpleSerpent_TomandoDano_0
+  - first:
+      213: -6311681279552198115
+    second: PurpleSerpent_TomandoDano_1
+  - first:
+      213: -8024250942672077473
+    second: PurpleSerpent_TomandoDano_2
+  - first:
+      213: -3845192653664125494
+    second: PurpleSerpent_TomandoDano_3
+  - first:
+      213: 5585312781962971102
+    second: PurpleSerpent_TomandoDano_4
+  - first:
+      213: 2789106937626488619
+    second: PurpleSerpent_TomandoDano_5
+  - first:
+      213: 6972492647900525106
+    second: PurpleSerpent_TomandoDano_6
+  - first:
+      213: -738027855772169831
+    second: PurpleSerpent_Atk_0
+  - first:
+      213: -4997244722009569464
+    second: PurpleSerpent_Atk_1
+  - first:
+      213: -5786979135367673479
+    second: PurpleSerpent_Atk_2
+  - first:
+      213: -8391964803220170913
+    second: PurpleSerpent_Atk_3
+  - first:
+      213: 5757303709254557815
+    second: PurpleSerpent_Atk_4
+  - first:
+      213: -8616592602128461507
+    second: PurpleSerpent_Atk_5
+  - first:
+      213: 634630596098698
+    second: PurpleSerpent_Atk_6
+  - first:
+      213: -7869245203887293299
+    second: PurpleSerpent_Morto_0
+  - first:
+      213: 7976787043222100628
+    second: PurpleSerpent_Morto_1
+  - first:
+      213: 1392787406251724600
+    second: PurpleSerpent_Morto_2
+  - first:
+      213: 7396806869448571968
+    second: PurpleSerpent_Morto_3
+  - first:
+      213: -3938247947104059560
+    second: PurpleSerpent_Morto_4
+  - first:
+      213: -2701913043031257195
+    second: PurpleSerpent_Morto_5
+  - first:
+      213: 5433858624092271434
+    second: PurpleSerpent_Morto_6
+  - first:
+      213: -6578629574491123276
+    second: PurpleSerpent_Morto_7
+  - first:
+      213: -4452866424357561834
+    second: PurpleSerpent_Morto_8
+  - first:
+      213: -1769769785927040470
+    second: PurpleSerpent_Morto_9
+  - first:
+      213: 7898143754290945913
+    second: PurpleSerpent_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PurpleSerpent_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a260ae14bbc5ac0800000000000000
+      internalID: -3865008488417187211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e47c60b99e5216d0800000000000000
+      internalID: -3021248385829276441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ce8f47611e21740800000000000000
+      internalID: 5121403212841675792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b0d71d8070b02a0800000000000000
+      internalID: -6770309880365642891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1acdf2c98a677c0800000000000000
+      internalID: -4073883424138681930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91642d8d08e7a540800000000000000
+      internalID: 5019235454627897757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e28a17ae6b139cf0800000000000000
+      internalID: -246823392511360287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1aeec421576868a0800000000000000
+      internalID: -6311681279552198115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dff6d284224a090800000000000000
+      internalID: -8024250942672077473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd786977a123aac0800000000000000
+      internalID: -3845192653664125494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed70a580264038d40800000000000000
+      internalID: 5585312781962971102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fedc18bf5e4b620800000000000000
+      internalID: 2789106937626488619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23232251f1543c060800000000000000
+      internalID: 6972492647900525106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9994b5e439ff1c5f0800000000000000
+      internalID: -738027855772169831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8478ce0e66836aab0800000000000000
+      internalID: -4997244722009569464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97900d9132580bfa0800000000000000
+      internalID: -5786979135367673479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f571b785970c98b80800000000000000
+      internalID: -8391964803220170913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7702826583d06ef40800000000000000
+      internalID: 5757303709254557815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31dfd75ea6bb6880800000000000000
+      internalID: -8616592602128461507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a7e337131420000800000000000000
+      internalID: 634630596098698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8cf9db1e23dac290800000000000000
+      internalID: -7869245203887293299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a11309d8d33be60800000000000000
+      internalID: 7976787043222100628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f854544cc245310800000000000000
+      internalID: 1392787406251724600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cb6a568acb6a660800000000000000
+      internalID: 7396806869448571968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f737b9b588859c0800000000000000
+      internalID: -3938247947104059560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f80281760e08ad0800000000000000
+      internalID: -2701913043031257195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4376b8f0a1f86b40800000000000000
+      internalID: 5433858624092271434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1d39fc14304b4a0800000000000000
+      internalID: -6578629574491123276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a57ef449d3432c0800000000000000
+      internalID: -4452866424357561834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22899f91c38077e0800000000000000
+      internalID: -1769769785927040470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleSerpent_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f5b7bf5e7db9d60800000000000000
+      internalID: 7898143754290945913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PurpleSerpent_Atk_0: -738027855772169831
+      PurpleSerpent_Atk_2: -5786979135367673479
+      PurpleSerpent_Idle_2: 5121403212841675792
+      PurpleSerpent_Morto_0: -7869245203887293299
+      PurpleSerpent_Morto_7: -6578629574491123276
+      PurpleSerpent_Idle_0: -3865008488417187211
+      PurpleSerpent_TomandoDano_5: 2789106937626488619
+      PurpleSerpent_Morto_10: 7898143754290945913
+      PurpleSerpent_Atk_5: -8616592602128461507
+      PurpleSerpent_TomandoDano_1: -6311681279552198115
+      PurpleSerpent_Idle_5: 5019235454627897757
+      PurpleSerpent_Atk_1: -4997244722009569464
+      PurpleSerpent_Idle_4: -4073883424138681930
+      PurpleSerpent_TomandoDano_4: 5585312781962971102
+      PurpleSerpent_Atk_4: 5757303709254557815
+      PurpleSerpent_Morto_9: -1769769785927040470
+      PurpleSerpent_TomandoDano_3: -3845192653664125494
+      PurpleSerpent_Morto_6: 5433858624092271434
+      PurpleSerpent_Morto_8: -4452866424357561834
+      PurpleSerpent_Morto_3: 7396806869448571968
+      PurpleSerpent_TomandoDano_0: -246823392511360287
+      PurpleSerpent_Idle_1: -3021248385829276441
+      PurpleSerpent_Morto_1: 7976787043222100628
+      PurpleSerpent_TomandoDano_6: 6972492647900525106
+      PurpleSerpent_TomandoDano_2: -8024250942672077473
+      PurpleSerpent_Morto_4: -3938247947104059560
+      PurpleSerpent_Atk_3: -8391964803220170913
+      PurpleSerpent_Idle_3: -6770309880365642891
+      PurpleSerpent_Morto_5: -2701913043031257195
+      PurpleSerpent_Morto_2: 1392787406251724600
+      PurpleSerpent_Atk_6: 634630596098698
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -19,7 +18,12 @@ public class SaveSlot : MonoBehaviour
     [SerializeField] private TMP_Text dia;
     [SerializeField] private TMP_Text local;
     [SerializeField] private Transform miniaturasHolder;
+
+    [Space(10)]
+
     [SerializeField] private RectTransform botaoExcluirSave;
+    [SerializeField] private RectTransform botaoExportarSave;
+    [SerializeField] private RectTransform botaoImportarSave;
 
     private ButtonSelectionEffect buttonSelectionEffect;
 
@@ -30,6 +34,8 @@ public class SaveSlot : MonoBehaviour
 
     private UnityEvent<int, SaveData> eventoSlotSelecionado = new UnityEvent<int, SaveData>();
     private UnityEvent<int> eventoBotaoExcluirSelecionado = new UnityEvent<int>();
+    private UnityEvent<int> eventoBotaoExportarSelecionado = new UnityEvent<int>();
+    private UnityEvent<int> eventoBotaoImportarSelecionado = new UnityEvent<int>();
 
     private List<Image> miniaturas = new List<Image>();
 
@@ -38,9 +44,12 @@ public class SaveSlot : MonoBehaviour
 
     private SaveData save;
 
+
     //Getters
     public UnityEvent<int, SaveData> EventoSlotSelecionado => eventoSlotSelecionado;
     public UnityEvent<int> EventoBotaoExcluirSelecionado => eventoBotaoExcluirSelecionado;
+    public UnityEvent<int> EventoBotaoExportarSelecionado => eventoBotaoExportarSelecionado;
+    public UnityEvent<int> EventoBotaoImportarSelecionado => eventoBotaoImportarSelecionado;
 
     public int NumeroSlot
     {
@@ -60,6 +69,8 @@ public class SaveSlot : MonoBehaviour
         miniaturaBase.SetActive(false);
 
         botaoExcluirSave.gameObject.SetActive(false);
+        botaoExportarSave.gameObject.SetActive(false);
+        botaoImportarSave.gameObject.SetActive(true);
 
         numeroSlot = 0;
 
@@ -79,6 +90,8 @@ public class SaveSlot : MonoBehaviour
         ResetarMiniaturas();
 
         botaoExcluirSave.gameObject.SetActive(true);
+        botaoExportarSave.gameObject.SetActive(true);
+        botaoImportarSave.gameObject.SetActive(false);
 
         DateTime data = BergamotaLibrary.SerializableDateTime.NewDateTime(save.playerSO.data);
 
@@ -107,6 +120,8 @@ public class SaveSlot : MonoBehaviour
         ResetarMiniaturas();
 
         botaoExcluirSave.gameObject.SetActive(false);
+        botaoExportarSave.gameObject.SetActive(false);
+        botaoImportarSave.gameObject.SetActive(true);
 
         nome.text = nomeSlotVazio;
         tempoDeJogo.text = TimeSpan.FromSeconds(0).ToString(@"hh\:mm");
@@ -123,6 +138,8 @@ public class SaveSlot : MonoBehaviour
         nome.text = nomeSlotCorrompido;
 
         botaoExcluirSave.gameObject.SetActive(true);
+        botaoExportarSave.gameObject.SetActive(false);
+        botaoImportarSave.gameObject.SetActive(false);
     }
 
     private void ResetarMiniaturas()
@@ -150,5 +167,21 @@ public class SaveSlot : MonoBehaviour
     public void BotaoExcluirSelecionado()
     {
         eventoBotaoExcluirSelecionado?.Invoke(numeroSlot);
+    }
+
+    public void BotaoExportarSelecionado()
+    {
+        eventoBotaoExportarSelecionado?.Invoke(numeroSlot);
+    }
+
+    public void BotaoImportarSelecionado()
+    {
+        eventoBotaoImportarSelecionado?.Invoke(numeroSlot);
+    }
+
+    public void EsconderBotoesDeImportarExportar()
+    {
+        botaoExportarSave.gameObject.SetActive(false);
+        botaoImportarSave.gameObject.SetActive(false);
     }
 }

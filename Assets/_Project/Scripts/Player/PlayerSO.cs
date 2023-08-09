@@ -126,6 +126,7 @@ public class PlayerSO : SerializedScriptableObject
         tempoDeJogo = 0;
 
         repelente = 0;
+        hasMagnet = false;
 
         monsterBank.Clear();
         monsterBag.Clear();

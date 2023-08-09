@@ -18,4 +18,4 @@ MonoBehaviour:
   turnosParaSerExecutado: 0
   bloqueioAcaoDaOrigem: 0
   acao: {fileID: 11400000, guid: da5b96a81b8f748448853266eacb898d, type: 2}
-  animacaoEfeito: {fileID: 22100000, guid: 9d51fc9ddd483b84fbdc30d8cbb0f612, type: 2}
+  animacaoEfeito: {fileID: 22100000, guid: 0481f8ea60a52a740b040b67bcb531db, type: 2}

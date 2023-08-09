@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 95d3e1951229f40469ffc7a70e062662
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8968726372272806077
+    second: IceTitan_Idle_0
+  - first:
+      213: -8112569906306527883
+    second: IceTitan_Idle_1
+  - first:
+      213: -5573558529864159243
+    second: IceTitan_Idle_2
+  - first:
+      213: -382881128178475562
+    second: IceTitan_Idle_3
+  - first:
+      213: -7410371858911711208
+    second: IceTitan_Idle_4
+  - first:
+      213: -3407358606622046513
+    second: IceTitan_Idle_5
+  - first:
+      213: 1316557632113629083
+    second: IceTitan_TomandoDano_0
+  - first:
+      213: 5868473360355210610
+    second: IceTitan_TomandoDano_1
+  - first:
+      213: 2609386687282777653
+    second: IceTitan_TomandoDano_2
+  - first:
+      213: -3341756050298499660
+    second: IceTitan_TomandoDano_3
+  - first:
+      213: 2093731803810026901
+    second: IceTitan_TomandoDano_4
+  - first:
+      213: 2846355066712870096
+    second: IceTitan_TomandoDano_5
+  - first:
+      213: 8627764734107585688
+    second: IceTitan_TomandoDano_6
+  - first:
+      213: -4144771934530764320
+    second: IceTitan_Atk_0
+  - first:
+      213: 6582863656204607166
+    second: IceTitan_Atk_1
+  - first:
+      213: -1500294542613041603
+    second: IceTitan_Atk_2
+  - first:
+      213: 4432606381213313071
+    second: IceTitan_Atk_3
+  - first:
+      213: 123822357112553351
+    second: IceTitan_Atk_4
+  - first:
+      213: 2289095792122775995
+    second: IceTitan_Atk_5
+  - first:
+      213: 565462966703944781
+    second: IceTitan_Atk_6
+  - first:
+      213: -8041274476299825684
+    second: IceTitan_Morto_0
+  - first:
+      213: 8183395828010751508
+    second: IceTitan_Morto_1
+  - first:
+      213: -6665800469330183974
+    second: IceTitan_Morto_2
+  - first:
+      213: -3514446875807548164
+    second: IceTitan_Morto_3
+  - first:
+      213: -5496538007460469244
+    second: IceTitan_Morto_4
+  - first:
+      213: -3196741281195953575
+    second: IceTitan_Morto_5
+  - first:
+      213: -5155198322742656887
+    second: IceTitan_Morto_6
+  - first:
+      213: -3403922623669200389
+    second: IceTitan_Morto_7
+  - first:
+      213: -1815343476638235943
+    second: IceTitan_Morto_8
+  - first:
+      213: -798658527397569706
+    second: IceTitan_Morto_9
+  - first:
+      213: 4784298150677817582
+    second: IceTitan_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IceTitan_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347600df1eea88380800000000000000
+      internalID: -8968726372272806077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d431707ac5a6f80800000000000000
+      internalID: -8112569906306527883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff299c0c0eb6a2b0800000000000000
+      internalID: -5573558529864159243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd98bb74abbfaaf0800000000000000
+      internalID: -382881128178475562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81034006e02192990800000000000000
+      internalID: -7410371858911711208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc64ce57661a6b0d0800000000000000
+      internalID: -3407358606622046513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b975674e03a554210800000000000000
+      internalID: 1316557632113629083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275b0d1cd61017150800000000000000
+      internalID: 5868473360355210610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e8f11fd57663420800000000000000
+      internalID: 2609386687282777653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd02ffd392bf91d0800000000000000
+      internalID: -3341756050298499660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595d8058bfd6e0d10800000000000000
+      internalID: 2093731803810026901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dccd004ad8408720800000000000000
+      internalID: 2846355066712870096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c0026505afbb770800000000000000
+      internalID: 8627764734107585688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1094fa2efca76c0800000000000000
+      internalID: -4144771934530764320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe97e82e970b5b50800000000000000
+      internalID: 6582863656204607166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ea719ff02ed2be0800000000000000
+      internalID: -1500294542613041603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28695dc408c38d30800000000000000
+      internalID: 4432606381213313071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ff1fa17c7e7b100800000000000000
+      internalID: 123822357112553351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9c15aae7084cf10800000000000000
+      internalID: 2289095792122775995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44f600829de8d700800000000000000
+      internalID: 565462966703944781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedcbb2e777a76090800000000000000
+      internalID: -8041274476299825684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4169ef8e523419170800000000000000
+      internalID: 8183395828010751508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad831f14ac15e73a0800000000000000
+      internalID: -6665800469330183974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc7281df2d2a3fc0800000000000000
+      internalID: -3514446875807548164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406a2eaddcf58b3b0800000000000000
+      internalID: -5496538007460469244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952fc77edb4e2a3d0800000000000000
+      internalID: -3196741281195953575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9800c3a507e0578b0800000000000000
+      internalID: -5155198322742656887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf918459866d2c0d0800000000000000
+      internalID: -3403922623669200389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2c7a1e9ba9ec6e0800000000000000
+      internalID: -1815343476638235943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b91a10d489ae4f0800000000000000
+      internalID: -798658527397569706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceTitan_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8a5bad1dd356240800000000000000
+      internalID: 4784298150677817582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IceTitan_Morto_7: -3403922623669200389
+      IceTitan_Morto_8: -1815343476638235943
+      IceTitan_Morto_1: 8183395828010751508
+      IceTitan_Atk_3: 4432606381213313071
+      IceTitan_Morto_10: 4784298150677817582
+      IceTitan_TomandoDano_1: 5868473360355210610
+      IceTitan_TomandoDano_2: 2609386687282777653
+      IceTitan_TomandoDano_3: -3341756050298499660
+      IceTitan_TomandoDano_6: 8627764734107585688
+      IceTitan_Morto_0: -8041274476299825684
+      IceTitan_Morto_2: -6665800469330183974
+      IceTitan_Idle_1: -8112569906306527883
+      IceTitan_Morto_3: -3514446875807548164
+      IceTitan_Morto_5: -3196741281195953575
+      IceTitan_TomandoDano_4: 2093731803810026901
+      IceTitan_Morto_4: -5496538007460469244
+      IceTitan_TomandoDano_0: 1316557632113629083
+      IceTitan_Morto_9: -798658527397569706
+      IceTitan_TomandoDano_5: 2846355066712870096
+      IceTitan_Atk_6: 565462966703944781
+      IceTitan_Idle_3: -382881128178475562
+      IceTitan_Idle_0: -8968726372272806077
+      IceTitan_Atk_4: 123822357112553351
+      IceTitan_Atk_1: 6582863656204607166
+      IceTitan_Morto_6: -5155198322742656887
+      IceTitan_Atk_0: -4144771934530764320
+      IceTitan_Idle_4: -7410371858911711208
+      IceTitan_Idle_2: -5573558529864159243
+      IceTitan_Idle_5: -3407358606622046513
+      IceTitan_Atk_5: 2289095792122775995
+      IceTitan_Atk_2: -1500294542613041603
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Steel Ring
   imagem: {fileID: 21300000, guid: a5668383128d94c44923940842e76d5e, type: 3}
   descricao: A medium-sized ring capable of capturing most basic Elemantors.
-  preco: 500
+  preco: 200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 9f4364bc7e314564b8f0ca9a3f8e28c1, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 52e02e0feef13484ba4fe7a027db71a7, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 89213c700778be345be2bedeb4b42dab, type: 2}

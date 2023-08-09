@@ -1,4 +1,5 @@
 using BergamotaDialogueSystem;
+using BergamotaLibrary;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,6 +49,11 @@ public class MenuDaLojaController : ViewController
     [Header("Dialogos")]
     [SerializeField] private DialogueObject dialogoNaoTemDinheiroSuficiente;
     [SerializeField] private DialogueObject dialogoNaoTemEspacoNoInventario;
+    [SerializeField] private DialogueObject dialogoQuerMesmoVenderASkillUnica;
+
+    [Header("Sons")]
+    [SerializeField] private AudioClip somCompraItem;
+    [SerializeField] private AudioClip somVendaItem;
 
     private Inventario inventario;
     private DialogueActivator dialogueActivator;
@@ -186,19 +192,17 @@ public class MenuDaLojaController : ViewController
 
     private void AtualizarInformacoes()
     {
-        bool itensParaVender = (tipoLojaAtual == TipoLoja.Venda);
-
         switch(tipoLojaAtual)
         {
             case TipoLoja.Compra:
-                guiaDaLoja.AtualizarInformacoes(itensDaLoja, inventario, itensParaVender);
+                guiaDaLoja.AtualizarInformacoes(itensDaLoja, inventario);
                 break;
 
             case TipoLoja.Venda:
 
                 for (int i = 0; i < guiasDoInventario.Length; i++)
                 {
-                    guiasDoInventario[i].AtualizarInformacoes(itensDaLoja, inventario, itensParaVender);
+                    guiasDoInventario[i].AtualizarInformacoes(itensDaLoja, inventario);
                 }
 
                 break;
@@ -412,7 +416,7 @@ public class MenuDaLojaController : ViewController
                 break;
 
             case TipoLoja.Venda:
-                VenderItem();
+                VerificarSeQuerVenderItem();
                 break;
         }
     }
@@ -430,6 +434,8 @@ public class MenuDaLojaController : ViewController
             inventario.AddItem(itemSlotAtual.ItemHolder.Item, quantidadeItem);
             inventario.Dinheiro -= precoTotal;
 
+            TocarSom(somCompraItem);
+
             AtualizarDinheiro();
             FecharMenuOpcoes();
         }
@@ -439,14 +445,30 @@ public class MenuDaLojaController : ViewController
         }
     }
 
-    private void VenderItem()
+    private void VerificarSeQuerVenderItem()
+    {
+        if (itemSlotAtual.ItemHolder.Item.Tipo == Item.TipoItem.Habilidade && quantidadeItensNaBag == quantidadeItem)
+        {
+            AbrirDialogo(dialogoQuerMesmoVenderASkillUnica);
+        }
+        else
+        {
+            VenderItem();
+        }
+    }
+
+    public void VenderItem()
     {
         inventario.Dinheiro += precoTotal;
+
+        TocarSom(somVendaItem);
 
         RemoveItem(itemSlotAtual.ItemHolder.Item, quantidadeItem);
 
         AtualizarDinheiro();
         FecharMenuOpcoes();
+
+        //TODO: Após a venda, iniciar o diálogo que agradece.
     }
 
     public void AbrirDialogo(DialogueObject dialogo)
@@ -477,6 +499,10 @@ public class MenuDaLojaController : ViewController
         }
     }
 
+    public void TocarSom(AudioClip audio)
+    {
+        SoundManager.instance.TocarSomIgnorandoPause(audio);
+    }
     private IEnumerator DialogoAberto(DialogueUI dialogueUI)
     {
         while (dialogueUI.IsOpen == true)

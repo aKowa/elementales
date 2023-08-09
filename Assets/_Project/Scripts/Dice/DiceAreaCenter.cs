@@ -24,7 +24,8 @@ public class DiceAreaCenter : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Dice"))
         {
-            Debug.Log($"{other.gameObject.name} saiu.");
+            //Debug.Log($"{other.gameObject.name} saiu.");
+
             if (CollidersWhoCameThrough.Contains(other) == false)
             {
                 wallColliders.ForEach(w => Physics.IgnoreCollision(other, w, false));

@@ -21,7 +21,7 @@ public class Player : EntityModel
     private TrocarAparenciaDoPersonagem trocarAparenciaDoPersonagem;
 
     //Enums
-    public enum EstadoPlayer { Normal, Pescando };
+    public enum EstadoPlayer { Normal, Pescando, Nadando, RodandoAnimacao };
 
     //Variaveis
     private UnityEvent eventoRepelenteTerminou = new UnityEvent();
@@ -72,7 +72,7 @@ public class Player : EntityModel
             return;
         }
 
-        if(estadoPlayer == EstadoPlayer.Normal)
+        if(estadoPlayer == EstadoPlayer.Normal || estadoPlayer == EstadoPlayer.Nadando)
         {
             playerMovement.Move();
         }
@@ -118,7 +118,6 @@ public class Player : EntityModel
     {
         this.estadoPlayer = estadoPlayer;
     }
-
     public void Interact()
     {
         interacaoBoxCollider2D.Interagir(this);      

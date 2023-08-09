@@ -17,7 +17,8 @@ public class DiceRoller : MonoBehaviour
     [SerializeField] private RectTransform diceIconPrefab;
     [SerializeField] private List<Collider> diceWalls;
     [SerializeField] private DiceAreaCenter diceArea;
-
+    [SerializeField] private Collider deadzone;
+    [SerializeField] private Transform diceRespawnLocation;
 
     private Dictionary<DiceType, DiceTypePrefabAndSprite> dicePrefabDictionary;
 
@@ -80,7 +81,8 @@ public class DiceRoller : MonoBehaviour
 
     public void RollDice()
     {
-        Debug.Log("Rodei os dados");
+        //Debug.Log("Rodei os dados");
+
         diceWalls.ForEach(w => diceArea.ResetWallColliders());
         deterministicDiceRoller.forceDirection = diceArea.transform.position;
         deterministicDiceRoller.throwDistance = throwDistance;
@@ -105,6 +107,11 @@ public class DiceRoller : MonoBehaviour
     public void CleanVariables() => deterministicDiceRoller?.ClearVariablesAndStates();
 
     public void CleanVariablesAndDestroyLeftoverDice() => deterministicDiceRoller?.ClearVariablesAndStatesAndDestroyDice();
+
+    public void SendDiceToRespawnPosition(GameObject gameObject)
+    {
+        gameObject.transform.position = diceRespawnLocation.position;
+    }
 }
 
 public enum DiceType

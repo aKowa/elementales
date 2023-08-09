@@ -62,7 +62,8 @@ public class ComandoDeAtaque : Comando
 
     public void ReceberVariaves(Integrante origem, Integrante.MonstroAtual alvo, int indice)
     {
-        Debug.Log($"Receber Variaveis: {Nome}, origem: {origem.Nome}, alvo: {alvo.GetMonstro.NickName}, indice: {indice}");
+        //Debug.Log($"Receber Variaveis: {Nome}, origem: {origem.Nome}, alvo: {alvo.GetMonstro.NickName}, indice: {indice}");
+
         this.origem = origem;
         this.AlvoAcao.Add(alvo);
         indiceMonstro = indice;

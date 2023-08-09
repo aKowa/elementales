@@ -81,10 +81,13 @@ public class EffectStructure
 
         bool typeCondition = VerifyAttackTypeCondition(comandoDeAtaque);
         
+        /*
         Debug.Log($"{Efeito}: valueCondition: {diceResult}: {valueCondition}," +
                   $"\n attackCondition: {condicaoAtaque}: {attackCondition}," +
                   $"\n targetCondition: {condicaoTarget}: {comandoDeAtaque.Target}: {targetCondition}," +
                   $"\n comando: {comandoDeAtaque.name}");
+        */
+
         return targetCondition && attackCondition && valueCondition && typeCondition;
     }
 

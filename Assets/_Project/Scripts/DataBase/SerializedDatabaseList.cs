@@ -9,37 +9,43 @@ using UnityEngine;
 public class DatabaseList<T> : ScriptableObject
     where T : ScriptableObject
 {
-    public virtual T[] Data { get; set; }
+    public virtual List<T> Data { get; set; }
     public virtual string DataPath { get; set; }
 
 #if UNITY_EDITOR
     [Button]
     protected virtual void AtualizarLista()
     {
+        //Marca o objeto como dirty e salva uma entrada dele no historico de edicoes para poder desfazer e refazer a acao de atualizar a lista
+        UnityEditor.Undo.RecordObject(this, $"Atualizar Lista no \"{this.name}\"");
+
         try
         {
+            //Procura os caminhos de todos os assets do tipo T nas pastas filhas da indicada no Data Path
             string dataParentsFolder = DataPath;
-            var dataPaths = AssetDatabase.FindAssets($"t:{typeof(T)}", new[] {$"{dataParentsFolder}/"});
-            T[] newData = new T[dataPaths.Length];
-            for (var i = 0; i < dataPaths.Length; i++)
+            var dataPaths = UnityEditor.AssetDatabase.FindAssets($"t:{typeof(T)}", new[] { $"{dataParentsFolder}/" });
+
+            //Carrega cada um dos assets achados e, se eles nao estiverem na databaseList, adiciona eles no primeiro lugar com um item nulo, ou, se nao achar nenhum, no fim da lista
+            for (int i = 0; i < dataPaths.Length; i++)
             {
                 var path = dataPaths[i];
-                T data = (T)AssetDatabase.LoadAssetAtPath(AssetDatabase.GUIDToAssetPath(path), typeof(T));
-                newData[i] = data;
-            }
+                T data = (T)UnityEditor.AssetDatabase.LoadAssetAtPath(UnityEditor.AssetDatabase.GUIDToAssetPath(path), typeof(T));
 
-            Data = (T[])newData.Clone();
+                if (Data.Contains(data) == false)
+                {
+                    Data.Add(data);
+                }
+            }
         }
-        catch (Exception)
+        catch (System.Exception e)
         {
-            Debug.LogError("Couldn't recreate the new data list.");
-            throw;
+            throw new System.Exception($"Nao foi possivel atualizar a DatabaseList.\n{e}");
         }
     }
 #endif
 
     //Getters
-    public int GetListaDataLenght => Data.Length;
+    public int GetListaDataLenght => Data.Count;
 
     public virtual T GetData(int id)
     {
@@ -48,7 +54,7 @@ public class DatabaseList<T> : ScriptableObject
 
     public virtual int GetId(T data)
     {
-        for(int i = 0; i < Data.Length; i++)
+        for(int i = 0; i < Data.Count; i++)
         {
             if (Data[i].name == data.name)
             {
@@ -80,7 +86,7 @@ where T : ScriptableObject
         dataDictionary = new Dictionary<int, T>();
         idDictionary = new Dictionary<T, int>();
 
-        for (int i = 0; i < Data.Length; i++)
+        for (int i = 0; i < Data.Count; i++)
         {
             dataDictionary.Add(i, Data[i]);
             idDictionary.Add(Data[i], i);

@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Acoes/Batalha/Ataques/Golpe Unico com Roubo de mana")]
 
@@ -34,6 +35,8 @@ public class GolpeUnicoDrainMana : AcaoNaBatalha
                 }
             }
         }
+        battleManager.TocarSom("Mana");
+
 
         if (comandoDeAtaque.NumeroRoundsComandoVivo <= 0)
         {

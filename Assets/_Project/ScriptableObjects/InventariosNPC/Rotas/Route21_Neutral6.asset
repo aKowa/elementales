@@ -23,7 +23,7 @@ MonoBehaviour:
       pp: 30
     _atributosAtuais:
       _nivel: 5
-      _exp: 31405
+      _exp: 0
       _vida: 20
       _vidaMax: 20
       _mana: 35
@@ -68,7 +68,7 @@ MonoBehaviour:
       pp: 0
     _atributosAtuais:
       _nivel: 4
-      _exp: 31405
+      _exp: 0
       _vida: 20
       _vidaMax: 20
       _mana: 34

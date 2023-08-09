@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Metal Stone - Deep Cut
+  nome: Deep Cut Skill
   imagem: {fileID: 21300000, guid: 39857ce5b89b32143bef270a168b3753, type: 3}
   descricao: A sharp stone that can teach the Metal type skill Deep Cut to one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 29472337e23f4b645a8c17ace69d9580, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

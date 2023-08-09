@@ -45,6 +45,84 @@ AnimationClip:
     path: 
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 1023994720253380725, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.1
+      value: {fileID: 3187764295328548968, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.2
+      value: {fileID: 1556749893655092391, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.3
+      value: {fileID: -9214982869910700485, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.4
+      value: {fileID: -9145491000394148041, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.5
+      value: {fileID: -8158773499877976231, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.6
+      value: {fileID: -1040931465681101976, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.7
+      value: {fileID: -2405639203923164447, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.8
+      value: {fileID: -4636767998046767613, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.9
+      value: {fileID: -6002038323044616892, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 1
+      value: {fileID: 3535899318874441616, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    attribute: m_Sprite
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 1023994720253380725, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.1
+      value: {fileID: 3187764295328548968, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.2
+      value: {fileID: 1556749893655092391, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.3
+      value: {fileID: -9214982869910700485, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.4
+      value: {fileID: -9145491000394148041, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.5
+      value: {fileID: -8158773499877976231, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.6
+      value: {fileID: -1040931465681101976, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.7
+      value: {fileID: -2405639203923164447, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.8
+      value: {fileID: -4636767998046767613, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.9
+      value: {fileID: -6002038323044616892, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 1
+      value: {fileID: 3535899318874441616, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    attribute: m_Sprite
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 1023994720253380725, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.1
+      value: {fileID: 3187764295328548968, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.2
+      value: {fileID: 1556749893655092391, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.3
+      value: {fileID: -9214982869910700485, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.4
+      value: {fileID: -9145491000394148041, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.5
+      value: {fileID: -8158773499877976231, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.6
+      value: {fileID: -1040931465681101976, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.7
+      value: {fileID: -2405639203923164447, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.8
+      value: {fileID: -4636767998046767613, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 0.9
+      value: {fileID: -6002038323044616892, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    - time: 1
+      value: {fileID: 3535899318874441616, guid: d5848d5cdc280ae4fb3bc95246ec628b, type: 3}
+    attribute: m_Sprite
+    classID: 114
+    script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_SampleRate: 10
   m_WrapMode: 0
   m_Bounds:

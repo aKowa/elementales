@@ -7,8 +7,8 @@ using UnityEngine;
 public class ListaDeComandos : SerializedDatabaseList<Comando>, ISerializationCallbackReceiver
 {
     [ListDrawerSettings(Expanded = true)]
-    [SerializeField] private Comando[] listaDeMonsterData;
-    public override Comando[] Data { get => listaDeMonsterData; set => listaDeMonsterData = value; }
+    [SerializeField] private List<Comando> listaDeMonsterData;
+    public override List<Comando> Data { get => listaDeMonsterData; set => listaDeMonsterData = value; }
     public override string DataPath => GetDataPath();
 
     private string GetDataPath()

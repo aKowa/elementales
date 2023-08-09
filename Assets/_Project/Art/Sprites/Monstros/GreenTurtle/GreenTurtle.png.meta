@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 4ba1991345cca914b99ac08d1b77ad0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5102130241965790648
+    second: GreenTurtle_Idle_0
+  - first:
+      213: 3055650381403440205
+    second: GreenTurtle_Idle_1
+  - first:
+      213: 798056680235059104
+    second: GreenTurtle_Idle_2
+  - first:
+      213: 6590674199648726392
+    second: GreenTurtle_Idle_3
+  - first:
+      213: 6873885576282191334
+    second: GreenTurtle_Idle_4
+  - first:
+      213: 9190599633346553450
+    second: GreenTurtle_Idle_5
+  - first:
+      213: 3157416154623671007
+    second: GreenTurtle_TomandoDano_0
+  - first:
+      213: 1716412610087361960
+    second: GreenTurtle_TomandoDano_1
+  - first:
+      213: -6643886001960667891
+    second: GreenTurtle_TomandoDano_2
+  - first:
+      213: 9091328084679152701
+    second: GreenTurtle_TomandoDano_3
+  - first:
+      213: 129912038653604586
+    second: GreenTurtle_TomandoDano_4
+  - first:
+      213: 7989929394822466649
+    second: GreenTurtle_TomandoDano_5
+  - first:
+      213: 4542564718901869057
+    second: GreenTurtle_TomandoDano_6
+  - first:
+      213: 1129537109621948203
+    second: GreenTurtle_Atk_0
+  - first:
+      213: -3918777939629844123
+    second: GreenTurtle_Atk_1
+  - first:
+      213: 6505230035927540848
+    second: GreenTurtle_Atk_2
+  - first:
+      213: -3478867116584462105
+    second: GreenTurtle_Atk_3
+  - first:
+      213: -2502059160296933278
+    second: GreenTurtle_Atk_4
+  - first:
+      213: -9116818471942084913
+    second: GreenTurtle_Atk_5
+  - first:
+      213: -2599368570754318264
+    second: GreenTurtle_Atk_6
+  - first:
+      213: -5888369213847753282
+    second: GreenTurtle_Morto_0
+  - first:
+      213: 1515280283387969108
+    second: GreenTurtle_Morto_1
+  - first:
+      213: 5519308001886817507
+    second: GreenTurtle_Morto_2
+  - first:
+      213: 7791415242255365533
+    second: GreenTurtle_Morto_3
+  - first:
+      213: 5208946488102996334
+    second: GreenTurtle_Morto_4
+  - first:
+      213: 5027814155777201705
+    second: GreenTurtle_Morto_5
+  - first:
+      213: 7610236075796162065
+    second: GreenTurtle_Morto_6
+  - first:
+      213: -1250290286684892316
+    second: GreenTurtle_Morto_7
+  - first:
+      213: 7787672053898556883
+    second: GreenTurtle_Morto_8
+  - first:
+      213: -2720428265831125960
+    second: GreenTurtle_Morto_9
+  - first:
+      213: -8681757246280816252
+    second: GreenTurtle_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenTurtle_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5162e3c686ec640800000000000000
+      internalID: 5102130241965790648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44c65515d9d76a20800000000000000
+      internalID: 3055650381403440205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7c9088254431b00800000000000000
+      internalID: 798056680235059104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87de4640447c67b50800000000000000
+      internalID: 6590674199648726392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 420
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e53bf02382f46f50800000000000000
+      internalID: 6873885576282191334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66e4723ca19b8f70800000000000000
+      internalID: 9190599633346553450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda7c60934561db20800000000000000
+      internalID: 3157416154623671007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad1248cc2ce1d710800000000000000
+      internalID: 1716412610087361960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05b1fcc1ec2cc3a0800000000000000
+      internalID: -6643886001960667891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3455df99b2ea2e70800000000000000
+      internalID: 9091328084679152701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2bef39f4a8dc100800000000000000
+      internalID: 129912038653604586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c48deb37ee1ee60800000000000000
+      internalID: 7989929394822466649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a3e575b8e6a0f30800000000000000
+      internalID: 4542564718901869057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f33a3440cecaf00800000000000000
+      internalID: 1129537109621948203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569d9baf934bd99c0800000000000000
+      internalID: -3918777939629844123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074a9a16048374a50800000000000000
+      internalID: 6505230035927540848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8123f0ac498bfc0800000000000000
+      internalID: -3478867116584462105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2683d7f3376e64dd0800000000000000
+      internalID: -2502059160296933278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc62c2a17ed8a7180800000000000000
+      internalID: -9116818471942084913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840cfd39e003debd0800000000000000
+      internalID: -2599368570754318264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd224ed56f484ea0800000000000000
+      internalID: -5888369213847753282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e3e72b36b570510800000000000000
+      internalID: 1515280283387969108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec4f6a9265889c40800000000000000
+      internalID: 5519308001886817507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95f134d1eaa02c60800000000000000
+      internalID: 7791415242255365533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69c5659b35e94840800000000000000
+      internalID: 5208946488102996334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926d7cf065266c540800000000000000
+      internalID: 5027814155777201705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11661b2e36dfc9960800000000000000
+      internalID: 7610236075796162065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463960ccb9316aee0800000000000000
+      internalID: -1250290286684892316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d53cdfd87e531c60800000000000000
+      internalID: 7787672053898556883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c243ad7e81f3ad0800000000000000
+      internalID: -2720428265831125960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenTurtle_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489224d48c3348780800000000000000
+      internalID: -8681757246280816252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GreenTurtle_Idle_5: 9190599633346553450
+      GreenTurtle_Idle_0: 5102130241965790648
+      GreenTurtle_Idle_1: 3055650381403440205
+      GreenTurtle_Atk_2: 6505230035927540848
+      GreenTurtle_Idle_2: 798056680235059104
+      GreenTurtle_Atk_4: -2502059160296933278
+      GreenTurtle_TomandoDano_3: 9091328084679152701
+      GreenTurtle_Morto_5: 5027814155777201705
+      GreenTurtle_Atk_6: -2599368570754318264
+      GreenTurtle_Atk_5: -9116818471942084913
+      GreenTurtle_Morto_4: 5208946488102996334
+      GreenTurtle_TomandoDano_6: 4542564718901869057
+      GreenTurtle_Atk_0: 1129537109621948203
+      GreenTurtle_TomandoDano_0: 3157416154623671007
+      GreenTurtle_TomandoDano_2: -6643886001960667891
+      GreenTurtle_TomandoDano_4: 129912038653604586
+      GreenTurtle_TomandoDano_5: 7989929394822466649
+      GreenTurtle_Morto_2: 5519308001886817507
+      GreenTurtle_Morto_3: 7791415242255365533
+      GreenTurtle_Morto_0: -5888369213847753282
+      GreenTurtle_Atk_3: -3478867116584462105
+      GreenTurtle_Morto_10: -8681757246280816252
+      GreenTurtle_Idle_4: 6873885576282191334
+      GreenTurtle_Morto_6: 7610236075796162065
+      GreenTurtle_Atk_1: -3918777939629844123
+      GreenTurtle_Morto_8: 7787672053898556883
+      GreenTurtle_Morto_9: -2720428265831125960
+      GreenTurtle_Morto_7: -1250290286684892316
+      GreenTurtle_Idle_3: 6590674199648726392
+      GreenTurtle_Morto_1: 1515280283387969108
+      GreenTurtle_TomandoDano_1: 1716412610087361960
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

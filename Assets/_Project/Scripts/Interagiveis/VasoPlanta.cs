@@ -20,9 +20,12 @@ public class VasoPlanta : Interagivel
     [SerializeField] private DialogueObject dialogoPlantouItem;
     [SerializeField] private DialogueObject dialogoDesejaPlantarAlgo;
 
+
     //Variaveis
     [Header("Variaveis")]
     [SerializeField] private string id;
+    [Header("Som")]
+    [SerializeField] protected AudioClip somPlantar;
 
     [Header("Opcoes")]
     [SerializeField] private Item plantaInicial;
@@ -112,6 +115,9 @@ public class VasoPlanta : Interagivel
         dialogueActivator.ShowDialogue(dialogoPlantouItem, DialogueUI.Instance);
 
         PlayerData.Instance.Inventario.RemoverItem(frutaParaPlantar, 1);
+
+        SoundManager.instance.TocarSom(somPlantar);
+
 
         VerificarSePodeColher();
         AtualizarSprite();

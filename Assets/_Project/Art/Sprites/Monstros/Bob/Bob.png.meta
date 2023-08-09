@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: 310e88918d9f78f4eabb1bf570d271fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7274837340677401701
+    second: Bob_Idle_0
+  - first:
+      213: 7648727297496867927
+    second: Bob_Idle_1
+  - first:
+      213: 7852182210009758045
+    second: Bob_Idle_2
+  - first:
+      213: 8260677762449888837
+    second: Bob_Idle_3
+  - first:
+      213: -613774548926661933
+    second: Bob_Idle_4
+  - first:
+      213: 8776835244646260546
+    second: Bob_Idle_5
+  - first:
+      213: -8489731976106501392
+    second: Bob_TomandoDano_0
+  - first:
+      213: -8775957323453046888
+    second: Bob_TomandoDano_1
+  - first:
+      213: 6642432983632925926
+    second: Bob_TomandoDano_2
+  - first:
+      213: 1952110620918328737
+    second: Bob_TomandoDano_3
+  - first:
+      213: -4145964417635637462
+    second: Bob_TomandoDano_4
+  - first:
+      213: 535284274616088176
+    second: Bob_TomandoDano_5
+  - first:
+      213: 2614317523616047659
+    second: Bob_TomandoDano_6
+  - first:
+      213: 8578843310515901072
+    second: Bob_Atk_0
+  - first:
+      213: 202492508039611169
+    second: Bob_Atk_1
+  - first:
+      213: -5009963470189831936
+    second: Bob_Atk_2
+  - first:
+      213: -8997156778001740481
+    second: Bob_Atk_3
+  - first:
+      213: -650547481714100457
+    second: Bob_Atk_4
+  - first:
+      213: -3018191063961606723
+    second: Bob_Atk_5
+  - first:
+      213: 1256244945371364868
+    second: Bob_Atk_6
+  - first:
+      213: 6349713311598473276
+    second: Bob_Morto_0
+  - first:
+      213: 4158377898901027334
+    second: Bob_Morto_1
+  - first:
+      213: -5285359289060889773
+    second: Bob_Morto_2
+  - first:
+      213: 8991166399773014324
+    second: Bob_Morto_3
+  - first:
+      213: 720301437402354280
+    second: Bob_Morto_4
+  - first:
+      213: 3390234559970797121
+    second: Bob_Morto_5
+  - first:
+      213: 1480007155361482809
+    second: Bob_Morto_6
+  - first:
+      213: -8647846686674938155
+    second: Bob_Morto_7
+  - first:
+      213: -8009986966687484682
+    second: Bob_Morto_8
+  - first:
+      213: -4064055092430604362
+    second: Bob_Morto_9
+  - first:
+      213: 4252614759264735505
+    second: Bob_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 850
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bob_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ce2d1840a65f460800000000000000
+      internalID: 7274837340677401701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754622fc3fcb52a60800000000000000
+      internalID: 7648727297496867927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59f54b0e1e88fc60800000000000000
+      internalID: 7852182210009758045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5465bc278a2d3a270800000000000000
+      internalID: 8260677762449888837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dafc07bc4f6b77f0800000000000000
+      internalID: -613774548926661933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fd44147259dc970800000000000000
+      internalID: 8776835244646260546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa95ed8fb96e2a80800000000000000
+      internalID: -8489731976106501392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fd793bf49853680800000000000000
+      internalID: -8775957323453046888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e457c10b99ae2c50800000000000000
+      internalID: 6642432983632925926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adaa1a544a471b10800000000000000
+      internalID: 1952110620918328737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a272b6314539676c0800000000000000
+      internalID: -4145964417635637462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07638523636bd6700800000000000000
+      internalID: 535284274616088176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22a63dbfebe74420800000000000000
+      internalID: 2614317523616047659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092590bc98c2e0770800000000000000
+      internalID: 8578843310515901072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123016bfcd56fc200800000000000000
+      internalID: 202492508039611169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009d6ad84c8097ab0800000000000000
+      internalID: -5009963470189831936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d45b2549da32380800000000000000
+      internalID: -8997156778001740481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717f7ea138ac8f6f0800000000000000
+      internalID: -650547481714100457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db56f48e73b3d16d0800000000000000
+      internalID: -3018191063961606723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e7db73f141f6110800000000000000
+      internalID: 1256244945371364868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30756b5d96be1850800000000000000
+      internalID: 6349713311598473276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 324
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ab4d1caa685b930800000000000000
+      internalID: 4158377898901027334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 216
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35be639cab1a6a6b0800000000000000
+      internalID: -5285359289060889773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 108
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439f5ee043a07cc70800000000000000
+      internalID: 8991166399773014324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862129b47560ff900800000000000000
+      internalID: 720301437402354280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146ef4cbe588c0f20800000000000000
+      internalID: 3390234559970797121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9388b589aaa0a8410800000000000000
+      internalID: 1480007155361482809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d693b8b14dacf780800000000000000
+      internalID: -8647846686674938155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f47513ea4fc6d090800000000000000
+      internalID: -8009986966687484682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b77e0cfc639997c0800000000000000
+      internalID: -4064055092430604362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 170
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111de8c9792540b30800000000000000
+      internalID: 4252614759264735505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bob_Idle_5: 8776835244646260546
+      Bob_Morto_5: 3390234559970797121
+      Bob_Idle_4: -613774548926661933
+      Bob_Morto_1: 4158377898901027334
+      Bob_Morto_9: -4064055092430604362
+      Bob_Morto_10: 4252614759264735505
+      Bob_TomandoDano_2: 6642432983632925926
+      Bob_Morto_8: -8009986966687484682
+      Bob_Idle_2: 7852182210009758045
+      Bob_Atk_1: 202492508039611169
+      Bob_Idle_3: 8260677762449888837
+      Bob_Atk_3: -8997156778001740481
+      Bob_Morto_6: 1480007155361482809
+      Bob_Morto_2: -5285359289060889773
+      Bob_Idle_0: 7274837340677401701
+      Bob_TomandoDano_5: 535284274616088176
+      Bob_TomandoDano_4: -4145964417635637462
+      Bob_Morto_7: -8647846686674938155
+      Bob_Morto_3: 8991166399773014324
+      Bob_TomandoDano_1: -8775957323453046888
+      Bob_TomandoDano_3: 1952110620918328737
+      Bob_Idle_1: 7648727297496867927
+      Bob_TomandoDano_0: -8489731976106501392
+      Bob_Atk_2: -5009963470189831936
+      Bob_Atk_4: -650547481714100457
+      Bob_Morto_4: 720301437402354280
+      Bob_Morto_0: 6349713311598473276
+      Bob_Atk_6: 1256244945371364868
+      Bob_Atk_5: -3018191063961606723
+      Bob_Atk_0: 8578843310515901072
+      Bob_TomandoDano_6: 2614317523616047659
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

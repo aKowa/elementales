@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Magic Stone - Praise The Sun
+  nome: Praise The Sun Skill
   imagem: {fileID: 21300000, guid: 3c0a5d591d862524a9a9d53865ca1db5, type: 3}
   descricao: An arcane stone that can teach the Magic type skill Praise the Sun to
     one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: bda226c9c7cd8fb438fc106e59c339e3, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

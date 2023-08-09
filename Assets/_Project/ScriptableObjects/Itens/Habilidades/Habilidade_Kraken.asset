@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tipo: 2
   efeito: 7
-  nome: Water Stone - Kraken
+  nome: Kraken Skill
   imagem: {fileID: 21300000, guid: 66322fba2bcb25f4b993d0c7871fcf07, type: 3}
   descricao: A delicate stone that can teach the Water type skill Kraken to one Elemantor.
-  preco: 0
+  preco: 1200
   efeitoForaDaBatalha: {fileID: 11400000, guid: 4172eec144c913249adc0f5e7a0009cb, type: 2}
   efeitoNaBatalha: {fileID: 0}
   comandoNaBatalha: {fileID: 0}

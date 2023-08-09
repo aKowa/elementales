@@ -20,7 +20,6 @@ public class Bau : Interagivel
 
     //Para baus com Ads
     [Header("Baus de ADS")] 
-    [SerializeField] private DialogueObject dialogoQuerAssistirUmAd;
     [SerializeField] private EntregarItem stashSecundario;
     private DialogueActivator dialogueActivator;
 
@@ -28,6 +27,8 @@ public class Bau : Interagivel
     [SerializeField] private bool rodarAnimacao = true;
     [SerializeField] private bool desaparecerAposPego = false;
 
+    [Header("Som")]
+    [SerializeField] private AudioClip somAbrirBau;
     private bool foiPego;
 
     private void Awake()
@@ -62,6 +63,7 @@ public class Bau : Interagivel
                 GastarChave(player);
             }
         }
+        SoundManager.instance.TocarSomIgnorandoPause(somAbrirBau);
 
         entregarItem.EntregarItens();
 
@@ -71,7 +73,7 @@ public class Bau : Interagivel
 
         if(stashSecundario)
         {
-            AbrirDialogoStashSecundario();
+            DarRecompensaSecundaria();
         }
     }
 
@@ -82,22 +84,6 @@ public class Bau : Interagivel
         inventario.RemoverItem(chaveQueAbre, 1);
     }
     
-    public void AbrirDialogoStashSecundario()
-    {
-        StartCoroutine(AdsManager.GetInstance().CheckInternetConnection((isConnected) =>
-        {
-            if (isConnected)
-            {
-                Debug.Log("BAU: Is connected");
-                StartCoroutine(AbrirDialogoCorrotina(dialogoQuerAssistirUmAd));
-            }
-            else
-            {
-                Debug.Log("BAU: Is not connected");
-            }
-        }));
-    }
-
     private IEnumerator AbrirDialogoCorrotina(DialogueObject dialogo)
     {
         yield return new WaitUntil(() => DialogueUI.Instance.IsOpen == false);
@@ -116,19 +102,10 @@ public class Bau : Interagivel
         }
 
         return false;
-    }
-    
-    public void AbrirStashSecundario()
+    }   
+    private void DarRecompensaSecundaria()
     {
-        Debug.Log("passar Ad");
-        //Ver Anuncio
-        AdsManager.GetInstance().OnRewardAdEarnedEvent_External = DarRecompensa;
-        AdsManager.GetInstance().ShowRewardedAds();
-    }
-    
-    private void DarRecompensa()
-    {
-        stashSecundario.EntregarItens();
+        //stashSecundario.EntregarItens();
     }
 
     private void ConferirSeFoiPego()

@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730dbfbfeca746c46946cfce45c7ec53, type: 3}
+  m_Name: WaterSerpent
+  m_EditorClassIdentifier: 
+  _name: 'Inos '
+  categoria: 
+  descricao: "Inos is a sweet and playful creature, in some places the trained names
+    are a tourist attraction.\r"
+  altura: 2.6
+  peso: 119
+  monsterRarity: 120
+  monsterTypes:
+  - {fileID: 11400000, guid: 6c44737bc24dde14a942ef6fdae7409b, type: 2}
+  miniatura: {fileID: 2790922236729708144, guid: a44c77cc32e4f764ea931379cfe4d1b7, type: 3}
+  _total: 391
+  _attributesBase:
+    _vida: 47
+    _mana: 33
+    _ataque: 44
+    _defesa: 56
+    _velocidade: 100
+    _spAtaque: 73
+    _spDefesa: 71
+  animator: {fileID: 22100000, guid: b354814c652807d458d33bf1529b69fd, type: 2}
+  complete: 0
+  upgradesPerLevels:
+  - ataque: {fileID: 11400000, guid: abc09b496a012cb4cb74b4992be79e37, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 1
+    typeOfAttack: 2
+    level: 1
+  - ataque: {fileID: 11400000, guid: ab58927ea1f802b4da3d353be847b365, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 2
+    level: 1
+  - ataque: {fileID: 11400000, guid: 89eb00cce0a86be429143c539b2b33e1, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 2
+    level: 1
+  - ataque: {fileID: 11400000, guid: 007b215ed5fddca499ba38d42e8a594f, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 1
+  - ataque: {fileID: 11400000, guid: 991a78b38efa16b4baf073aced90cfb0, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 6
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 8
+  - ataque: {fileID: 11400000, guid: 33348dea21d1f1e42a4542775c3fab50, type: 2}
+    combatLesson: {fileID: 11400000, guid: 837a480693bce9f4e95014a316c96249, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 2
+    level: 12
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 1
+    typeOfAttack: 0
+    level: 16
+  - ataque: {fileID: 11400000, guid: 9242d71013b355e4ba4384068c0dc0d2, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 2
+    level: 19
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: a2fd09bfb535178479b0b5cfecdcecec, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 23
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 24
+  - ataque: {fileID: 11400000, guid: 3db2f7fa065be51429adec3d4dadf58f, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 25
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: a2fd09bfb535178479b0b5cfecdcecec, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 27
+  - ataque: {fileID: 11400000, guid: 4a8d991e32497f2439bc707ef697dc36, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 31
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: cd123a25900b13a4ba6ba258055f9a75, type: 2}
+    diceUpgrade: 2
+    typeOfAttack: 0
+    level: 32
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: cd123a25900b13a4ba6ba258055f9a75, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 33
+  - ataque: {fileID: 11400000, guid: a927c338cc6d17347bd48039ccd8d694, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 37
+  - ataque: {fileID: 11400000, guid: fee87fa08cff71c47aea5f23e803a2b0, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 40
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 17f170bfcaf1cba4f91f352ea4498af3, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 42
+  - ataque: {fileID: 11400000, guid: ab96afaea334e194890ecaf978157266, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 44
+  - ataque: {fileID: 11400000, guid: bfc8d5b08eafa8846ba2bb1bd1a47e17, type: 2}
+    combatLesson: {fileID: 11400000, guid: 17f170bfcaf1cba4f91f352ea4498af3, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 49
+  - ataque: {fileID: 11400000, guid: 659735ceb7527d343852861795db21c1, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 52
+  - ataque: {fileID: 11400000, guid: cac5708a5e4efc0479261a52d9e9d553, type: 2}
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 56
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 58
+  - ataque: {fileID: 0}
+    combatLesson: {fileID: 11400000, guid: 61100324ff2301e44bd4aa23b8bbb887, type: 2}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 61
+  - ataque: {fileID: 11400000, guid: f0575b00521f315409f0a8f33d11ebc1, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 0
+    level: 62
+  - ataque: {fileID: 11400000, guid: dca4a083d87e71a44927df935dd6e840, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 67
+  - ataque: {fileID: 11400000, guid: 744cdc9c7f8b6e94a9c688a6bf6aae67, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 73
+  - ataque: {fileID: 11400000, guid: 5423b570048bab6479c81734cc6a4b0d, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 78
+  - ataque: {fileID: 11400000, guid: 71e6f852b4c76a645b4acf42b4c9706d, type: 2}
+    combatLesson: {fileID: 0}
+    diceUpgrade: 0
+    typeOfAttack: 1
+    level: 84
+  learnableAttacks:
+  - {fileID: 11400000, guid: abc09b496a012cb4cb74b4992be79e37, type: 2}
+  - {fileID: 11400000, guid: ab58927ea1f802b4da3d353be847b365, type: 2}
+  - {fileID: 11400000, guid: 89eb00cce0a86be429143c539b2b33e1, type: 2}
+  - {fileID: 11400000, guid: 007b215ed5fddca499ba38d42e8a594f, type: 2}
+  - {fileID: 11400000, guid: 991a78b38efa16b4baf073aced90cfb0, type: 2}
+  - {fileID: 11400000, guid: 33348dea21d1f1e42a4542775c3fab50, type: 2}
+  - {fileID: 11400000, guid: 9242d71013b355e4ba4384068c0dc0d2, type: 2}
+  - {fileID: 11400000, guid: 3db2f7fa065be51429adec3d4dadf58f, type: 2}
+  - {fileID: 11400000, guid: 4a8d991e32497f2439bc707ef697dc36, type: 2}
+  - {fileID: 11400000, guid: a927c338cc6d17347bd48039ccd8d694, type: 2}
+  - {fileID: 11400000, guid: fee87fa08cff71c47aea5f23e803a2b0, type: 2}
+  - {fileID: 11400000, guid: ab96afaea334e194890ecaf978157266, type: 2}
+  - {fileID: 11400000, guid: bfc8d5b08eafa8846ba2bb1bd1a47e17, type: 2}
+  - {fileID: 11400000, guid: 659735ceb7527d343852861795db21c1, type: 2}
+  - {fileID: 11400000, guid: cac5708a5e4efc0479261a52d9e9d553, type: 2}
+  - {fileID: 11400000, guid: f0575b00521f315409f0a8f33d11ebc1, type: 2}
+  - {fileID: 11400000, guid: dca4a083d87e71a44927df935dd6e840, type: 2}
+  - {fileID: 11400000, guid: 744cdc9c7f8b6e94a9c688a6bf6aae67, type: 2}
+  - {fileID: 11400000, guid: 5423b570048bab6479c81734cc6a4b0d, type: 2}
+  - {fileID: 11400000, guid: 71e6f852b4c76a645b4acf42b4c9706d, type: 2}
+  combatLessonsPorNivel:
+  - nivel: 12
+    combatLesson: {fileID: 11400000, guid: e747ba8d4296dc24c93d4c29503119b7, type: 2}
+  - nivel: 26
+    combatLesson: {fileID: 11400000, guid: 837a480693bce9f4e95014a316c96249, type: 2}
+  - nivel: 32
+    combatLesson: {fileID: 11400000, guid: e2006f6f17ce35949849538e502afd65, type: 2}
+  - nivel: 50
+    combatLesson: {fileID: 11400000, guid: 33030b9a2027335438b371bf3b66638b, type: 2}
+  - nivel: 70
+    combatLesson: {fileID: 11400000, guid: 5614373dfa563644896b4b6ff91c01d9, type: 2}
+  - nivel: 90
+    combatLesson: {fileID: 11400000, guid: 6b63ccbd8f095d74aa3beb1547407cb3, type: 2}
+  numAttacks: 20
+  numDiceUpgrades: 5
+  audioEntrada: {fileID: 8300000, guid: 30fef6c8d6b261e43be14f13ec5f288c, type: 3}
+  audioMorrendo: {fileID: 8300000, guid: 7be9247a8a3f69e4696760a36b9d3a1e, type: 3}

@@ -1,0 +1,873 @@
+fileFormatVersion: 2
+guid: c24370f7964af1348af3c23e68dde0c5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2482024449181027425
+    second: BlueSerpent_Idle_0
+  - first:
+      213: -7782617679330883595
+    second: BlueSerpent_Idle_1
+  - first:
+      213: 6039158664720412493
+    second: BlueSerpent_Idle_2
+  - first:
+      213: -2358898594613115456
+    second: BlueSerpent_Idle_3
+  - first:
+      213: 1917178730268710761
+    second: BlueSerpent_Idle_4
+  - first:
+      213: 3736091672332769198
+    second: BlueSerpent_Idle_5
+  - first:
+      213: -7815948203639230188
+    second: BlueSerpent_TomandoDano_0
+  - first:
+      213: 1126862349646673899
+    second: BlueSerpent_TomandoDano_1
+  - first:
+      213: 8296397136980550646
+    second: BlueSerpent_TomandoDano_2
+  - first:
+      213: 927279398111482944
+    second: BlueSerpent_TomandoDano_3
+  - first:
+      213: 760195338937678487
+    second: BlueSerpent_TomandoDano_4
+  - first:
+      213: 5522148180211577804
+    second: BlueSerpent_TomandoDano_5
+  - first:
+      213: -6687938198841575823
+    second: BlueSerpent_TomandoDano_6
+  - first:
+      213: 8383859064992841176
+    second: BlueSerpent_Atk_0
+  - first:
+      213: -4711615940319037060
+    second: BlueSerpent_Atk_1
+  - first:
+      213: 5752790355918540093
+    second: BlueSerpent_Atk_2
+  - first:
+      213: -4706864883323415106
+    second: BlueSerpent_Atk_3
+  - first:
+      213: 7993637551553613012
+    second: BlueSerpent_Atk_4
+  - first:
+      213: -3168206744999602604
+    second: BlueSerpent_Atk_5
+  - first:
+      213: -3664717945104531428
+    second: BlueSerpent_Atk_6
+  - first:
+      213: 4599819117564732175
+    second: BlueSerpent_Morto_0
+  - first:
+      213: -4477425051687226599
+    second: BlueSerpent_Morto_1
+  - first:
+      213: -2309415591497262059
+    second: BlueSerpent_Morto_2
+  - first:
+      213: -4395628952248992237
+    second: BlueSerpent_Morto_3
+  - first:
+      213: 2895902986023055671
+    second: BlueSerpent_Morto_4
+  - first:
+      213: -7488587253867181537
+    second: BlueSerpent_Morto_5
+  - first:
+      213: 176833353306603584
+    second: BlueSerpent_Morto_6
+  - first:
+      213: 8855827074623076878
+    second: BlueSerpent_Morto_7
+  - first:
+      213: -4731051775486309898
+    second: BlueSerpent_Morto_8
+  - first:
+      213: 6089917558001013835
+    second: BlueSerpent_Morto_9
+  - first:
+      213: -6478926554978814272
+    second: BlueSerpent_Morto_10
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 680
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueSerpent_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c0541161ce17220800000000000000
+      internalID: 2482024449181027425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7cec864769ef390800000000000000
+      internalID: -7782617679330883595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fe1e80fc66fc350800000000000000
+      internalID: 6039158664720412493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5cae6e932834fd0800000000000000
+      internalID: -2358898594613115456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967d994c5ef2b9a10800000000000000
+      internalID: 1917178730268710761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea790b1d49349d330800000000000000
+      internalID: 3736091672332769198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_TomandoDano_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4113b3bf48c288390800000000000000
+      internalID: -7815948203639230188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_TomandoDano_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7b37d265b63af00800000000000000
+      internalID: 1126862349646673899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_TomandoDano_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f32b496d39b22370800000000000000
+      internalID: 8296397136980550646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_TomandoDano_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04419fb13bb5edc00800000000000000
+      internalID: 927279398111482944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_TomandoDano_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ab94112a1cc8a00800000000000000
+      internalID: 760195338937678487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_TomandoDano_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3b496238c92ac40800000000000000
+      internalID: 5522148180211577804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_TomandoDano_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176384274abaf23a0800000000000000
+      internalID: -6687938198841575823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Atk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd36d76663795470800000000000000
+      internalID: 8383859064992841176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Atk_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c793737f34afc9eb0800000000000000
+      internalID: -4711615940319037060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Atk_2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d41df595406df40800000000000000
+      internalID: 5752790355918540093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Atk_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb55fbf935bddaeb0800000000000000
+      internalID: -4706864883323415106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Atk_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc8393400b1fee60800000000000000
+      internalID: 7993637551553613012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Atk_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4565d4550c44804d0800000000000000
+      internalID: -3168206744999602604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Atk_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c108b08027e442dc0800000000000000
+      internalID: -3664717945104531428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f032f75dd17d5df30800000000000000
+      internalID: 4599819117564732175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9137fbd43adfcd1c0800000000000000
+      internalID: -4477425051687226599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 315
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c9e0e51ce43ffd0800000000000000
+      internalID: -2309415591497262059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31eb6c8c1c69ff2c0800000000000000
+      internalID: -4395628952248992237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 210
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731b5e13c60503820800000000000000
+      internalID: 2895902986023055671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a8abf9191331890800000000000000
+      internalID: -7488587253867181537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 105
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04008487ffc347200800000000000000
+      internalID: 176833353306603584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0af13fddc736ea70800000000000000
+      internalID: 8855827074623076878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f94824f97de75eb0800000000000000
+      internalID: -4731051775486309898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_9
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b449014d0cbb38450800000000000000
+      internalID: 6089917558001013835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueSerpent_Morto_10
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c674a400aa3616a0800000000000000
+      internalID: -6478926554978814272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlueSerpent_TomandoDano_1: 1126862349646673899
+      BlueSerpent_Idle_5: 3736091672332769198
+      BlueSerpent_Idle_3: -2358898594613115456
+      BlueSerpent_Morto_0: 4599819117564732175
+      BlueSerpent_TomandoDano_6: -6687938198841575823
+      BlueSerpent_Atk_2: 5752790355918540093
+      BlueSerpent_TomandoDano_3: 927279398111482944
+      BlueSerpent_Atk_1: -4711615940319037060
+      BlueSerpent_Morto_8: -4731051775486309898
+      BlueSerpent_Morto_7: 8855827074623076878
+      BlueSerpent_TomandoDano_2: 8296397136980550646
+      BlueSerpent_TomandoDano_5: 5522148180211577804
+      BlueSerpent_Morto_2: -2309415591497262059
+      BlueSerpent_Morto_9: 6089917558001013835
+      BlueSerpent_Atk_4: 7993637551553613012
+      BlueSerpent_Atk_6: -3664717945104531428
+      BlueSerpent_Atk_5: -3168206744999602604
+      BlueSerpent_Morto_3: -4395628952248992237
+      BlueSerpent_Idle_0: 2482024449181027425
+      BlueSerpent_TomandoDano_4: 760195338937678487
+      BlueSerpent_Atk_0: 8383859064992841176
+      BlueSerpent_Morto_6: 176833353306603584
+      BlueSerpent_Idle_1: -7782617679330883595
+      BlueSerpent_Idle_2: 6039158664720412493
+      BlueSerpent_Morto_4: 2895902986023055671
+      BlueSerpent_Morto_1: -4477425051687226599
+      BlueSerpent_Atk_3: -4706864883323415106
+      BlueSerpent_Idle_4: 1917178730268710761
+      BlueSerpent_Morto_5: -7488587253867181537
+      BlueSerpent_Morto_10: -6478926554978814272
+      BlueSerpent_TomandoDano_0: -7815948203639230188
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

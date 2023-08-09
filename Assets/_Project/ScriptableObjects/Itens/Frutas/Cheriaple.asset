@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Cheriaple
   imagem: {fileID: 21300000, guid: ff17ae5ee305e1046bbe8e470c10664a, type: 3}
   descricao: "Plantable fruit that increases health regeneration for two turns.\r"
-  preco: 0
+  preco: 200
   efeitoForaDaBatalha: {fileID: 0}
   efeitoNaBatalha: {fileID: 11400000, guid: 57f81d25356324f4390b65c567c85270, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 90fb2635a24c0454eba8d1525ce59d78, type: 2}

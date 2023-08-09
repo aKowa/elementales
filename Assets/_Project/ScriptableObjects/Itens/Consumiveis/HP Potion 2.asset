@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Super HP Potion
   imagem: {fileID: 21300000, guid: 0eb12ed6fae3ccf48b4338212fec0218, type: 3}
   descricao: Restores a moderate amount of health to an Elemantor.
-  preco: 400
+  preco: 250
   efeitoForaDaBatalha: {fileID: 11400000, guid: 101568a8fc496f144b4c3642661b11a5, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 101568a8fc496f144b4c3642661b11a5, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 6ca3b91d8a0c2ab47992bb9767a94f63, type: 2}

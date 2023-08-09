@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Acoes/Batalha/Ataques/Regeneracao De Vida")]
 public class RegenDeVida : AcaoNaBatalha
@@ -13,6 +14,7 @@ public class RegenDeVida : AcaoNaBatalha
             
             comandoDeAtaque.GetMonstro.ReceberCura(vidaRecuperada);
         }
+        battleManager.TocarSom("Cura");
 
         if (comandoDeAtaque.NumeroRoundsComandoVivo <= 0)
         {

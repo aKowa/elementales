@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Revive
   imagem: {fileID: 21300000, guid: 3e6ae93774caaab459ca10b52f5f6fa0, type: 3}
   descricao: Revive a Elemantor with half of its HP.
-  preco: 0
+  preco: 400
   efeitoForaDaBatalha: {fileID: 11400000, guid: 97878a5224ec79647b7bca1476e0196a, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 97878a5224ec79647b7bca1476e0196a, type: 2}
   comandoNaBatalha: {fileID: 0}

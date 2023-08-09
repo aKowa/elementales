@@ -49,6 +49,8 @@ public class GolpeUnicoPassarAtributoNegativoDeOrigemParaTarget : AcaoNaBatalha
                         if (modificadorAleatorio != null)
                         {
                             comandoDeAtaque.AlvoAcao[i].GetMonstro.AtributosAtuais.ReceberModificadorStatus(atributo, modificadorAleatorio.ValorModificador, modificadorAleatorio.PassaComTurnos, modificadorAleatorio.QuantidadeTurnos);
+                            comandoDeAtaque.GetMonstro.AtributosAtuais.TocarSomModificador(modificadorAleatorio.ValorModificador, comandoDeAtaque.GetMonstro.MonsterData);
+
                         }
                     }
                 }

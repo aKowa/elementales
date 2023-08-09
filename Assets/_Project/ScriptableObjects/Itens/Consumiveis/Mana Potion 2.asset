@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Super Mana Potion
   imagem: {fileID: 21300000, guid: 870382117f697614eacace248e4bd917, type: 3}
   descricao: Restores a moderate amount of mana to an Elemantor.
-  preco: 400
+  preco: 250
   efeitoForaDaBatalha: {fileID: 11400000, guid: a78be5d4ec265ba45a536dfe3f34a42b, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: a78be5d4ec265ba45a536dfe3f34a42b, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 04450d61464d4f645a5cb0fefd3e6995, type: 2}

@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Gold Ring
   imagem: {fileID: 21300000, guid: f887e5681df0be24f8e8a328f574f5cb, type: 3}
   descricao: The strongest ring among the ones that are manufactured by humans.
-  preco: 1500
+  preco: 500
   efeitoForaDaBatalha: {fileID: 11400000, guid: 9f4364bc7e314564b8f0ca9a3f8e28c1, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 52e02e0feef13484ba4fe7a027db71a7, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: e5b380bad60dba943b9d4ca6173285b1, type: 2}

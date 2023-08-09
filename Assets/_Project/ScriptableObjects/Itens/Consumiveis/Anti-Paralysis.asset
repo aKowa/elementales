@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Anti-Paralysis
   imagem: {fileID: 21300000, guid: 053801f47ddf9b04d90fc2a04fa369ee, type: 3}
   descricao: Cures the Paralysis status from an Elemantor.
-  preco: 0
+  preco: 250
   efeitoForaDaBatalha: {fileID: 11400000, guid: 302a20db382af8d42bea7401f596eae1, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 302a20db382af8d42bea7401f596eae1, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: a989d9403bb2ee244b1b9168d02206aa, type: 2}

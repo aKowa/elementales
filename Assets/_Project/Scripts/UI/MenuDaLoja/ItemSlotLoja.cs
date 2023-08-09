@@ -41,7 +41,6 @@ public class ItemSlotLoja : MonoBehaviour
         scrollRect = GetComponentInParent<ScrollRect>();
 
         //Variaveis
-        itemParaVender = false;
         apertado = false;
 
         //Eventos
@@ -70,7 +69,7 @@ public class ItemSlotLoja : MonoBehaviour
         }
         else
         {
-            precoItem.text = "$ " + ((int)(itemHolder.Item.Preco * MenuDaLojaController.modificadorItemParaVenda)).ToString();
+            precoItem.text = "$ " + (int)(itemHolder.Item.Preco * MenuDaLojaController.modificadorItemParaVenda);
         }
     }
 

@@ -8,7 +8,6 @@ public class BattleEffectAnimation : MonoBehaviour
 {
     //Componentes
     [SerializeField] private SpriteRenderer spriteRenderer;
-    [SerializeField] private ListaDeSons listaDeSonsEfeitos;
     private Animator animator;
     private Animacao animacao;
 
@@ -90,10 +89,6 @@ public class BattleEffectAnimation : MonoBehaviour
         BattleManager.Instance.FinalizarEsperarAnimacao();
     }
 
-    public void TocarSom(string nomeSom)
-    {
-        SoundManager.instance.TocarSom(listaDeSonsEfeitos.GetSom(nomeSom));
-    }
     public void EspelharNaDirecaoNormal()
     {
         transform.localScale = new Vector3(1, 1, 1);

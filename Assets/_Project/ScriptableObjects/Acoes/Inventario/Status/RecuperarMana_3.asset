@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: RecuperarMana_3
   m_EditorClassIdentifier: 
   quantidaDeMana: 200
+  somRecuperarMana: {fileID: 8300000, guid: 5520a2ed386b4e449a74fc14cb4b2bc3, type: 3}

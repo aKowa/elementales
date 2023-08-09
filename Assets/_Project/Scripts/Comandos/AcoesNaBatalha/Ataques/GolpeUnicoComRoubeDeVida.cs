@@ -1,3 +1,4 @@
+using BergamotaLibrary;
 using UnityEngine;
 [CreateAssetMenu(menuName = "Acoes/Batalha/Ataques/Golpe Unico com Roubo de vida")]
 
@@ -31,9 +32,11 @@ public class GolpeUnicoComRoubeDeVida : AcaoNaBatalha
                 {
                     int vidaRecuperada = Mathf.CeilToInt(dano * (taxaRecuperarVidaBaseadoEmDano / 100));
                     comandoDeAtaque.GetMonstro.ReceberCura(vidaRecuperada);
+
                 }
             }
         }
+        battleManager.TocarSom("Cura");
 
         if (comandoDeAtaque.NumeroRoundsComandoVivo <= 0)
         {

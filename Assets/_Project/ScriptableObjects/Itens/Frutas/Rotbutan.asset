@@ -18,7 +18,7 @@ MonoBehaviour:
   imagem: {fileID: 21300000, guid: 1208b433c287ced48a3076315c4d6328, type: 3}
   descricao: Plantable fruit that can be consumed during battle to increase SPEED
     until the end of the battle.
-  preco: 0
+  preco: 100
   efeitoForaDaBatalha: {fileID: 0}
   efeitoNaBatalha: {fileID: 11400000, guid: 242b725b8b56dad478c1f8f1709b102e, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 293aab039e4b4ee4fb953a6b2c9cc79e, type: 2}

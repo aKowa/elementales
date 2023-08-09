@@ -42,6 +42,8 @@ public class ObjetoInteragivelComItemArrastavel : ObjetoInteragivelComItem
                     animator.SetFloat("Direcao", (float)player.GetDirection);
                     animator.Play(nomeAnimacao);
                 }
+
+                tocarSom();
             }
             else
             {

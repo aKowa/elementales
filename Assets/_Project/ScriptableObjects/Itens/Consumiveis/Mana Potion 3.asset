@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Mega Mana Potion
   imagem: {fileID: 21300000, guid: 8224972b2dcaa1745888ab0529b4eabc, type: 3}
   descricao: Greatly restores an Elemantor's mana.
-  preco: 800
+  preco: 500
   efeitoForaDaBatalha: {fileID: 11400000, guid: b4973adcbb3a94e4baf2b06ab69a6684, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: b4973adcbb3a94e4baf2b06ab69a6684, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 53361cabba1b42344976a51060f676af, type: 2}

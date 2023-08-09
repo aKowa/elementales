@@ -87,6 +87,8 @@ public class MenuSalvarController : ViewController
 
             saveSlots[i].NumeroSlot = i + 1;
             saveSlots[i].SetAtivo(true);
+
+            saveSlots[i].EsconderBotoesDeImportarExportar();
         }
     }
 
@@ -95,6 +97,7 @@ public class MenuSalvarController : ViewController
         foreach (SaveSlot slot in saveSlots)
         {
             slot.ResetarInformacoes();
+            slot.EsconderBotoesDeImportarExportar();
         }
     }
 

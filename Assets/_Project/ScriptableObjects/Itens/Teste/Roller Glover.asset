@@ -15,9 +15,9 @@ MonoBehaviour:
   tipo: 3
   efeito: 8
   nome: Roller Glover
-  imagem: {fileID: 0}
-  descricao: A very versatile glove that allows you to roll really heavy things to
-    the side. Mimics the Magic Roller attack.
+  imagem: {fileID: 21300000, guid: 73410f047d6106644b03c1f87cbb6b33, type: 3}
+  descricao: A very versatile glove with anti-magnetic technology. Can push really
+    heavy things to the side. Mimics the Magic Roller attack.
   preco: 0
   efeitoForaDaBatalha: {fileID: 0}
   efeitoNaBatalha: {fileID: 0}

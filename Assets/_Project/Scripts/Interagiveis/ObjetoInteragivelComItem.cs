@@ -15,6 +15,8 @@ public class ObjetoInteragivelComItem : Interagivel
     //Variaveis
     [Header("Variaveis")]
     [SerializeField] protected List<Item> itemNecessario = new List<Item>();
+    [Header("Som")]
+    [SerializeField] protected AudioClip somParaTocarAoInteragir;
 
     [Space(10)]
 
@@ -70,10 +72,15 @@ public class ObjetoInteragivelComItem : Interagivel
 
         dialogueActivator.ShowDialogue(dialogoPossuiItem, player.DialogueUI);
         boxCollider2D.enabled = false;
+        tocarSom();
 
         if (rodarAnimacao == true)
         {
             animator.Play(nomeAnimacao);
         }
+    }
+    protected void tocarSom()
+    {
+        SoundManager.instance.TocarSom(somParaTocarAoInteragir);
     }
 }

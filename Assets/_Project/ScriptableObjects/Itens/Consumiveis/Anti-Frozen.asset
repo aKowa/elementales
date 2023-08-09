@@ -17,7 +17,7 @@ MonoBehaviour:
   nome: Anti-Frozen
   imagem: {fileID: 21300000, guid: c1e9ef986bb1fc243b52ae6bf9b222db, type: 3}
   descricao: Cures the Frozen status from an Elemantor.
-  preco: 0
+  preco: 250
   efeitoForaDaBatalha: {fileID: 11400000, guid: 26852f96a4cc5bd429f37787d09a3a93, type: 2}
   efeitoNaBatalha: {fileID: 11400000, guid: 26852f96a4cc5bd429f37787d09a3a93, type: 2}
   comandoNaBatalha: {fileID: 11400000, guid: 793dedd8695b07c44a2dfbd9e589ee6f, type: 2}

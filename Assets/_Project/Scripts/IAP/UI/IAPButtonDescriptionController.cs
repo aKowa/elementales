@@ -6,9 +6,7 @@ using UnityEngine.Purchasing;
 [RequireComponent(typeof(IAPButton))]
 public class IAPButtonDescriptionController : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI priceText;
-    [SerializeField] private TextMeshProUGUI titleText;
-    [SerializeField] private TextMeshProUGUI descriptionText;
+    [SerializeField] private ItemSlotLojaIAP itemSlotLojaIAP;
  
     private IAPButton attachedButton;
  
@@ -24,17 +22,13 @@ public class IAPButtonDescriptionController : MonoBehaviour
 
     private void Initialize()
     {
-        var product = CodelessIAPStoreListener.Instance.GetProduct(attachedButton.productId);
-        if (priceText != null)
-        {
-            priceText.SetText(RemoveNonNumeric(product.metadata.localizedPriceString));
-        }
+        Product product = CodelessIAPStoreListener.Instance.GetProduct(attachedButton.productId);
 
-        if (titleText != null)
-            titleText.SetText(product.metadata.localizedTitle);
- 
-        if (descriptionText != null)
-            descriptionText.SetText(product.metadata.localizedDescription);
+        string titulo = product.metadata.localizedTitle;
+        string descricao = product.metadata.localizedDescription;
+        string preco = RemoveNonNumeric(product.metadata.localizedPriceString);
+
+        itemSlotLojaIAP.Iniciar(titulo, descricao, preco);
     }
 
     private string RemoveNonNumeric(string inputString)

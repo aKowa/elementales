@@ -1,4 +1,5 @@
 using BergamotaDialogueSystem;
+using BergamotaLibrary;
 using System.Collections;
 using UnityEngine;
 
@@ -6,9 +7,13 @@ public class NPC_Enfermeira : MonoBehaviour
 {
     //Componentes
     [SerializeField] private DialogueObject dialogoQuerCurarSeusMonstros;
-    [SerializeField] private DialogueObject dialogoQuerDoarParaHospital;
+    [SerializeField] private DialogueObject dialogoMonstrosCurados;
+
     [SerializeField] private DialogueActivator dialogueActivator;
 
+    //Variaveis
+    [Header("Som")]
+    [SerializeField] protected AudioClip somCurar;
     private NPC npc;
 
     private void Awake()
@@ -21,28 +26,14 @@ public class NPC_Enfermeira : MonoBehaviour
         PlayerData.Instance.Inventario.RestaurarTodosOsMonstros();
     }
     
-    public void AbrirDialogoDoacao()
+    public void AbrirDialogoMonstroCurado()
     {
-        if (PlayerData.Instance.Inventario.VerificarSeMonstrosPossuemBuff() == false)
-        {
-            StartCoroutine(AdsManager.GetInstance().CheckInternetConnection((isConnected) =>
-            {
-                if (isConnected)
-                {
-                    AbrirDialogo(dialogoQuerDoarParaHospital);
-                }
-            }));
-        }
+        AbrirDialogo(dialogoMonstrosCurados);
     }
-
-    public void DoacaoHospital()
+    public void TocarSomCurarMonstros()
     {
-        Debug.Log("passar Ad");
-        //Ver Anuncio
-        AdsManager.GetInstance().OnRewardAdEarnedEvent_External = DarRecompensa;
-        AdsManager.GetInstance().ShowRewardedAds();
+        SoundManager.instance.TocarSom(somCurar);
     }
-    
     private void AbrirDialogo(DialogueObject dialogo)
     {
         StartCoroutine(AbrirDialogoCorrotina(dialogo));
@@ -54,10 +45,5 @@ public class NPC_Enfermeira : MonoBehaviour
 
         npc.VirarNaDirecao(PlayerData.Instance.transform.position);
         dialogueActivator.ShowDialogue(dialogo, DialogueUI.Instance);
-    }
-    
-    private void DarRecompensa()
-    {
-        PlayerData.Instance.Inventario.AtivarBuffAtaqueProximoCombate();
     }
 }

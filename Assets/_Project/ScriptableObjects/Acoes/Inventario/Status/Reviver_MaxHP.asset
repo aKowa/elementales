@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Reviver_MaxHP
   m_EditorClassIdentifier: 
   porcentagemDeCura: 100
+  somRecuperarVida: {fileID: 8300000, guid: c4bb182de1fec78438426ff7621dd9b7, type: 3}
